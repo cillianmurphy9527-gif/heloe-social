@@ -1,0 +1,25 @@
+{
+ "6affb46d84ff85efc68089be": {
+  "reactions": 0,
+  "comments": 0,
+  "engagementRate": 0,
+  "impressions": 27,
+  "reach": 2,
+  "_platform": "linkedin",
+  "_dueAt": "2026-11-19T05:16:04.484Z",
+  "_updated": "2026-11-20T02:46:05.153Z"
+ },
+ "6affb46d84ff85efc68089bc": {
+  "reactions": 1,
+  "comments": 0,
+  "engagementRate": 1.89,
+  "impressions": 53,
+  "reach": 9,
+  "views": 6,
+  "totalTimeWatched": 0.83,
+  "viewers": 4,
+  "_platform": "linkedin",
+  "_dueAt": "2026-11-19T03:07:40.927Z",
+  "_updated": "2026-11-20T02:46:05.190Z"
+ }
+}

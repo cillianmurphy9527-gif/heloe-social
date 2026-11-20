@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-20",
+  "score": 9,
+  "summary": "Strong, safe day: all deal facts checked against Bending Spoons' release and StockTitan, visuals are clean and correct, and it follows the voice and platform rules. One small wording fix on Facebook (customers -> prospects).",
+  "checked_at": "2026-11-20T06:42:14Z",
+  "posts": [
+    {
+      "id": "2026-11-20-li-1",
+      "verdict": "approve",
+      "issues": [],
+      "notes": "Checked: Intuit to Bending Spoons, all-cash, $3.68B enterprise value, close expected early 2027 (Bending Spoons release, Nov 19, 2026). 'Yesterday' is correct for a Nov 20 post. The Heloe description matches founder-notes (deals/business changes, verified at search time, AI advice on whether/how/when). 1,250 chars, hook within the first 210, ends with a question, and the 3 hashtags (broad/niche/pillar) come from hashtags.json. No link in the body; the UTM link is in first_comment. This is the day's only product mention. Minor style point, not blocking: the teardown has no 'message we'd send' step, which fits the brief's advice not to pitch this week."
+    },
+    {
+      "id": "2026-11-20-x-1",
+      "verdict": "approve",
+      "issues": [],
+      "notes": "Checked: $3.68B (Bending Spoons release) and $12B paid in 2021 (StockTitan says $12.0B, agreed Sep 13, 2021 and closed Nov 1, 2021; it also notes that both are enterprise values, so the comparison is like for like). 242 chars, no hashtag, no link, makes sense without the image. Neutral, does not mock the price drop."
+    },
+    {
+      "id": "2026-11-20-fb-1",
+      "verdict": "revise",
+      "issues": [
+        "Clarity: 'If your customers run on Mailchimp' reads as the seller's existing customers. The advice (don't blast, track the accounts, reach out when something changes) is about prospects, and matches li-1's 'If you sell to Mailchimp users'. Emailing your own existing customers about a vendor change is a different and often reasonable act, so the current wording blurs the lesson. One-word fix."
+      ],
+      "fix": {
+        "text": "An acquisition is a sales signal. Just not on announcement day.\n\nYesterday Intuit agreed to sell Mailchimp to Bending Spoons, with closing expected in early 2027. If your prospects run on Mailchimp, it's tempting to email all of them this week.\n\nWe'd wait. Announcement day is the noisiest moment, and every vendor has the same headline.\n\nTrack those accounts instead, and reach out when something actually changes for that team.\n\n#SalesSignals #Outbound\n\nhttps://heloe.io/?utm_source=facebook&utm_medium=social&utm_campaign=organic&utm_content=2026-11-20-fb-1"
+      },
+      "notes": "Facts are correct (close expected early 2027, per the Bending Spoons release). 560 chars including the link (250-600 OK), 2 hashtags, UTM link at the end is allowed, Heloe is not named in the body."
+    },
+    {
+      "id": "2026-11-20-x-2",
+      "verdict": "approve",
+      "issues": [],
+      "notes": "No numbers or factual claims to source. 223 chars, line 1 works alone, no product names, sharp practitioner tone. It shares the list-decay theme with x-1 but takes a different angle (enrichment vs timing)."
+    },
+    {
+      "id": "2026-11-20-x-3",
+      "verdict": "approve",
+      "issues": [],
+      "notes": "Thanksgiving 2026 is Thu Nov 26, so 'next week' is correct for Fri Nov 20 and the Monday after is Nov 30. A real reply-inviting question in slot 3, 151 chars, text only."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "cover-li",
+      "verdict": "approve",
+      "issues": [],
+      "notes": "1080x1350, no overflow. Mailchimp is named in sourced news. Detail text matches the release ($3.68B, all cash, close early 2027). The date Nov 19, 2026 is correct and the source line is present. No typos, the highlight is on 'change event', and contrast is readable. Matches li-1 and fb-1."
+    },
+    {
+      "id": "cover-x",
+      "verdict": "approve",
+      "issues": [],
+      "notes": "1600x900, no overflow. $3.68B and '$12B in 2021' are both verified, and both are enterprise values per StockTitan. The highlight on $12B matches the caption markup. The source line names both sources. Readable at phone size. Matches x-1."
+    }
+  ],
+  "observations": [
+    "data/posts.jsonl does not exist, so there is no 30-day post log. The duplicate check could only use the 2026-11-19 LinkedIn launch post recorded in strategy.md and founder-notes.md, and there is no overlap with it. The publish/record step should create this log.",
+    "'All-cash' is the buyer's own wording in the release. StockTitan notes that Intuit reinvests $368M of the proceeds in new Bending Spoons shares. The posts' wording matches the primary source, so this is not an issue."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-20",
+  "items": [
+    {
+      "id": "cover-li",
+      "kind": "cover",
+      "file": "cover-li.png",
+      "size": "1080x1350",
+      "overflow": false
+    },
+    {
+      "id": "cover-x",
+      "kind": "cover",
+      "file": "cover-x.png",
+      "size": "1600x900",
+      "overflow": false
+    }
+  ]
+}

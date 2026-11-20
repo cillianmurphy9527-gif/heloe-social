@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-20",
+  "topic_of_day": {
+    "title": "Intuit sells Mailchimp to Bending Spoons for $3.68B",
+    "summary": "Intuit agreed to sell Mailchimp to Bending Spoons in an all-cash deal at a $3.68B enterprise value, about five years after buying it for $12B. Closing is expected in early 2027. A core tool for many SMB and startup marketing teams now has a new owner.",
+    "why_now": "Announced Nov 19, 2026 alongside Intuit's quarterly results; the buyer's release, an SEC filing and financial press all published the same day.",
+    "pillar": "trends",
+    "score": 8.3,
+    "bridge": "An acquisition is a change event. 'Uses Mailchimp' just went from a fixed field on a list to a live signal, and the list you pulled last week doesn't know it. That is the gap Heloe's signals (deals and business changes, verified at the moment of search) are built for.",
+    "editor_notes": "Neutral, factual framing. Do not mock the price drop, do not repeat Hacker News cynicism about the buyer, do not mention the Intuit workforce cut, do not speculate about price increases or product changes. The lesson is about timing and list decay, not about either company.",
+    "sources": [
+      "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp",
+      "https://www.stocktitan.net/articles/intuit-sells-mailchimp-bending-spoons-2026"
+    ]
+  },
+  "slate": [
+    {
+      "id": "2026-11-20-li-1",
+      "platform": "linkedin",
+      "time_local": "08:30",
+      "pillar": "build",
+      "format": "teardown",
+      "direction": "Founder voice, first person. Hook on yesterday's Mailchimp news as a change event. Teardown: the trigger (acquisition, $3.68B, close early 2027) -> what it actually changes for anyone selling to Mailchimp users (agencies, email/deliverability tools, integration partners) -> the contrarian move: don't blast on announcement day, track the account and reach out when customers feel a change -> why we built Heloe's signals around deals and business changes, checked at the moment of search (founder-notes facts only). End with a question. Names Heloe (the day's one product mention).",
+      "media": ["cover-li"]
+    },
+    {
+      "id": "2026-11-20-x-1",
+      "platform": "x",
+      "time_local": "09:00",
+      "pillar": "trends",
+      "format": "stat",
+      "direction": "Trend take with the day's X image. $12B in 2021 -> $3.68B agreed sale. Every Mailchimp account just had a change event; a list pulled last week doesn't know it. Brand voice, no Heloe mention, no link.",
+      "media": ["cover-x"]
+    },
+    {
+      "id": "2026-11-20-fb-1",
+      "platform": "facebook",
+      "time_local": "11:00",
+      "pillar": "signals",
+      "format": "teardown",
+      "direction": "Brand voice, conversational adaptation of the LinkedIn angle without the founder's first-person build story: acquisition = change event, announcement day is the noisiest moment, time outreach to when customers feel the change. Do not name Heloe in the body; the UTM link at the end is allowed.",
+      "media": ["cover-li"]
+    },
+    {
+      "id": "2026-11-20-x-2",
+      "platform": "x",
+      "time_local": "12:30",
+      "pillar": "signals",
+      "format": "myth-fact",
+      "direction": "Text only. Myth/fact on enrichment vs timing: enrichment tells you who, it can't tell you when; every enriched row starts going stale the moment it's written. No product names, no numbers.",
+      "media": []
+    },
+    {
+      "id": "2026-11-20-x-3",
+      "platform": "x",
+      "time_local": "17:30",
+      "pillar": "trends",
+      "format": "question",
+      "direction": "Text only, reply-inviting question for Friday evening: Thanksgiving is next week (Thu Nov 26). Pause outbound, send anyway, or queue for Monday Nov 30? Ask what has worked for them. One line of context, no numbers.",
+      "media": []
+    }
+  ],
+  "media_plan": [
+    {
+      "id": "cover-li",
+      "kind": "cover",
+      "size": "1080x1350",
+      "template": "signal",
+      "direction": "Signal card for LinkedIn and Facebook (calendar: Friday = image:signal). Signal type: Acquisition. Company: Mailchimp (named in sourced news). Detail: agreed sale to Bending Spoons, $3.68B, close expected early 2027. Advice: skip announcement-day blasts; reach out when customers feel the change. Headline idea: an acquisition is a signal. Dark theme. Short text only; numbers from scout.json facts with a source line."
+    },
+    {
+      "id": "cover-x",
+      "kind": "cover",
+      "size": "1600x900",
+      "template": "stat",
+      "direction": "Stat cover for X slot 1: $3.68B, caption that Intuit paid $12B in 2021, source line (Bending Spoons / StockTitan, Nov 2026). Readable at phone size."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": "2026-11-20-li-1",
+      "platform": "linkedin",
+      "text": "If you sell to Mailchimp users, don't pitch them this week.\n\nYesterday Intuit agreed to sell Mailchimp to Bending Spoons in an all-cash deal at a $3.68B enterprise value.\n\nClosing is expected in early 2027.\n\nMost people will read that as finance news.\n\nI read it as a change event.\n\nHere's how I'd break it down.\n\nThe trigger:\nA widely used email platform is changing owners.\n\nWho should pay attention:\n→ Agencies that run email for clients\n→ Email and deliverability tools\n→ Integration partners\n\nWhat changed for them:\n\"Uses Mailchimp\" just went from a fixed field on a lead list to a live signal.\n\nThe list you pulled last week doesn't know that.\n\nThe tempting move:\nEmail every Mailchimp account while the headline is fresh.\n\nThe better move:\nAnnouncement day is the noisiest moment.\n\nEvery vendor sees the same news at the same time.\n\nTrack the account instead.\n\nIf something changes for that team, reach out then, about their situation, not the headline.\n\nThat's the gap we're building Heloe for: signals like deals and business changes, verified at the moment of search, with AI advice on whether, how and when to reach out.\n\nWhen a tool your buyers rely on changes owners, do you reach out right away or wait?\n\n#Sales #Outbound #BuildInPublic",
+      "first_comment": "If you want to see how we think about signals and timing, Heloe is here: https://heloe.io/?utm_source=linkedin&utm_medium=social&utm_campaign=organic&utm_content=2026-11-20-li-1",
+      "hook_type": "contrarian",
+      "format": "teardown",
+      "pillar": "build",
+      "alt_hook": "Yesterday Intuit agreed to sell Mailchimp for $3.68B.",
+      "sources": [
+        "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp"
+      ]
+    },
+    {
+      "id": "2026-11-20-x-1",
+      "platform": "x",
+      "text": "Intuit agreed to sell Mailchimp to Bending Spoons for $3.68B. It paid $12B in 2021.\n\nSkip the price debate. For sellers, the story is timing.\n\nEvery Mailchimp account just had a change event, and the list you pulled last week doesn't know it.",
+      "first_comment": "",
+      "hook_type": "number",
+      "format": "stat",
+      "pillar": "trends",
+      "alt_hook": "The Mailchimp sale isn't a price story for sellers. It's a timing story.",
+      "sources": [
+        "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp",
+        "https://www.stocktitan.net/articles/intuit-sells-mailchimp-bending-spoons-2026"
+      ]
+    },
+    {
+      "id": "2026-11-20-fb-1",
+      "platform": "facebook",
+      "text": "An acquisition is a sales signal. Just not on announcement day.\n\nYesterday Intuit agreed to sell Mailchimp to Bending Spoons, with closing expected in early 2027. If your customers run on Mailchimp, it's tempting to email all of them this week.\n\nWe'd wait. Announcement day is the noisiest moment, and every vendor has the same headline.\n\nTrack those accounts instead, and reach out when something actually changes for that team.\n\n#SalesSignals #Outbound\n\nhttps://heloe.io/?utm_source=facebook&utm_medium=social&utm_campaign=organic&utm_content=2026-11-20-fb-1",
+      "first_comment": "",
+      "hook_type": "contrarian",
+      "format": "teardown",
+      "pillar": "signals",
+      "alt_hook": "Selling to Mailchimp users? Here's why we'd wait before emailing them.",
+      "sources": [
+        "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp"
+      ]
+    },
+    {
+      "id": "2026-11-20-x-2",
+      "platform": "x",
+      "text": "Myth: A fully enriched list is ready to send.\n\nFact: Enrichment tells you who. It can't tell you when.\n\nEvery enriched row starts going stale the moment it's written. Check timing when you send, not when you build the list.",
+      "first_comment": "",
+      "hook_type": "contrarian",
+      "format": "myth-fact",
+      "pillar": "signals",
+      "alt_hook": "Is a fully enriched list actually ready to send?",
+      "sources": []
+    },
+    {
+      "id": "2026-11-20-x-3",
+      "platform": "x",
+      "text": "Outbound over Thanksgiving week: pause, send anyway, or queue it all for the Monday after?\n\nThe holiday is next week. What has actually worked for you?",
+      "first_comment": "",
+      "hook_type": "question",
+      "format": "question",
+      "pillar": "trends",
+      "alt_hook": "Pausing outbound over Thanksgiving isn't automatically the safe choice.",
+      "sources": []
+    }
+  ]
+}

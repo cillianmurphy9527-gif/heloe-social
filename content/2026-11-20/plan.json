@@ -1,0 +1,142 @@
+{
+ "date": "2026-11-20",
+ "status": "approved",
+ "topic_of_day": {
+  "title": "Intuit sells Mailchimp to Bending Spoons for $3.68B",
+  "summary": "Intuit agreed to sell Mailchimp to Bending Spoons in an all-cash deal at a $3.68B enterprise value, about five years after buying it for $12B. Closing is expected in early 2027. A core tool for many SMB and startup marketing teams now has a new owner.",
+  "why_now": "Announced Nov 19, 2026 alongside Intuit's quarterly results; the buyer's release, an SEC filing and financial press all published the same day.",
+  "pillar": "trends",
+  "score": 8.3,
+  "bridge": "An acquisition is a change event. 'Uses Mailchimp' just went from a fixed field on a list to a live signal, and the list you pulled last week doesn't know it. That is the gap Heloe's signals (deals and business changes, verified at the moment of search) are built for.",
+  "editor_notes": "Neutral, factual framing. Do not mock the price drop, do not repeat Hacker News cynicism about the buyer, do not mention the Intuit workforce cut, do not speculate about price increases or product changes. The lesson is about timing and list decay, not about either company.",
+  "sources": [
+   "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp",
+   "https://www.stocktitan.net/articles/intuit-sells-mailchimp-bending-spoons-2026"
+  ]
+ },
+ "visuals": [
+  {
+   "id": "cover-li",
+   "kind": "cover",
+   "template": "signal",
+   "size": "1080x1350",
+   "theme": "dark",
+   "fields": {
+    "kicker": "Signal of the day",
+    "headline": "An acquisition is a *change event*.",
+    "signal_type": "Acquisition",
+    "company": "Mailchimp",
+    "detail": "Agreed sale to Bending Spoons for $3.68B, all cash. Expected to close early 2027.",
+    "advice": "Skip announcement-day blasts. Reach out when customers feel the change.",
+    "when": "Nov 19, 2026",
+    "footer": "Source: Bending Spoons, Nov 2026"
+   }
+  },
+  {
+   "id": "cover-x",
+   "kind": "cover",
+   "template": "stat",
+   "size": "1600x900",
+   "theme": "dark",
+   "fields": {
+    "kicker": "Mailchimp acquisition",
+    "stat": "$3.68B",
+    "caption": "Bending Spoons' agreed price for Mailchimp. Intuit paid *$12B* in 2021.",
+    "source": "Bending Spoons; StockTitan, Nov 2026"
+   }
+  }
+ ],
+ "posts": [
+  {
+   "id": "2026-11-20-li-1",
+   "platform": "linkedin",
+   "time_local": "08:30",
+   "pillar": "build",
+   "format": "teardown",
+   "hook_type": "contrarian",
+   "text": "If you sell to Mailchimp users, don't pitch them this week.\n\nYesterday Intuit agreed to sell Mailchimp to Bending Spoons in an all-cash deal at a $3.68B enterprise value.\n\nClosing is expected in early 2027.\n\nMost people will read that as finance news.\n\nI read it as a change event.\n\nHere's how I'd break it down.\n\nThe trigger:\nA widely used email platform is changing owners.\n\nWho should pay attention:\n→ Agencies that run email for clients\n→ Email and deliverability tools\n→ Integration partners\n\nWhat changed for them:\n\"Uses Mailchimp\" just went from a fixed field on a lead list to a live signal.\n\nThe list you pulled last week doesn't know that.\n\nThe tempting move:\nEmail every Mailchimp account while the headline is fresh.\n\nThe better move:\nAnnouncement day is the noisiest moment.\n\nEvery vendor sees the same news at the same time.\n\nTrack the account instead.\n\nIf something changes for that team, reach out then, about their situation, not the headline.\n\nThat's the gap we're building Heloe for: signals like deals and business changes, verified at the moment of search, with AI advice on whether, how and when to reach out.\n\nWhen a tool your buyers rely on changes owners, do you reach out right away or wait?\n\n#Sales #Outbound #BuildInPublic",
+   "first_comment": "If you want to see how we think about signals and timing, Heloe is here: https://heloe.io/?utm_source=linkedin&utm_medium=social&utm_campaign=organic&utm_content=2026-11-20-li-1",
+   "media": [
+    "cover-li"
+   ],
+   "sources": [
+    "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp"
+   ],
+   "alt_hook": "Yesterday Intuit agreed to sell Mailchimp for $3.68B."
+  },
+  {
+   "id": "2026-11-20-x-1",
+   "platform": "x",
+   "time_local": "09:00",
+   "pillar": "trends",
+   "format": "stat",
+   "hook_type": "number",
+   "text": "Intuit agreed to sell Mailchimp to Bending Spoons for $3.68B. It paid $12B in 2021.\n\nSkip the price debate. For sellers, the story is timing.\n\nEvery Mailchimp account just had a change event, and the list you pulled last week doesn't know it.",
+   "first_comment": "",
+   "media": [
+    "cover-x"
+   ],
+   "sources": [
+    "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp",
+    "https://www.stocktitan.net/articles/intuit-sells-mailchimp-bending-spoons-2026"
+   ],
+   "alt_hook": "The Mailchimp sale isn't a price story for sellers. It's a timing story."
+  },
+  {
+   "id": "2026-11-20-fb-1",
+   "platform": "facebook",
+   "time_local": "11:00",
+   "pillar": "signals",
+   "format": "teardown",
+   "hook_type": "contrarian",
+   "text": "An acquisition is a sales signal. Just not on announcement day.\n\nYesterday Intuit agreed to sell Mailchimp to Bending Spoons, with closing expected in early 2027. If your prospects run on Mailchimp, it's tempting to email all of them this week.\n\nWe'd wait. Announcement day is the noisiest moment, and every vendor has the same headline.\n\nTrack those accounts instead, and reach out when something actually changes for that team.\n\n#SalesSignals #Outbound\n\nhttps://heloe.io/?utm_source=facebook&utm_medium=social&utm_campaign=organic&utm_content=2026-11-20-fb-1",
+   "first_comment": "",
+   "media": [
+    "cover-li"
+   ],
+   "sources": [
+    "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp"
+   ],
+   "alt_hook": "Selling to Mailchimp users? Here's why we'd wait before emailing them."
+  },
+  {
+   "id": "2026-11-20-x-2",
+   "platform": "x",
+   "time_local": "12:30",
+   "pillar": "signals",
+   "format": "myth-fact",
+   "hook_type": "contrarian",
+   "text": "Myth: A fully enriched list is ready to send.\n\nFact: Enrichment tells you who. It can't tell you when.\n\nEvery enriched row starts going stale the moment it's written. Check timing when you send, not when you build the list.",
+   "first_comment": "",
+   "media": [],
+   "sources": [],
+   "alt_hook": "Is a fully enriched list actually ready to send?"
+  },
+  {
+   "id": "2026-11-20-x-3",
+   "platform": "x",
+   "time_local": "17:30",
+   "pillar": "trends",
+   "format": "question",
+   "hook_type": "question",
+   "text": "Outbound over Thanksgiving week: pause, send anyway, or queue it all for the Monday after?\n\nThe holiday is next week. What has actually worked for you?",
+   "first_comment": "",
+   "media": [],
+   "sources": [],
+   "alt_hook": "Pausing outbound over Thanksgiving isn't automatically the safe choice."
+  }
+ ],
+ "engagement_brief": [
+  "LinkedIn: find posts from email-marketing agency owners or deliverability consultants reacting to the Mailchimp sale (search 'Mailchimp Bending Spoons'). Comment: the useful move this week is to watch which client accounts actually change plans or tools, not to pitch on the headline.",
+  "LinkedIn/X: join founder or investor threads on Anthropic's Nasdaq debut. Comment with a sales angle only (no valuation talk): once a raise is on every screen, every vendor is already in the inbox; the quieter changes months earlier (new leaders, hiring) were the real window.",
+  "X/LinkedIn: on posts about TitanX's new phone-intent benchmark (vendor data, 2.3M+ contacts), add: if most of a list never picks up, the gain is in choosing who and when to call, not in dialing more. Credit it as TitanX's own benchmark.",
+  "X: reply to sales folks asking about outbound during Thanksgiving week. Share our view: a trigger from this week is still fresh on Monday, Nov 30, so queuing signal-based emails for after the holiday is a reasonable default. Ask what they've seen.",
+  "Product Hunt/LinkedIn: on the Enrichable (Context.dev) launch or similar AI enrichment-spreadsheet posts, leave a genuine, non-promotional comment: enrichment answers who; the open problem is knowing which row changed yesterday."
+ ],
+ "review": {
+  "editor": "brand-editor",
+  "score": 9,
+  "notes": "Strong, safe day: all deal facts checked against Bending Spoons' release and StockTitan, visuals are clean and correct, and it follows the voice and platform rules. One small wording fix on Facebook (customers -> prospects).",
+  "checked_at": "2026-11-20T06:42:14Z"
+ }
+}

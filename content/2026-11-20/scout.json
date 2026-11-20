@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-20",
+  "sources_checked": { "hackernews": 50, "google_news": 62, "reddit": 0, "product_hunt": 33, "web": 9 },
+  "source_failures": [
+    "Reddit: trends/reddit-2026-11-20.json does not exist (the Reddit scan did not run), so there is no Reddit practitioner pulse today.",
+    "Product Hunt: the leaderboard call with no date returned the 2026-11-19 (Pacific) board because the Nov 20 board was not available yet. Product pages on producthunt.com could not be fetched (permission not granted), so only connector data was used.",
+    "Reuters (Anthropic debut article) blocked the fetch. Figures come from StockTitan instead.",
+    "news.google.com article links are robots-disallowed. Publisher pages were found through search for TitanX and SaaStr only. Not verified and therefore excluded: the WBOC 'smaller, better-targeted outbound' release, the USA Today 'The GTM Code' intent-data release, the Clay Global Agent post and the Unite.AI article on Reply.io's agent harness.",
+    "The CNBC Mailchimp article and reply.io/harness returned client errors.",
+    "windowslatest.com (Microsoft To Do shutdown) and violetpixel.com ('We need smart people who give a shit') were not read because fetch permission was not granted.",
+    "globalcommercegraph.com ('The 98% Slot Machine' essay): only page metadata rendered, not the body, so it is not used for facts.",
+    "HN counts in trends/2026-11-20.json did not match the live thread pages for the 3 threads checked: Anthropic debut 1035 pts / 2041 comments in the file vs 109 / 63 on the page; Mailchimp 48 / 26 vs 27 / 13; '98% Slot Machine' 248 / 137 vs 33 / 13. Heat scores rely mainly on outlet counts and Product Hunt ranks. HN numbers are treated as unverified and kept out of facts.",
+    "SaaStr 'The B2B Category the Markets Hate the Most Today: GTM': the page is dated 2026-10-30 (Google News showed Nov 19), so it is older than 7 days and was dropped.",
+    "Web searches for Gmail/Outlook sender-rule changes, LinkedIn algorithm changes and this week's funding roundups found nothing dated in the last 7 days."
+  ],
+  "top": [
+    {
+      "rank": 1,
+      "title": "Intuit sells Mailchimp to Bending Spoons for $3.68B",
+      "summary": "Intuit agreed to sell Mailchimp to Bending Spoons in an all-cash deal, about five years after buying it. For the many founders and SMB marketers who run their email on Mailchimp, a core tool now has a new owner, and the deal is expected to close in early 2027.",
+      "why_now": "Announced Nov 19, 2026 with Intuit's quarterly results. Bending Spoons' release, an SEC filing and financial press all published the same day.",
+      "scores": { "heat": 8, "relevance": 8, "bridge": 8, "freshness": 10, "total": 8.3 },
+      "best_pillar": "trends",
+      "angles": [
+        "LinkedIn (Friday build tie-in, founder voice, founder-notes facts only): Yesterday Mailchimp got a new owner. For anyone selling into SMB marketing teams, 'uses Mailchimp' just went from a static field to a live signal. Deals and business changes are exactly the kind of change we built Heloe's signals to catch at the moment of search.",
+        "X (trend take + image of the $12B -> $3.68B gap): Intuit paid $12B for Mailchimp in 2021. Yesterday it agreed to sell for $3.68B. Every Mailchimp account just had a change event, and the list you pulled last week doesn't know it.",
+        "Contrarian: Don't blast Mailchimp users this week. Announcement day is the noisiest and least useful moment. The real window opens when customers actually feel a change, so track the account and time the outreach."
+      ],
+      "facts": [
+        { "claim": "Bending Spoons agreed to acquire Mailchimp from Intuit at an enterprise value of $3.68 billion in an all-cash transaction.", "source": "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp", "source_date": "2026-11-19" },
+        { "claim": "Closing is expected in early 2027, subject to regulatory approvals and customary conditions.", "source": "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp", "source_date": "2026-11-19" },
+        { "claim": "Intuit paid $12.0 billion for Mailchimp in 2021, so the sale price is under a third of that.", "source": "https://www.stocktitan.net/articles/intuit-sells-mailchimp-bending-spoons-2026", "source_date": "2026-11-19" },
+        { "claim": "Mailchimp revenue was $313 million for Aug-Oct 2026, down 1% in the latest quarter, and has stayed near $320 million per quarter for two years.", "source": "https://www.stocktitan.net/articles/intuit-sells-mailchimp-bending-spoons-2026", "source_date": "2026-11-19" },
+        { "claim": "Intuit forecasts Mailchimp's fiscal 2027 revenue between a 1% decline and flat.", "source": "https://www.stocktitan.net/articles/intuit-sells-mailchimp-bending-spoons-2026", "source_date": "2026-11-19" }
+      ],
+      "community_pulse": "A small HN thread is mostly cynical about the new owner's track record with acquired apps. Commenters expect price increases and less product investment. One asked for alternatives and others listed several rival email platforms. A minority pushed back and defended Mailchimp's legitimate opt-in senders.",
+      "sources": [
+        "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp",
+        "https://www.stocktitan.net/articles/intuit-sells-mailchimp-bending-spoons-2026",
+        "https://www.sec.gov/Archives/edgar/data/2004711/000200471126000026/bsp_ex99-1.htm",
+        "https://news.ycombinator.com/item?id=50566779"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic's Nasdaq debut: $83 IPO, closes at $97.17",
+      "summary": "Anthropic listed on Nasdaq under ANT after pricing above its range. It closed its first day well above the IPO price but below its first trade. It is one of the largest IPOs ever and the main story across tech and finance media today.",
+      "why_now": "First trading day was Thursday Nov 19, 2026. Coverage and debate are peaking today.",
+      "scores": { "heat": 9, "relevance": 6, "bridge": 6, "freshness": 10, "total": 7.5 },
+      "best_pillar": "trends",
+      "angles": [
+        "LinkedIn: The loudest signal is usually the last one. By the time a company's raise or IPO is on every screen, every vendor is already in the inbox. The edge is in the quieter changes months earlier: hiring, new leaders, new budget lines.",
+        "X: $81B raised in a day. Thousands of cold emails will chase it this week. Public signals are public, and speed is no edge when everyone sees the news at the same moment.",
+        "Contrarian: A headline isn't a buying signal. What changes inside the company afterward is: new teams, new tools, new leaders. Sell on that, not on the press release."
+      ],
+      "facts": [
+        { "claim": "Anthropic priced its IPO at $83.00 per Class A share, above the $70-$78 range, and began trading on Nasdaq as ANT on Nov 19, 2026.", "source": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026", "source_date": "2026-11-19" },
+        { "claim": "The first trade was $111.50; the stock closed at $97.17, 17.1% above the IPO price.", "source": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026", "source_date": "2026-11-19" },
+        { "claim": "The IPO sold 980 million shares at $83, raising $81.34 billion.", "source": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026", "source_date": "2026-11-19" },
+        { "claim": "The valuation at the IPO price was about $1.10 trillion across all share classes.", "source": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026", "source_date": "2026-11-19" }
+      ],
+      "community_pulse": "HN is split. Many see the valuation as speculative, compare the moment to 1999 and frame the IPO as exit liquidity for early investors. Others argue that market-cap figures are being overstated (fully diluted vs outstanding shares) or praise the products. There was almost no discussion of enterprise adoption or sales. Avoid the protest and politics side of the story.",
+      "sources": [
+        "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026",
+        "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+        "https://news.ycombinator.com/item?id=50562754"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "TitanX benchmark: about 1 in 5 prospects ever pick up",
+      "summary": "TitanX published its first annual Phone Intent benchmark, which scored more than 2.3 million contacts over a year. It finds that roughly a fifth of any market answers cold calls, with clear gaps by seniority and industry. This is vendor-published data from a company that sells phone-intent scoring, so cite it as such.",
+      "why_now": "Released Nov 17, 2026 and syndicated this week (MarketScale, CustomerThink via Google News).",
+      "scores": { "heat": 4, "relevance": 9, "bridge": 8, "freshness": 5, "total": 6.65 },
+      "best_pillar": "data",
+      "angles": [
+        "LinkedIn (stat format): About 80% of a market won't pick up a cold call however often you dial, according to a new benchmark of 2.3M+ contacts. Stop tuning dial volume and start choosing who to call and when.",
+        "X: Managers answered 17.6% of the time. VPs 13.3%. If your list is all VPs, your 'bad call week' may be a targeting problem.",
+        "Contrarian: Persistence isn't a strategy when most of the list will never answer. Redial less, re-target more, and call when something just changed."
+      ],
+      "facts": [
+        { "claim": "About 20% of any market will answer a cold call; the other 80% won't regardless of dial frequency (TitanX claim).", "source": "https://www.marketscale.com/industries/software-and-technology/titanx-publishes-first-annual-phone-intent-benchmark-report-who-actually-answers-a-cold-call", "source_date": "2026-11-17" },
+        { "claim": "The benchmark is based on Phone Intent scoring of more than 2.3 million contacts over one year.", "source": "https://www.marketscale.com/industries/software-and-technology/titanx-publishes-first-annual-phone-intent-benchmark-report-who-actually-answers-a-cold-call", "source_date": "2026-11-17" },
+        { "claim": "Among top-scored contacts, managers answered 17.6% of the time vs 13.3% for VPs and 13.8% for C-level.", "source": "https://www.marketscale.com/industries/software-and-technology/titanx-publishes-first-annual-phone-intent-benchmark-report-who-actually-answers-a-cold-call", "source_date": "2026-11-17" },
+        { "claim": "Construction was the most reachable industry at 19%; hospitals and clinics the least at 12.8% (21 industries with at least 1,000 contacts each).", "source": "https://www.marketscale.com/industries/software-and-technology/titanx-publishes-first-annual-phone-intent-benchmark-report-who-actually-answers-a-cold-call", "source_date": "2026-11-17" }
+      ],
+      "community_pulse": "No practitioner discussion was captured today (no Reddit scan). Coverage so far is the vendor release syndicated by trade outlets.",
+      "sources": [
+        "https://www.marketscale.com/industries/software-and-technology/titanx-publishes-first-annual-phone-intent-benchmark-report-who-actually-answers-a-cold-call",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONjRIa053T21aQ0tZNjFBWm43SEdsN3Nta1JnalRUSzBmNm5ZMjZnNFg0bnI3bGp3TF81M1dlMjZCTkRKOXpRQjJYQ1FGQkVGMkNwbFVJUlI1RnlqSGpEcEdudTNZTDlJejIwWURBSmp1LW1fZWFxaU5lTExVQmhhcnRQX1pJRl9aQW10Zi1uYlpKd194X3UxZ3hBczFUSURGNF9ORzN4Q29wUUo0LVMzUW1QVzQzNDM1UExN?oc=5"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Open-source AI enrichment spreadsheets hit Product Hunt (Enrichable)",
+      "summary": "Context.dev, a YC Summer 2026 company, launched Enrichable, an open-source AI spreadsheet for data enrichment, on Product Hunt. It is the latest in a wave of tools that fill rows with company and web data on demand, which makes enrichment feel close to free.",
+      "why_now": "Launched Nov 19, 2026 and placed on that day's Product Hunt leaderboard.",
+      "scores": { "heat": 4, "relevance": 8, "bridge": 7, "freshness": 8, "total": 6.55 },
+      "best_pillar": "signals",
+      "angles": [
+        "LinkedIn: Enrichment tells you who. It doesn't tell you when. Every enriched row starts going stale the moment it is written, and that is the gap signals fill.",
+        "X: Another AI enrichment spreadsheet on Product Hunt. Filling rows is solved. Knowing which row changed yesterday isn't.",
+        "Contrarian: More enrichment just means bigger stale lists, built faster. The bottleneck has moved from data to timing."
+      ],
+      "facts": [
+        { "claim": "Enrichable by Context.dev launched on Product Hunt on Nov 19, 2026 and ranked #12 for the day with 103 points.", "source": "https://www.producthunt.com/posts/enrichable-by-context-dev?ref=mcp", "source_date": "2026-11-19" },
+        { "claim": "Context.dev raised a $9 million seed round dated Oct 19, 2026 (Product Hunt funding data).", "source": "https://www.producthunt.com/products/context-dev?ref=mcp", "source_date": "2026-11-18" }
+      ],
+      "community_pulse": "Product Hunt reviewers of Context.dev's core API call it fast and easy to wire into AI agents. Their few complaints are thin docs and rough brand-data extraction. No Enrichable-specific practitioner discussion was read.",
+      "sources": [
+        "https://www.producthunt.com/posts/enrichable-by-context-dev?ref=mcp",
+        "https://www.producthunt.com/products/context-dev?ref=mcp"
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Salesforce and Microsoft launch Copilotforce",
+      "summary": "At Microsoft Ignite, Salesforce and Microsoft announced Copilotforce, a Salesforce plugin for Microsoft Copilot that brings CRM context and sales skills into Copilot and Teams. It is in public preview, with Sales Cloud in Teams in pilot.",
+      "why_now": "Announced Nov 17, 2026 at Ignite and still circulating in sales-tech coverage this week.",
+      "scores": { "heat": 6, "relevance": 8, "bridge": 6, "freshness": 5, "total": 6.45 },
+      "best_pillar": "trends",
+      "angles": [
+        "LinkedIn: Your CRM is getting an AI front door. Useful. But the CRM only knows what your team typed in. It doesn't know your prospect hired a new VP yesterday.",
+        "X: 38+ sales skills inside Copilot. Great for asking your CRM questions. The CRM still can't tell you what changed outside it.",
+        "Contrarian: An assistant on top of stale CRM data just gives you the wrong answer faster."
+      ],
+      "facts": [
+        { "claim": "Copilotforce, a Salesforce plugin for Microsoft Copilot, was announced on Nov 17, 2026 at Microsoft Ignite and is in public preview with 38+ sales skills.", "source": "https://cxtoday.com/in-brief/microsoft-and-salesforce-launch-copilotforce-at-ignite-unVhN5svsT2qGbmAI3bxXjA", "source_date": "2026-11-17" },
+        { "claim": "Sales Cloud in Teams is in pilot, with Accenture as the first pilot customer.", "source": "https://cxtoday.com/in-brief/microsoft-and-salesforce-launch-copilotforce-at-ignite-unVhN5svsT2qGbmAI3bxXjA", "source_date": "2026-11-17" }
+      ],
+      "community_pulse": "No practitioner discussion was captured (no Reddit scan). Coverage is mostly trade press and partner announcements.",
+      "sources": [
+        "https://cxtoday.com/in-brief/microsoft-and-salesforce-launch-copilotforce-at-ignite-unVhN5svsT2qGbmAI3bxXjA",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVEV3UDhJVmhxb2t0WWgwQ0RsU29NQURrTkxXNzI5eWRYRnBRQ21lSU83bjlpNFkxQ1VQVUFHMkhjTGJseFZZdUltaVQ3eHJOc2R3RWRMTnd2RWh3eWJCMHJLVUJ2d3c5cVR1TEZmb1dnblJPY2tPdDFhcGVYVzNhekt4d3djWGNHeXJ4SXE4REhLUXg4RUJzSmxpbUUxdDE1M3hWOXVCV2k4UUZ5?oc=5"
+      ]
+    }
+  ],
+  "evergreen_backups": [
+    { "title": "Thanksgiving week: send or wait?", "pillar": "signals", "angle": "A trigger that fires this week is still fresh on Monday, Nov 30. Queue signal-based emails for after the holiday instead of sending into empty inboxes, because timing is part of the signal." },
+    { "title": "5 changes that mean 'reach out this week'", "pillar": "signals", "angle": "Listicle: a new owner or acquisition, a tool sunset that forces a migration, a new exec in your buyer seat, fresh funding, a hiring push for the team you serve. Give each one a one-line opener." },
+    { "title": "Year-end deliverability check before Q1 ramps", "pillar": "infra", "angle": "Copy-saveable checklist: SPF, DKIM and DMARC aligned; complaint and bounce rates monitored; warmup still running on new mailboxes; volume ramped up gradually, not spiked, when January sequences start." }
+  ]
+}
