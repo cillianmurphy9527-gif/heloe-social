@@ -21,7 +21,10 @@ Multi-agent social media operations for Heloe (heloe.io). The plugin holds the r
 | social-ops-control | Pause/resume, status, edit/delete a post, change times, brand updates |
 
 ## Connections
-- GitHub (claude.ai connector) with push access to `<owner>/heloe-social`.
-- Buffer MCP (`https://mcp.buffer.com/mcp`, OAuth): read queue and metrics, edit or delete a post. Publishing itself runs in GitHub Actions with the `BUFFER_API_KEY` repo secret.
+- GitHub (claude.ai built-in integration) with push access to `cillianmurphy9527-gif/heloe-social`. The repo hosts media on GitHub Pages and runs trend collection in GitHub Actions.
+- Buffer connector (`https://mcp.buffer.com/mcp`): Claude schedules posts with `create_post`, reads metrics with `list_posts` / `get_aggregated_post_metrics`.
 - Product Hunt connector (optional, for trend scouting).
 - Claude in Chrome (optional, for the Reddit scan).
+
+## Approval rule
+Posts that carry a video are sent to the founder first and scheduled only after an explicit OK. Text and image posts publish automatically once the Brand Editor approves them (score >= 8).

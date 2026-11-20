@@ -15,8 +15,8 @@ For each item in `media_plan`:
 - Every number on a visual must come from `scout.json` facts and carry a short `source` line (publisher + month).
 - Signal cards use generic company descriptors ("Series A · B2B fintech · 45 people") unless the company is named in a sourced news item. Never invent a real company's data.
 - Rotate themes: avoid using the same theme as the previous day's main asset (check `content/<D-1>/plan.json`). `dark` is the default; use `light` or `accent` for contrast about 1 day in 3.
-- Videos: 15-25 s, 4-6 scenes, first scene is a `hook` that reads in under 2 s, last scene is `cta`. Scene durations: hook 2.8-3.5, stat 3.5-4.5, list 1.4 s per item + 1.5, quote 3.5-4.5, signal 5-6, cta 2.8-3.2.
-- Sizes: `1080x1350` for LinkedIn/Facebook (and video), `1600x900` for X covers.
+- Videos match the founder's launch video (2026-11-19): `theme: "cinematic"`, `size: "1920x1080"`, open with a `logo3d` scene (2.4-2.8 s, the glossy 3D H mark), 2-4 content scenes, close with a `logo3d` scene carrying the brand line ("Know who. Know when. Know why. Know how.") and `url: "heloe.io"`. Total 15-25 s. The first content scene is a `hook` that reads in under 2 s. Scene durations: logo3d intro 2.4-2.8, hook 2.8-3.5, stat 3.5-4.5, list 1.4 s per item + 1.5, quote 3.5-4.5, signal 5-6, logo3d outro 3.5-4.
+- Sizes: covers `1080x1350` for LinkedIn/Facebook and `1600x900` for X; videos `1920x1080`. The founder approves every video before it is scheduled, so its quality bar is the launch video.
 
 Write the list to `content/D/visuals.json`.
 

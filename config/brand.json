@@ -1,32 +1,75 @@
 {
-  "_note": "Placeholder brand tokens. Replace colors/fonts/logo with the official Heloe brand kit; every cover and video reads from this file.",
+  "_note": "Official Heloe brand kit (logo pack 2026-10-09, see brand/BRAND-README.md). Every cover and video reads from this file.",
   "name": "Heloe",
   "domain": "heloe.io",
-  "tagline": "Sell on signals, not static lists.",
+  "tagline": "Know who. Know when. Know why. Know how.",
   "handles": {
     "linkedin": "",
     "x": "",
     "facebook": ""
   },
   "logo": {
-    "_note": "on_dark = logo version for dark backgrounds (usually white/light). If a file is missing, a text wordmark is drawn instead.",
+    "_note": "Lockups per background. on_dark: white wordmark + gradient tile. on_light: ink wordmark + gradient tile. on_brand: white symbol + white wordmark for the indigo gradient background.",
     "on_dark": "brand/logo-on-dark.svg",
     "on_light": "brand/logo-on-light.svg",
+    "on_brand": "brand/logo-on-brand.svg",
     "mark": "brand/mark.svg"
   },
-  "colors": {
-    "bg": "#0A0F1C",
-    "surface": "#121A2B",
-    "surface2": "#1A2438",
-    "text": "#F4F7FB",
-    "muted": "#93A0B8",
-    "accent": "#3DF5A7",
-    "accent2": "#7C6CFF",
-    "warn": "#FFB547",
-    "light_bg": "#F6F7F2",
-    "light_text": "#0A0F1C"
+  "palette": {
+    "brand_indigo": "#4F46E5",
+    "gradient_start": "#6159F0",
+    "gradient_end": "#4338CA",
+    "ink": "#0F172A",
+    "interface_light": "#EEF2FF"
+  },
+  "themes": {
+    "dark": {
+      "bg": "#0F172A",
+      "surface": "#1E293B",
+      "surface2": "#273449",
+      "text": "#F8FAFC",
+      "muted": "#94A3B8",
+      "accent": "#818CF8",
+      "glow": "#6159F0",
+      "grid": "rgba(255,255,255,0.05)",
+      "logo": "on_dark"
+    },
+    "light": {
+      "bg": "#EEF2FF",
+      "surface": "#FFFFFF",
+      "surface2": "#E0E7FF",
+      "text": "#0F172A",
+      "muted": "#475569",
+      "accent": "#4F46E5",
+      "glow": "#A5B4FC",
+      "grid": "rgba(15,23,42,0.06)",
+      "logo": "on_light"
+    },
+    "accent": {
+      "bg": "linear-gradient(135deg, #6159F0 0%, #4338CA 100%)",
+      "surface": "rgba(255,255,255,0.12)",
+      "surface2": "rgba(255,255,255,0.18)",
+      "text": "#FFFFFF",
+      "muted": "rgba(255,255,255,0.78)",
+      "accent": "#C7D2FE",
+      "glow": "#818CF8",
+      "grid": "rgba(255,255,255,0.07)",
+      "logo": "on_brand"
+    },
+    "cinematic": {
+      "bg": "radial-gradient(ellipse at 50% 40%, #15132B 0%, #07070C 70%)",
+      "surface": "#14131F",
+      "surface2": "#1C1B2B",
+      "text": "#F5F5FF",
+      "muted": "#9A98B8",
+      "accent": "#A5A1FF",
+      "glow": "#4F46E5",
+      "grid": "rgba(255,255,255,0.035)",
+      "logo": "on_dark"
+    }
   },
   "fonts": {
+    "_note": "The logo pack names no typeface; Inter / Inter Display matches the geometric wordmark closely. Swap here if an official font is chosen.",
     "display": "InterDisplay",
     "body": "Inter",
     "mono": "DejaVuSansMono"
@@ -34,5 +77,13 @@
   "utm": {
     "base": "https://heloe.io/",
     "params": "utm_source={platform}&utm_medium=social&utm_campaign=organic&utm_content={post_id}"
+  },
+  "tagline_alt": "Sell on signals, not static lists.",
+  "video_defaults": {
+    "theme": "cinematic",
+    "size": "1920x1080",
+    "intro": "logo3d",
+    "outro": "logo3d",
+    "_note": "Matches the 2026-11-19 LinkedIn product preview: 16:9, near-black, glossy 3D indigo H mark."
   }
 }

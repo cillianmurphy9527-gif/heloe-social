@@ -1,7 +1,6 @@
 name: Pull metrics
+# Optional: only works with a BUFFER_API_KEY secret. By default Claude reads metrics through the Buffer connector.
 on:
-  schedule:
-    - cron: "30 3 * * *"  # 11:30 Beijing, before the daily content run
   workflow_dispatch:
 permissions:
   contents: write

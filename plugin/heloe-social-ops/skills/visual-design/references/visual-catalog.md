@@ -1,6 +1,6 @@
 # Visual catalog (what render/render.mjs understands)
 
-All visuals share: `id` (kebab-case), `kind` (`cover` | `video`), `size` (`WIDTHxHEIGHT`), `theme` (`dark` | `light` | `accent`). Brand colors, fonts and logo come from `config/brand.json` automatically. `*text*` highlights words in the accent color.
+All visuals share: `id` (kebab-case), `kind` (`cover` | `video`), `size` (`WIDTHxHEIGHT`), `theme` (`dark` | `light` | `accent` | `cinematic`). Use `cinematic` (near-black, matches the launch video) for videos; `dark`/`light`/`accent` for covers. Brand colors, fonts and logo come from `config/brand.json` automatically. `*text*` highlights words in the accent color.
 
 ## Covers (`kind: "cover"`)
 | template | fields | use for |
@@ -29,16 +29,17 @@ Fields: `label` (top-right text, e.g. the pillar name), `scenes` (list). Rendere
 | `quote` | `text`, `attribution` | quote mark pops, text fades in |
 | `signal` | `headline` (optional), `signal`, `company`, `detail`, `advice`, `when` | radar pulse, card slides in, advice types out |
 | `cta` | `text` (defaults to brand tagline), `url` (defaults to domain) | logo scales in, tagline reveals |
+| `logo3d` | `text` (optional, outro), `url` (optional) | glossy extruded 3D H mark rotates in with a light sweep; first scene = intro, last scene = outro with the brand line |
 Every scene needs `duration` in seconds.
 
 Example:
 ```json
-{ "id": "video-main", "kind": "video", "size": "1080x1350", "theme": "dark", "label": "Signal selling",
+{ "id": "video-main", "kind": "video", "size": "1920x1080", "theme": "cinematic", "label": "Signal selling",
   "scenes": [
+    { "type": "logo3d", "duration": 2.6 },
     { "type": "hook", "duration": 3.2, "kicker": "Outbound in 2026", "text": "Cold email isn't dead. *Bad timing* is." },
     { "type": "stat", "duration": 4.0, "kicker": "Average reply rate", "value": 3.43, "decimals": 2, "suffix": "%", "label": "Down from *5%* last year.", "source": "Cleverly, May 2026" },
-    { "type": "list", "duration": 5.5, "title": "What changed?", "items": ["Inboxes are saturated", "Spam filters got stricter", "Lists go stale in weeks"] },
     { "type": "signal", "duration": 5.5, "headline": "Reach out when *something changes*", "signal": "Funding", "company": "Series A · B2B fintech · 45 people", "detail": "Raised $12M yesterday. Hiring 4 AEs.", "advice": "Message the VP Sales this week. Angle: ramping new AEs fast." },
-    { "type": "cta", "duration": 3.0, "text": "Sell on signals, not static lists.", "url": "heloe.io" }
+    { "type": "logo3d", "duration": 4.0, "text": "Know who. Know when. *Know why.* Know how.", "url": "heloe.io" }
   ] }
 ```

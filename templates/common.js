@@ -12,21 +12,12 @@
     const [w, h] = size.split("x").map(Number);
     const u = Math.min(w, h) / 1080;
     const r = document.documentElement.style;
-    const c = brand.colors;
+    const t = (brand.themes && brand.themes[theme || "dark"]) || brand.themes.dark;
     r.setProperty("--w", w + "px");
     r.setProperty("--h", h + "px");
     r.setProperty("--u", u);
-    r.setProperty("--bg", c.bg);
-    r.setProperty("--surface", c.surface);
-    r.setProperty("--surface2", c.surface2);
-    r.setProperty("--text", c.text);
-    r.setProperty("--muted", c.muted);
-    r.setProperty("--accent", c.accent);
-    r.setProperty("--accent-base", c.accent);
-    r.setProperty("--accent2", c.accent2);
-    r.setProperty("--light-bg", c.light_bg);
-    r.setProperty("--light-text", c.light_text);
-    r.setProperty("--grid", "rgba(255,255,255,0.05)");
+    for (const k of ["bg", "surface", "surface2", "text", "muted", "accent", "glow", "grid"]) r.setProperty("--" + k, t[k]);
+    r.setProperty("--brand", brand.palette.brand_indigo);
     r.setProperty("--font-display", `"${brand.fonts.display}"`);
     r.setProperty("--font-body", `"${brand.fonts.body}"`);
     r.setProperty("--font-mono", `"${brand.fonts.mono}"`);
@@ -36,10 +27,10 @@
   }
 
   function logoHTML(brand, theme) {
-    const onLight = theme === "light" || theme === "accent";
-    const src = onLight ? brand._logo_on_light : brand._logo_on_dark;
+    const t = (brand.themes && brand.themes[theme || "dark"]) || {};
+    const src = brand._logos && brand._logos[t.logo || "on_dark"];
     if (src) return `<div class="logo"><img src="${src}" alt=""></div>`;
-    return `<div class="logo"><span class="wordmark">${esc(brand.name.toLowerCase())}<span class="pulse"></span></span></div>`;
+    return `<div class="logo"><span class="wordmark">${esc(brand.name)}</span></div>`;
   }
 
   // Deterministic pseudo-random generator so renders are reproducible.

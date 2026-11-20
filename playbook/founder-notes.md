@@ -8,6 +8,7 @@ Agents may only use what is written here for build-in-public posts. Add a dated 
 - The platform also handles domain purchase, mailbox setup, warmup and ongoing monitoring, and lead search with verified contacts.
 
 ## Milestones and stories (add yours)
+- 2026-11-19: Published the Heloe product preview video on LinkedIn ("Introducing Heloe — AI-Powered B2B Sales Intelligence & Outreach"), inviting B2B founders, GTM teams, sales leaders and partners to connect.
 - YYYY-MM-DD: ...
 
 ## Off-limits (never post)

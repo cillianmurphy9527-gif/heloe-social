@@ -2,7 +2,7 @@ name: Render and publish
 on:
   push:
     branches: [main]
-    paths: ["content/**/plan.json"]
+    paths: ["content/**/plan.json", "docs/media/**"]
   workflow_dispatch:
     inputs:
       date: { description: "Plan date (YYYY-MM-DD)", required: true }
@@ -23,7 +23,7 @@ jobs:
         name: Which plan dates changed
         run: |
           if [ -n "${{ github.event.inputs.date }}" ]; then D="${{ github.event.inputs.date }}";
-          else D=$(git diff --name-only HEAD~1 HEAD -- 'content/*/plan.json' | cut -d/ -f2 | sort -u | tr '\n' ' '); fi
+          else D=$( (git diff --name-only HEAD~1 HEAD -- 'content/*/plan.json' | cut -d/ -f2; git diff --name-only HEAD~1 HEAD -- 'docs/media/*' | cut -d/ -f3) | sort -u | tr '\n' ' '); fi
           echo "dates=$D" >> "$GITHUB_OUTPUT"; echo "Dates: $D"
       - uses: actions/setup-node@v4
         with: { node-version: "20" }
@@ -60,7 +60,10 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
   publish:
+    # Only used when config/settings.json has "publisher": "actions" (needs the BUFFER_API_KEY secret).
+    # By default Claude schedules posts through the Buffer connector after this deploy finishes.
     needs: [render, deploy]
+    if: ${{ vars.PUBLISHER == 'actions' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

@@ -7,6 +7,13 @@ description: Founder controls for Heloe's social automation: pause or resume pub
 
 Open the `heloe-social` repo (add_repo with push access → clone to `~/heloe-social` → `git pull --rebase`). Answer the founder in Chinese.
 
+## Video approval (founder replies to a video)
+The daily run sends each video with its post text and leaves it in `content/<D>/approvals.json` under `pending`.
+- **"OK" / "可以" / "发吧"**: `python3 scripts/record_publish.py D approve <post_id>`, then `python3 scripts/prepare_publish.py D`; call the Buffer connector's `create_post` with each `ready` payload and record it with `record_publish.py D scheduled ...`. If the slot has passed, prepare_publish moves it to 15 minutes from now on the same New York day; otherwise tell the founder and offer the next day's slot. Commit and push.
+- **Change request** ("字幕改一下", "换个开头"): have the visual-designer (or copywriter) apply it, re-render with `render/render.sh D --only <id>`, push, wait with `scripts/wait_deploy.py`, and send the new file for another OK.
+- **"不要" / "no"**: `python3 scripts/record_publish.py D reject <post_id>`; commit and push.
+If several videos are pending and the reply is ambiguous, ask which one.
+
 ## Pause / resume
 Edit `config/settings.json` → `publishing_enabled` (`false` pauses: the daily run stops early and the publisher refuses to schedule). Commit and push with a clear message. Already-scheduled Buffer posts are not affected by the switch: if the founder wants them gone too, list them via the Buffer connector (`list_posts`, status scheduled) and delete only after the founder confirms the list, since deletion cannot be undone.
 

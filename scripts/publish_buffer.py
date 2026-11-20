@@ -61,6 +61,10 @@ def main(date):
     if not plan:
         result["errors"].append("no plan")
         finish(1)
+    if settings.get("publisher", "claude") != "actions":
+        result["skipped"].append("publisher is 'claude': posts are scheduled by Claude through the Buffer connector")
+        print(json.dumps(result, indent=1))
+        sys.exit(0)
     if not settings.get("publishing_enabled", False):
         result["skipped"].append("publishing_enabled is false (master switch)")
         finish(0)

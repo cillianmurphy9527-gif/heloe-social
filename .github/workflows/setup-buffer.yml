@@ -1,4 +1,5 @@
 name: Setup Buffer
+# Optional: only needed for the API-key publisher. Channel ids are already filled in config/channels.json.
 on: workflow_dispatch
 permissions:
   contents: write

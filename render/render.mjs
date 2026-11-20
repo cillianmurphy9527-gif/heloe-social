@@ -30,8 +30,8 @@ function dataUri(rel) {
   const mime = ext === "svg" ? "image/svg+xml" : ext === "jpg" ? "image/jpeg" : `image/${ext}`;
   return `data:${mime};base64,${fs.readFileSync(p).toString("base64")}`;
 }
-brand._logo_on_dark = dataUri(brand.logo?.on_dark);
-brand._logo_on_light = dataUri(brand.logo?.on_light);
+brand._logos = {};
+for (const [k, v] of Object.entries(brand.logo || {})) if (!k.startsWith("_")) brand._logos[k] = dataUri(v);
 
 const fps = Number(args.fps || 30);
 const browser = await chromium.launch({

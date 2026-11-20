@@ -12,7 +12,7 @@ BANNED = ["game-changer", "game changer", "revolutionize", "revolutionise", "unl
           "leverage", "synergy", "in today's", "delve", "elevate your", "seamlessly", "cutting-edge", "best-in-class"]
 URL_RE = re.compile(r"https?://\S+|\b[\w-]+\.(?:io|com|ai|co|net|org)\b(?:/\S*)?", re.I)
 TEMPLATES = {"headline", "stat", "list", "quote", "signal"}
-SCENES = {"hook", "stat", "list", "quote", "signal", "cta"}
+SCENES = {"hook", "stat", "list", "quote", "signal", "cta", "logo3d"}
 PLATFORMS = {"linkedin", "x", "facebook"}
 DAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
 
@@ -71,8 +71,8 @@ def validate(date):
             for s in sc:
                 if s.get("type") not in SCENES:
                     errors.append(f"video {v['id']}: unknown scene {s.get('type')}")
-            if sc and sc[-1].get("type") != "cta":
-                warnings.append(f"video {v['id']}: last scene should be cta")
+            if sc and sc[-1].get("type") not in ("cta", "logo3d"):
+                warnings.append(f"video {v['id']}: last scene should be cta or logo3d")
         if not re.fullmatch(r"\d{3,4}x\d{3,4}", str(v.get("size", ""))):
             errors.append(f"visual {v.get('id')}: bad size {v.get('size')}")
 

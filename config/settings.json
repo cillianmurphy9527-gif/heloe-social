@@ -1,10 +1,21 @@
 {
-  "_note": "Master switches. Edit on GitHub to pause everything instantly.",
+  "_note": "Master switches. Edit on GitHub (or tell Claude) to pause everything instantly.",
   "publishing_enabled": true,
   "dry_run": false,
   "timezone_audience": "America/New_York",
-  "max_posts_per_day": { "linkedin": 1, "x": 3, "facebook": 1 },
+  "max_posts_per_day": {
+    "linkedin": 1,
+    "x": 3,
+    "facebook": 1
+  },
   "min_editor_score": 8,
-  "media_base_url": "https://OWNER.github.io/heloe-social/media",
-  "buffer_ai_assisted_flag": true
+  "media_base_url": "https://cillianmurphy9527-gif.github.io/heloe-social/media",
+  "buffer_ai_assisted_flag": true,
+  "repo": "cillianmurphy9527-gif/heloe-social",
+  "publisher": "claude",
+  "_publisher_note": "claude = Claude schedules posts through the Buffer connector (default). actions = GitHub Actions schedules them with the BUFFER_API_KEY secret.",
+  "approval_required_for": [
+    "video"
+  ],
+  "_approval_note": "Posts whose media includes one of these kinds wait for the founder's OK in chat before they are scheduled."
 }

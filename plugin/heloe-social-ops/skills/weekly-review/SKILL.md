@@ -12,7 +12,7 @@ Open the `heloe-social` repo the same way as the daily-content-run skill (add_re
 - `data/performance.csv`: one row per published post with pillar, format, hook_type, media, due_at and metrics (impressions, reactions, comments, shares, reposts, engagementRate, `eng_rate_calc`).
 - `data/metrics_history.jsonl`: daily snapshots for growth curves.
 - `data/posts.jsonl`: full text of every post.
-- If the CSV is missing or stale (older than 2 days), and the Buffer connector is available, use `list_posts` with metrics or `get_aggregated_post_metrics` to fill gaps. Metrics lag up to ~24 h, so exclude posts younger than 48 h from judgments.
+- Refresh first: call the Buffer connector's `list_posts` (organization id in `config/channels.json`, status `sent`, dueAt in the last 14 days, `includeMetrics: true`, page through with `after`), save the posts to `/tmp/metrics.json`, and run `python3 scripts/ingest_metrics.py /tmp/metrics.json`. Use `get_aggregated_post_metrics` per channel for weekly totals and week-over-week comparison (free plan: start date within the last 31 days). Metrics lag up to ~24 h, so exclude posts younger than 48 h from judgments.
 
 Analyze with Python (pandas if available, else csv). Engagement rate = engagements / impressions; when impressions are missing, compare raw engagements only within the same platform.
 

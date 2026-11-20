@@ -3,7 +3,8 @@
 ## 1. Positioning
 - **Brand label:** Heloe is the outbound platform that is *excellent at dynamic sales signals*. Like Apollo = database, Hunter = email finding, ZeroBounce = verification, **Heloe = know when to reach out**.
 - **Secondary benefit (never the headline):** one-stop outbound — domains, mailboxes, warmup and monitoring, lead search, verified contacts — so teams stop juggling five tools.
-- **Working line:** "Sell on signals, not static lists." (founder may replace it in `config/brand.json`)
+- **Brand line (already public, keep consistent):** "Know Who. Know When. Know Why. Know How." It opened the LinkedIn launch post on 2026-11-19. Supporting line for the signals pillar: "Sell on signals, not static lists."
+- **Public framing so far:** the launch post called Heloe "AI-Powered B2B Sales Intelligence & Outreach" (contact discovery, enrichment, buyer intelligence, AI-assisted outreach, reply management), with buying signals as the evolving core.
 - **What signals are:** fresh, verified changes at a target company — funding, hiring needs, deals, business changes, org/leadership changes, public news — checked at the moment of search, with AI advice on whether, how and when to reach out.
 
 ## 2. Audience (who we write for)
@@ -15,7 +16,11 @@ Regions: US first, then UK/EU/ANZ. Write in clear US English.
 
 **What they care about:** replies and meetings, not "AI". Deliverability scares them. They are tired of generic AI spam and of lists that went stale.
 
-## 3. Voice
+## 3. Voice by channel
+- **LinkedIn = the founder's personal profile.** Write in first person ("I", "we're building Heloe"), as a founder sharing what he sees in outbound and what he is building. Personal observations and lessons beat announcements. Never sound like a company page.
+- **X (@heleo_io) and Facebook (Heleo.io page) = brand voice.** Practitioner tone, "we" when needed. X history (Oct-Nov 2026) used short, contrarian GTM observations opening with "1/"; keep that sharp observational style, without forcing the "1/" prefix unless it is a real thread.
+
+## 3a. Voice rules
 - Practitioner, not marketer. Sounds like a sharp founder who has run outbound, not a brand account.
 - Specific > clever. Concrete examples, numbers with sources, real-sounding scenarios.
 - Short sentences. One idea per line on LinkedIn. No corporate filler.

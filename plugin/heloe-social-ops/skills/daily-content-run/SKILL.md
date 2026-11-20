@@ -21,6 +21,7 @@ Act as Heloe's Editor-in-Chief. Coordinate specialist agents, make the editorial
 - `playbook/strategy.md`, `playbook/platform-rules.md`, `playbook/learnings.md` (its **Active rules** override defaults), `playbook/founder-notes.md`, `playbook/hashtags.json`
 - `config/pillars.json` (weekly calendar entry for D's weekday), `config/channels.json` (slots for that weekday), `config/settings.json`
 - Last 14 days of `data/posts.jsonl` and, if present, `data/performance.csv` (note the top 3 and bottom 3 posts by engagement rate)
+- Fresh numbers: call the Buffer connector's `list_posts` (organization from `config/channels.json`, status `sent`, dueAt in the last 7 days, `includeMetrics: true`), save the results to `/tmp/metrics.json` and run `python3 scripts/ingest_metrics.py /tmp/metrics.json`. Skip this step if Buffer is unavailable.
 
 ## 2. Scout
 Spawn the **trend-scout** agent (subagent type `heloe-social-ops:trend-scout`; if that type is unavailable, spawn a general-purpose agent and tell it to read and follow `plugin/heloe-social-ops/agents/trend-scout.md` in the repo). Pass `REPO`, `D`. It writes `content/D/scout.json`.
@@ -31,7 +32,7 @@ Write `content/D/brief.json` following `references/plan-schema.md`:
 - The slate: one entry per slot in `channels.json` for D's weekday, capped by `settings.max_posts_per_day`. For each: platform, `time_local`, pillar, format, hook direction (one line), media assignment.
 - Follow the weekly calendar for the LinkedIn pillar/format and X media; follow `pillars.json.daily_x_mix` for X slots; Facebook reuses the day's main asset and angle.
 - Apply Active rules from `learnings.md`. During cold start (first 14 days of `data/posts.jsonl`), make sure formats rotate so every format gets tested.
-- Media needed today: one portrait asset (1080x1350) for LinkedIn/Facebook (cover or video per calendar) and, when X carries media, a 1600x900 cover (X may also reuse the video).
+- Media needed today: on video days, one cinematic 16:9 video (1920x1080, see the visual-design skill) shared by LinkedIn/Facebook/X; on image days, a 1080x1350 cover for LinkedIn/Facebook and, when X carries media, a 1600x900 cover. Posts carrying the video need the founder's approval, so on video days also give each platform at least one image or text post.
 
 ## 4. Create (run both agents in parallel)
 - **copywriter** (`heloe-social-ops:copywriter`, fallback file `agents/copywriter.md`): writes `content/D/copy.json`.
@@ -50,14 +51,23 @@ Spawn the **brand-editor** agent (`heloe-social-ops:brand-editor`, fallback `age
 ## 7. Engagement brief
 Add 3-5 items to `plan.engagement_brief` for the founder's 15 minutes of manual engagement: which conversation to join (topic or community, from the scout's findings), and a 1-2 sentence comment idea. Platforms forbid automated replies, so these are suggestions for a human.
 
-## 8. Ship
+## 8. Ship media
 ```bash
 cd ~/heloe-social && git add content/D docs/media/D && git commit -m "plan: D" && git pull --rebase && git push
+python3 scripts/wait_deploy.py $(git rev-parse HEAD)     # waits until GitHub Pages serves the media (usually 2-4 min)
 ```
-The push triggers the **Render and publish** workflow, which deploys media to GitHub Pages and schedules posts in Buffer at the planned New York times. Do not call Buffer `create_post` yourself unless the founder explicitly asks; the pipeline is the single publisher so nothing is posted twice.
+If the deploy fails, report it and stop: do not schedule posts whose media is not live.
 
-## 9. Report (Chinese, short)
-Send the founder a brief: today's topic and why; each scheduled post (platform, New York time and Beijing time, first line of text); which visuals were made; anything dropped or rejected and why; yesterday's pipeline errors; today's engagement brief. In a scheduled run, deliver it with `SendUserMessage` (or `PushNotification` if available) as well as the final reply.
+## 9. Schedule through the Buffer connector
+1. Run `python3 scripts/prepare_publish.py D`. It prints `ready` (exact `create_post` arguments), `awaiting_approval` and `skipped`.
+2. For each `ready` item call the Buffer connector's `create_post` with its `payload` unchanged. Then record it:
+   `python3 scripts/record_publish.py D scheduled <post_id> <returned post id> <returned dueAt>`.
+   On an error: `python3 scripts/record_publish.py D error <post_id> "<message>"`. If Buffer rejects media, retry once after 60 s (Pages can lag), then give up on that post.
+3. **Videos wait for the founder.** For each `awaiting_approval` item: send the founder the video file (`SendUserFile` with the `local_files` path) together with the post text and the planned time, and ask for "OK", a change request, or "no". Record `python3 scripts/record_publish.py D pending <post_id>`. Never schedule a video without an explicit OK; the social-ops-control skill handles the reply.
+4. Commit and push `data/` and `content/D/` again.
+
+## 10. Report (Chinese, short)
+Send the founder a brief: today's topic and why; each scheduled post (platform, Beijing time and New York time, first line); the video waiting for approval (with the file); anything dropped or rejected and why; yesterday's errors; today's engagement brief. In a scheduled run, deliver it with `SendUserMessage` (and `PushNotification` if available) as well as the final reply.
 
 ## Failure handling
 - A failed agent: retry once with a narrower prompt; if it fails again, continue with fewer posts rather than none.

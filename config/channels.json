@@ -1,31 +1,100 @@
 {
-  "_note": "buffer_channel_id values are filled by the 'Setup Buffer' workflow. Slots are local times in America/New_York.",
-  "buffer_organization_id": "",
+  "_note": "Channel ids from the Buffer connector (organization 'My Organization'). Slots are local times in America/New_York.",
+  "buffer_organization_id": "6a825b2171811e26a8130bf6",
   "channels": {
     "linkedin": {
-      "buffer_channel_id": "",
-      "kind": "company_page",
+      "buffer_channel_id": "6affb46bece6dfde5f2a783c",
+      "kind": "personal_profile",
       "slots": {
-        "mon": ["08:30"], "tue": ["08:30"], "wed": ["08:30"], "thu": ["08:30"], "fri": ["08:30"],
-        "sat": [], "sun": []
-      }
+        "mon": [
+          "08:30"
+        ],
+        "tue": [
+          "08:30"
+        ],
+        "wed": [
+          "08:30"
+        ],
+        "thu": [
+          "08:30"
+        ],
+        "fri": [
+          "08:30"
+        ],
+        "sat": [],
+        "sun": []
+      },
+      "buffer_name": "heloe-io (founder's personal profile)",
+      "voice": "founder, first person"
     },
     "x": {
-      "buffer_channel_id": "",
+      "buffer_channel_id": "6aa8e2eaea19ca0bde470fd1",
       "kind": "brand_account",
       "slots": {
-        "mon": ["09:00", "12:30", "17:30"], "tue": ["09:00", "12:30", "17:30"],
-        "wed": ["09:00", "12:30", "17:30"], "thu": ["09:00", "12:30", "17:30"],
-        "fri": ["09:00", "12:30", "17:30"], "sat": ["10:00", "15:00"], "sun": ["10:00", "15:00"]
-      }
+        "mon": [
+          "09:00",
+          "12:30",
+          "17:30"
+        ],
+        "tue": [
+          "09:00",
+          "12:30",
+          "17:30"
+        ],
+        "wed": [
+          "09:00",
+          "12:30",
+          "17:30"
+        ],
+        "thu": [
+          "09:00",
+          "12:30",
+          "17:30"
+        ],
+        "fri": [
+          "09:00",
+          "12:30",
+          "17:30"
+        ],
+        "sat": [
+          "10:00",
+          "15:00"
+        ],
+        "sun": [
+          "10:00",
+          "15:00"
+        ]
+      },
+      "buffer_name": "@heleo_io",
+      "voice": "brand"
     },
     "facebook": {
-      "buffer_channel_id": "",
+      "buffer_channel_id": "6aa8e2beea19ca0bde470f31",
       "kind": "page",
       "slots": {
-        "mon": ["11:00"], "tue": ["11:00"], "wed": ["11:00"], "thu": ["11:00"], "fri": ["11:00"],
-        "sat": ["10:30"], "sun": []
-      }
+        "mon": [
+          "11:00"
+        ],
+        "tue": [
+          "11:00"
+        ],
+        "wed": [
+          "11:00"
+        ],
+        "thu": [
+          "11:00"
+        ],
+        "fri": [
+          "11:00"
+        ],
+        "sat": [
+          "10:30"
+        ],
+        "sun": []
+      },
+      "buffer_name": "Heleo.io page",
+      "voice": "brand"
     }
-  }
+  },
+  "buffer_organization_name": "My Organization"
 }
