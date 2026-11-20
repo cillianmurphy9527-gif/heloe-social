@@ -1,0 +1,1251 @@
+{
+ "date": "2026-11-21",
+ "collected_at": "2026-11-20T06:17:18.769417+00:00",
+ "counts": {
+  "hackernews": 50,
+  "google_news": 62
+ },
+ "hackernews": [
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Anthropic’s Nasdaq debut",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50562754",
+   "points": 1035,
+   "comments": 2041,
+   "age_hours": 13.2,
+   "heat": 578.79
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "UK government forced to admit it issued Apple a secret encryption order",
+   "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50562113",
+   "points": 591,
+   "comments": 266,
+   "age_hours": 13.9,
+   "heat": 122.58
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "How the European Commission rolled out Matrix to more than 40k staff",
+   "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50558533",
+   "points": 684,
+   "comments": 335,
+   "age_hours": 19.3,
+   "heat": 117.11
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Pancreatic cancer halted by virus injection in three patients",
+   "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50563066",
+   "points": 712,
+   "comments": 112,
+   "age_hours": 12.9,
+   "heat": 108.04
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Claude solves two open problems in the physics of black holes",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "discussion_url": "https://news.ycombinator.com/item?id=50563148",
+   "points": 454,
+   "comments": 216,
+   "age_hours": 12.8,
+   "heat": 102.75
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "We need smart people who give a shit",
+   "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50554045",
+   "points": 798,
+   "comments": 398,
+   "age_hours": 30.4,
+   "heat": 98.64
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+   "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+   "discussion_url": "https://news.ycombinator.com/item?id=50564159",
+   "points": 248,
+   "comments": 137,
+   "age_hours": 11.7,
+   "heat": 64.31
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Do not buy RAM, compress",
+   "url": "https://curiousbits.nl/blog/do-not-buy-ram-compress/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50557661",
+   "points": 278,
+   "comments": 229,
+   "age_hours": 21.3,
+   "heat": 59.19
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+   "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+   "discussion_url": "https://news.ycombinator.com/item?id=50564366",
+   "points": 93,
+   "comments": 185,
+   "age_hours": 11.5,
+   "heat": 57.71
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Someone reported java4shell bug in September 2026",
+   "url": "https://github.com/openjdk/jdk/pull/32781",
+   "discussion_url": "https://news.ycombinator.com/item?id=50558906",
+   "points": 403,
+   "comments": 111,
+   "age_hours": 18.5,
+   "heat": 55.77
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+   "url": "https://github.com/openssl/openssl/pull/33652",
+   "discussion_url": "https://news.ycombinator.com/item?id=50569226",
+   "points": 110,
+   "comments": 60,
+   "age_hours": 4.3,
+   "heat": 52.96
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Synology Security Advisory",
+   "url": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
+   "discussion_url": "https://news.ycombinator.com/item?id=50567209",
+   "points": 130,
+   "comments": 97,
+   "age_hours": 8.1,
+   "heat": 51.1
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "GIMP now has UI tests",
+   "url": "https://www.gimp.org/news/2026/11/16/gimp-ui-tests/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50569985",
+   "points": 66,
+   "comments": 39,
+   "age_hours": 2.3,
+   "heat": 44.98
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
+   "url": "https://cornholenews.news",
+   "discussion_url": "https://news.ycombinator.com/item?id=50561515",
+   "points": 208,
+   "comments": 96,
+   "age_hours": 14.6,
+   "heat": 42.17
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+   "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+   "discussion_url": "https://news.ycombinator.com/item?id=50570479",
+   "points": 83,
+   "comments": 9,
+   "age_hours": 1,
+   "heat": 41.94
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Garage Door Spam",
+   "url": "https://blog.harrison.page/garage-door-spam/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50519231",
+   "points": 817,
+   "comments": 342,
+   "age_hours": 86.1,
+   "heat": 41.74
+  },
+  {
+   "source": "hackernews",
+   "query": "SaaS",
+   "title": "Cooling buildings is overtaking heating them as an energy need, IEA says",
+   "url": "https://maccus.fr/en/cooling-overtaking-heating/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50560955",
+   "points": 156,
+   "comments": 110,
+   "age_hours": 15.3,
+   "heat": 38.37
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Making 8-page foldable zines from a single A4 sheet in the browser",
+   "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50559719",
+   "points": 277,
+   "comments": 61,
+   "age_hours": 17.0,
+   "heat": 37.86
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "What Comes After AGI?",
+   "url": "https://institute.deepmind.com/essays/what-comes-after-agi/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50569519",
+   "points": 30,
+   "comments": 54,
+   "age_hours": 3.6,
+   "heat": 34.99
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Software companies are trying to kill home computing?",
+   "url": "https://lateblt.livejournal.com/526188.html",
+   "discussion_url": "https://news.ycombinator.com/item?id=50554010",
+   "points": 176,
+   "comments": 143,
+   "age_hours": 30.5,
+   "heat": 28.54
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+   "url": "https://github.com/onlook-dev/onlook/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50562320",
+   "points": 104,
+   "comments": 72,
+   "age_hours": 13.7,
+   "heat": 27.37
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "Show HN: Foolscap – a writing app that reads your book and never writes for you",
+   "url": "https://foolscap.works/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50559749",
+   "points": 105,
+   "comments": 85,
+   "age_hours": 16.9,
+   "heat": 26.15
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Unblockable communication with gravity",
+   "url": "https://www.science.org/doi/10.1126/sciadv.aee0802",
+   "discussion_url": "https://news.ycombinator.com/item?id=50559179",
+   "points": 160,
+   "comments": 61,
+   "age_hours": 17.9,
+   "heat": 25.74
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+   "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50554374",
+   "points": 253,
+   "comments": 78,
+   "age_hours": 29.8,
+   "heat": 25.69
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Nintendo takes Picofly firmware down from GitHub [video]",
+   "url": "https://www.youtube.com/watch?v=-TLCGUpoD6c",
+   "discussion_url": "https://news.ycombinator.com/item?id=50547048",
+   "points": 279,
+   "comments": 112,
+   "age_hours": 39.4,
+   "heat": 25.61
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Vint Cerf on why TCP/IP was never patented",
+   "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
+   "discussion_url": "https://news.ycombinator.com/item?id=50568861",
+   "points": 75,
+   "comments": 19,
+   "age_hours": 5.2,
+   "heat": 23.33
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "RegExr: Temporarily Offline",
+   "url": "https://regexr.com/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50567374",
+   "points": 69,
+   "comments": 36,
+   "age_hours": 7.8,
+   "heat": 22.64
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "Scottish HTTP Codes",
+   "url": "https://underwood.network/http/scots.html",
+   "discussion_url": "https://news.ycombinator.com/item?id=50550062",
+   "points": 257,
+   "comments": 58,
+   "age_hours": 35.9,
+   "heat": 20.38
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "AI Came for the Coders. Understanding Why Tells Us Who's Next",
+   "url": "https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html",
+   "discussion_url": "https://news.ycombinator.com/item?id=50563328",
+   "points": 46,
+   "comments": 50,
+   "age_hours": 12.6,
+   "heat": 17.13
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Rebuilding my local voice assistant pipeline",
+   "url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+   "discussion_url": "https://news.ycombinator.com/item?id=50566261",
+   "points": 90,
+   "comments": 14,
+   "age_hours": 9.3,
+   "heat": 16.92
+  },
+  {
+   "source": "hackernews",
+   "query": "Gmail",
+   "title": "Bending Spoons to acquire Mailchimp",
+   "url": "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp",
+   "discussion_url": "https://news.ycombinator.com/item?id=50566779",
+   "points": 48,
+   "comments": 26,
+   "age_hours": 8.7,
+   "heat": 15.03
+  },
+  {
+   "source": "hackernews",
+   "query": "AI agent",
+   "title": "An FBI agent called a Claude user about his chats",
+   "url": "https://austinpatrick.substack.com/p/when-should-ai-labs-alert-police",
+   "discussion_url": "https://news.ycombinator.com/item?id=50567485",
+   "points": 28,
+   "comments": 24,
+   "age_hours": 7.7,
+   "heat": 12.36
+  },
+  {
+   "source": "hackernews",
+   "query": "B2B",
+   "title": "No Bailout for the AI Bubble, Anthropic IPO Protesters Say",
+   "url": "https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50564282",
+   "points": 43,
+   "comments": 25,
+   "age_hours": 11.6,
+   "heat": 11.53
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "How to CAD Almost Anything",
+   "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50528119",
+   "points": 209,
+   "comments": 62,
+   "age_hours": 71.8,
+   "heat": 10.67
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Palo Alto Networks to Acquire Applied Compute for $4.5B",
+   "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
+   "discussion_url": "https://news.ycombinator.com/item?id=50554009",
+   "points": 80,
+   "comments": 26,
+   "age_hours": 30.5,
+   "heat": 8.15
+  },
+  {
+   "source": "hackernews",
+   "query": "startup",
+   "title": "AI Overworks People",
+   "url": "https://twitter.com/catalinmpit/status/2123061832781090948",
+   "discussion_url": "https://news.ycombinator.com/item?id=50558494",
+   "points": 33,
+   "comments": 21,
+   "age_hours": 19.4,
+   "heat": 6.46
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "Microsoft is killing To Do and telling you to \"choose another\" app",
+   "url": "https://www.windowslatest.com/2026/11/19/microsoft-is-killing-to-do-and-telling-you-to-choose-another-app-after-it-reportedly-paid-up-to-200-million-for-wunderlist-and-killed-it-for-to-do/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50562704",
+   "points": 25,
+   "comments": 16,
+   "age_hours": 13.3,
+   "heat": 6.43
+  },
+  {
+   "source": "hackernews",
+   "query": "Gmail",
+   "title": "Bending Spoons has entered into a definitive agreement to acquire Mailchimp",
+   "url": "https://www.sec.gov/Archives/edgar/data/2004711/000200471126000026/bsp_ex99-1.htm",
+   "discussion_url": "https://news.ycombinator.com/item?id=50567117",
+   "points": 39,
+   "comments": 1,
+   "age_hours": 8.2,
+   "heat": 6.4
+  },
+  {
+   "source": "hackernews",
+   "query": "SaaS",
+   "title": "Thomas Nagel says that it's criminal to build AI that feigns consciousness",
+   "url": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50554179",
+   "points": 19,
+   "comments": 30,
+   "age_hours": 30.1,
+   "heat": 4.92
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Upcoming Critical PHP Security Release",
+   "url": "https://www.php.net/archive/2026.php",
+   "discussion_url": "https://news.ycombinator.com/item?id=50550111",
+   "points": 57,
+   "comments": 14,
+   "age_hours": 35.8,
+   "heat": 4.65
+  },
+  {
+   "source": "hackernews",
+   "query": "SaaS",
+   "title": "JPMorgan, Visa, Mastercard say third-party vendors targeted in cyberattack",
+   "url": "https://www.reuters.com/legal/government/jpmorgan-says-third-party-vendors-targeted-cyberattack-2026-11-19/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50565631",
+   "points": 28,
+   "comments": 3,
+   "age_hours": 10.1,
+   "heat": 4.62
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Show HN: Watch weight-space programming in action with WebGPU",
+   "url": "https://tabbyml.github.io/weight-space-playground/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50561436",
+   "points": 33,
+   "comments": 5,
+   "age_hours": 14.7,
+   "heat": 4.51
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "GitLab 19.6.0 is out and still vulnerable to Ruby2Shell and NGINX2Root",
+   "url": "https://news.ycombinator.com/item?id=50561571",
+   "discussion_url": "https://news.ycombinator.com/item?id=50561571",
+   "points": 25,
+   "comments": 6,
+   "age_hours": 14.6,
+   "heat": 3.91
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "Show HN: Robotics needs better CAD, so I wrote a B-rep kernel and 3,487 tests",
+   "url": "https://springcraft-ai.github.io/springrep/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50552140",
+   "points": 34,
+   "comments": 9,
+   "age_hours": 33.1,
+   "heat": 3.02
+  },
+  {
+   "source": "hackernews",
+   "query": "AI agent",
+   "title": "Show HN: AgentMall – Let your AI agent buy groceries",
+   "url": "https://getagentmall.com",
+   "discussion_url": "https://news.ycombinator.com/item?id=50562508",
+   "points": 18,
+   "comments": 4,
+   "age_hours": 13.5,
+   "heat": 2.9
+  },
+  {
+   "source": "hackernews",
+   "query": "funding",
+   "title": "Octopus, Gecko and Tortoise: the 3 scanners hunting your AI keys",
+   "url": "https://tin.computer/blog/fake-ai-crawler-secrets-scanners",
+   "discussion_url": "https://news.ycombinator.com/item?id=50550461",
+   "points": 33,
+   "comments": 7,
+   "age_hours": 35.4,
+   "heat": 2.59
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "Microsoft kills To Do. It paid up 200M for Wunderlist, later killed it",
+   "url": "https://www.windowslatest.com/2026/11/19/microsoft-is-killing-to-do-and-telling-you-to-choose-another-app-after-it-reportedly-paid-up-to-200-million-for-wunderlist-and-killed-it-for-to-do/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50555064",
+   "points": 18,
+   "comments": 6,
+   "age_hours": 28.5,
+   "heat": 1.95
+  },
+  {
+   "source": "hackernews",
+   "query": "B2B",
+   "title": "Hackers Hijack Websites of CNN, BBC and Major Banks",
+   "url": "https://www.thedailybeast.com/hackers-hijack-websites-of-cnn-bbc-and-major-banks",
+   "discussion_url": "https://news.ycombinator.com/item?id=50554107",
+   "points": 22,
+   "comments": 3,
+   "age_hours": 30.3,
+   "heat": 1.74
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Amazon vows to fight the company's first NA union contract at a CAN warehouse",
+   "url": "https://apnews.com/article/amazon-unifor-union-workers-1e0626c31c857ad54aa9b20d8c83b54d",
+   "discussion_url": "https://news.ycombinator.com/item?id=50552632",
+   "points": 19,
+   "comments": 2,
+   "age_hours": 32.5,
+   "heat": 1.35
+  },
+  {
+   "source": "hackernews",
+   "query": "AI agent",
+   "title": "Multi Agent Coordination Benchmark",
+   "url": "https://benchmarks.bespokelabs.ai/multi-agent-coordination-bench/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50550085",
+   "points": 16,
+   "comments": 1,
+   "age_hours": 35.8,
+   "heat": 0.98
+  }
+ ],
+ "google_news": [
+  {
+   "source": "google_news",
+   "queries": [
+    "cold email",
+    "outbound sales",
+    "email deliverability"
+   ],
+   "title": "Jack Bricknell Transforms GTM Strategy in 2026: Why Smaller, Better-Targeted Outbound Wins More Meetings - WBOC TV",
+   "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNY1hqVUVlOFJTWlFLUHlsM2luM29PNndNRTlaYnVsSXhXMGpkNjRCZm0tMjRuRkRBVENPOHk4RnhsckRZaG41RkdXbWJ2V09udFBBakRwVTNqRW1IcG90c19nUzBseXRzeERGdmtZZFZONzRXMzZfc1NJUFJXSE5jT21OSzRvemlrNkgwYUl4X3ZkcHdNWjFlZTZVVVhZTTktTTU4VURuWGR0OTdOQnA5NkNRcUlmdl90c3NaZHVvanVZck9NZGhYbUR4amNnZzVGdnZkd2w0OTJGVjFjeVZSOUUyeWJKdkZIX2lhdVktQVZaenVzTWwtdDJDY2l1NDhqUV9xYXZPQVhPSmNRTVdJLV9VblpjREIxSWF5NGQ4eXB3UTc1RGswZUFFdzk?oc=5",
+   "publisher": "WBOC TV",
+   "published": "Fri, 20 Nov 2026 01:18:39 GMT",
+   "heat": 3
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "cold email",
+    "intent data"
+   ],
+   "title": "The GTM Code Goes Live With High-Intent Buyer Data for Outbound, Paid Ads, and CRM Enrichment - USA Today",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTVFYNU1UZ0ZoUHVHRVVzY3BMSHBoREpTUTJ6RnJ5UFI0dlMweUMzNm9sdEtyUGFTTkwxbFpjQzg4QndJbjFfVHcyLTlDZXJQa1pGT1VwNVozNi1RNzREN2RydmpodENsLW9qR1J4MHZNQVlMX1lsOWVNVWRnVmQ3VkN3OFZjV0tpb2RFZWJKTXlwbjdPTnMzTFExb1F2dnZPQWxTSHVidWRqWUdTbTRreDlaS3Q2ZldLX2ZaT1FSbEUwUm5mcHloY09mdW1XbWdDQmh1TDlfc3dhUlE?oc=5",
+   "publisher": "USA Today",
+   "published": "Thu, 19 Nov 2026 14:14:09 GMT",
+   "heat": 2
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "cold email",
+    "AI SDR"
+   ],
+   "title": "Best AI Sales Employee: 7 Agents Ranked for 2026 - Analytics Insight",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUmJEWHRfR0xxRHIwdEo5dTgtZFV0SUlNbHVLM0lSRE9pRXZhMm5mNzEwSkdfa0dZcHpYckdMNW03SGFMXzVKMGxMUi1OejdvSGVzb2I5ZHJic2txcXFwSW41SmVnMF9xOG9fTjFWVUp4eTNRVUJadzY1TFVFSjhhbG55ZV9pcWtxX0pzaU9TTUsyTzTSAZMBQVVfeXFMTVJiRFh0X0dMcURyMHRKOXU4LWRVdElJTWx1SzNJUkRPaUV2YTJuZjcxMEpHX2tHWXB6WHJHTDVtN0hhTF81SjBsTFItTno3b0hlc29iOWRyYnNrcXFxcEluNUplZzBfcThvX04xVlVKeHkzUVVCWnc2NUxVRUo4YWxueWVfaXFrcV9Kc2lPU01LMk80?oc=5",
+   "publisher": "Analytics Insight",
+   "published": "Thu, 19 Nov 2026 13:10:29 GMT",
+   "heat": 2
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales prospecting",
+    "outbound sales"
+   ],
+   "title": "Launch GTM Plays Faster with Clay’s Global Agent | Clay - The GTM with Clay Blog - Clay",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ISnFTdU01V3U5QW5nak5jWjY2ekp5MXgwRDlaaWM2Z1ZiV0JBVjZjTDQ2LXBLZi0xcmxIbG9FWDNHWWN4YmlDa2tiV256MHJ4YWpmOXNCc0ZJVUtZ?oc=5",
+   "publisher": "Clay",
+   "published": "Thu, 19 Nov 2026 08:25:24 GMT",
+   "heat": 2
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales",
+    "intent data"
+   ],
+   "title": "TitanX Publishes First Annual Phone Intent Benchmark Report: Who Actually Answers a Cold Call - CustomerThink",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONjRIa053T21aQ0tZNjFBWm43SEdsN3Nta1JnalRUSzBmNm5ZMjZnNFg0bnI3bGp3TF81M1dlMjZCTkRKOXpRQjJYQ1FGQkVGMkNwbFVJUlI1RnlqSGpEcEdudTNZTDlJejIwWURBSmp1LW1fZWFxaU5lTExVQmhhcnRQX1pJRl9aQW10Zi1uYlpKd194X3UxZ3hBczFUSURGNF9ORzN4Q29wUUo0LVMzUW1QVzQzNDM1UExN?oc=5",
+   "publisher": "CustomerThink",
+   "published": "Thu, 19 Nov 2026 07:04:00 GMT",
+   "heat": 2
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence",
+    "Apollo.io"
+   ],
+   "title": "MedtechVendors.com Releases 2027 Ranking of 7 Best Sales Tools for Device CDMOs - IndyStar",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQi15V054S0ZBTlk0elV0UnZvWjhiVm9KcG1LY05WSkw3X1pjOEpjRTMyYWZJMDdEbUNMOXVkRUhQU0VVQ2NhYXRaNk1pUmkwUVliMXpwOHVkLS1UZHVXVU1tc0djb3VueHk1R1FzdTByVDd6d3N2a01lM1pOWGFoSkZPZnItU0FQUmRCeUx6RXhPaGtCSGIzNklSbUFJQmJIRDBIUFFBRDlrLUdFUnl3OWhMeTZIMERWMy1LTkNpanpXMDJlaEllODFiZWY?oc=5",
+   "publisher": "IndyStar",
+   "published": "Thu, 19 Nov 2026 17:19:53 GMT",
+   "heat": 2
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "cold email"
+   ],
+   "title": "How CMM builds self-improving GTM workflows for clients in Clay - Clay",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5nS1d3Tm1Pa1V0YmxLUVE0UmdmdzNoYWhabnotWUl0eW92UTJkY01ER21femZWOXFSakhqUXNHenZtLURhSU9pQ0FB?oc=5",
+   "publisher": "Clay",
+   "published": "Thu, 19 Nov 2026 23:00:35 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "cold email"
+   ],
+   "title": "The studio, founded by Chayce Hay-Eldon, is built around a simple promise to busy business owners: “Just Show Up & Record. We’ll Handle the Rest!” - Inter Press Service",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQcFdGZnRiNTVuTHFPRkJkOVRMWUN5N1BzZ0xGalloak4yekZvR3RFWFU0N0pBYTg0R1pCcWVtUFRWMU1KTU1adFgyU1JRWlZyZmpyMk9MVzhQSEp5ZE4wLWE5c0c1UHBGWTVFdUxWbTJDb0lacEpQN3owSkd3a3piQmg5b3Q5NFpBWV9fc3R4WXlHemgxZzFzXzZwN2lGTTJEMTduOHpyY01fT0hZajB0MlR6NzQ1RzlreE1OelMxcTQ3UGtFRlJSaTlSN2JxSUE0MWJkQnlSVDhRRFhMelZObHp6OExBd3d5OEFDSlZKVkY3dXhEb0ZrcWpmUEQ1Nkt0aGREWWlnSGMyWk0zLVNxOQ?oc=5",
+   "publisher": "Inter Press Service",
+   "published": "Thu, 19 Nov 2026 06:54:35 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "cold email"
+   ],
+   "title": "‘It’s a sales process’: Bengaluru man reveals 5-step email strategy that landed him most interview calls: ‘The most important step is not sending email but….’ - The Economic Times",
+   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQYjRYLVEzWGVMcmcxc3otRjZZREl1Y0NzeG5wZ1U2RWI0TjdmNFY1eFlTdkpRZjU5bGxfWjBEOUVoU3pxd1l2NEJLVE1YSVVNWXBrT0VqNzU1WEE0cFloUEVTYS1LRWhmWkw0RmxjSzVMWllZN2g5N1BtdjdYQWxlX05Oek1rN2ZNVHQ4RTI4OUIwRkVlVGRZUmFYTXJtNXRiUmlnV0ZSVWxzTXNsMXUycmZqbHd2Rko0bUZLTDFDU2hPRkZrT2lfUDEzQlZ6aDFKckR1UFlfYUJYbUxhR0N1R3BwZEVDNmxvekhORk4zN3hPczdXU25aX3JGM2pjVzdUNkxKTVdSM2VQcHBFeWM2UFREWWxqVUktZko0eDJ1LWNkeV9Vb0JLLXdQcUZ4V3gyZDZ2Und3aC0ybVhtRUZLMnZFczA?oc=5",
+   "publisher": "The Economic Times",
+   "published": "Thu, 19 Nov 2026 16:22:28 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales prospecting"
+   ],
+   "title": "How Liquidity Services Helps More Surplus Sellers Recover Value and Buyers Find Deals with Marketing Studio - HubSpot",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE45Q0JuX3lUdkYzWTB6Y2xTcHlnZ0tadmFsaDkzTVdzUkRTRmJPNXBxRmdueXBlSndHS0FmNkFUb3dZREdodTdlMzNhbTloQU1pdXhyZkEtcU1pVTVwcDdzVW1VR05wVnJjd3pHRm9UcUV5UzVSRDdLdE55UVA?oc=5",
+   "publisher": "HubSpot",
+   "published": "Thu, 19 Nov 2026 13:31:48 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales prospecting"
+   ],
+   "title": "Seattle Sounders and Reign appoint Chee Chew to new executive role - Inside World Football",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPM242TU9fclFUZHE4bjNyNU45aXVlcVhjZXBlZUVyVm5qQ3RIdV8yYUFaQkZvSk9SRW5xSEZBM0FVMmkyOUlMNHV6YW90c2JEVE5nXzFpS2RkRzhobklHb3ptVGZfbUZiUWw1amRwZE1uSjRoS2FkWkNwWUhzUTkxUEhHdzNJWURWZko2a1NPLUUyUnZMRzM3RXR5TUdhSzZXdWs1bWxXT05fUVZiQlhvS0dkNXI?oc=5",
+   "publisher": "Inside World Football",
+   "published": "Thu, 19 Nov 2026 10:04:38 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales prospecting"
+   ],
+   "title": "Seattle Clubs Name Chee Chew Chief Technology Officer - Wisevoter",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaTAxMDJhWVpsVDhLeDZ3TTNkblVXSkJjWFBDNWp6S2hBVkdVN1NQckFuSWtYMThFT3VpU3AzS00xMFdLMF92SklsR3pNOGZNNll6cTM2SXpzOTQtMDJIVVYzM19RZS1WdEFIdVZfbUgyRHItNV8xamQ4eFhsR3RaUF9DU3R1MUYtaWh6SjdwMmV1aUd6RG9SX2Jn?oc=5",
+   "publisher": "Wisevoter",
+   "published": "Thu, 19 Nov 2026 11:15:39 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "AI SDR"
+   ],
+   "title": "The B2B Category the Markets “Hate” the Most Today: GTM - saastr.com",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTTNZOFA2N3IxYjR0VUotQlB6TEpXbzhlOGFIdW1aRnJkc0gxeUVya0lXRTFyNms1N2paaUpjM1VfeDlmdG5GRXJ3QVhERS1Qemo0T0dfWUZUaDVyTUxJanN2X2RPNVJjVm93RGxSQUJRSXh2cXM2dlBKdk1seGpqYVF3?oc=5",
+   "publisher": "saastr.com",
+   "published": "Thu, 19 Nov 2026 07:23:32 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Unlock new possibilities for Dynamics 365 ERP with Work IQ and business skills - Microsoft",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSHlTa3gybUtaMlpRNUNlSGdsSUFaNlhsODczZEppbEZMNlR5ZmxxZFJUVUpGSlgxTHlTWlZyaUNTMkE2MmVnZk9PTVhxS2xiQWdLXzc5MlBqSzhQRzhGMktSUG5MVlpra3ZnM3JoeWJlTTNEX2J1VWZVMUtzdWhSb3ZJM0R0NE1BQ3l6c2hCdjFHVDNqeGRDUldBN3NxempSd2N3SC14NzVoRGNsNEQ2ZkQzWi1XM2x3Y2tfNkk4dl9OdGJFYktrR3Nvd3VGa1A4a1gzZXRuVUpta1BnbWRBbkdOLU53c3I4LVc4WQ?oc=5",
+   "publisher": "Microsoft",
+   "published": "Thu, 19 Nov 2026 16:00:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "LanCarte Commercial Promotes Mark Boone To Lead Dallas Industrial Team - Fort Worth Inc.",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSXNyNXNwUXMtRzI1alpUeWVBYnhfOGh4REdHZ0lkZnBnY1FabndaaG9raGgzeERKNGZDMWQzdWR0clM5SS0wVGd1dUFpSFBKUV9ETktnakw4MndqYV9WU3lTbktNaS0tQ2hwSnUxdmctTVA0UFA5a1Q4cDZac3dnQlRRRUl1QU1hUmhfM1p0OEU1cWhaWnc?oc=5",
+   "publisher": "Fort Worth Inc.",
+   "published": "Thu, 19 Nov 2026 19:31:46 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Reply.io Launches an Open-Source AI Agent Harness for Sales Outreach - Unite.AI",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14cEFHd1hXWTM4VTBaaDJoeHlvd2F2bjdNNGF6QlEtX2ZwSmFkYlRmVHcza25fdEYyRGFpVDB2eGZjN3BTSlB3eVRhTnRKS1U2cjF3RlFHWDU2SVBqWTEyRWQ4cWpnSEF3RjR5QlR4Y1ZEaFlQTVpKSExjaFoxY1k?oc=5",
+   "publisher": "Unite.AI",
+   "published": "Thu, 19 Nov 2026 19:59:05 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Earnings call transcript: RVRC Holding posts strong Q1 2026 sales growth - Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaDlySWc4S1dHWUtBQmlkNE9USWtUNHFIY3V6ZG05UWRWelpFZWtISkpQTmxuSVhrWXlINmt5aVZfNWRFTi1Xa29Ca2IxbXQtekRubzY2YUUtWjVEYXdadWtYY2lvQW1iYVMySkJIQ2NxbHItQlJta0hCWm1fR292d3ZsQldfaHJiZDk0TUMyeTZQU1BPa05lVFBkSFB2dkFuV3JfVWFjQ0YzWjljcmotVnhfN1NqX3RpSkFWYmFweWdWeHhlUmc?oc=5",
+   "publisher": "Investing.com",
+   "published": "Thu, 19 Nov 2026 10:33:28 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "15 AI Agent Development Companies Helping UK Businesses Automate Complex Workflows - WhaTech",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNREp4TDluaE5WOFNLeWszbkw0R0hsMU1DQXBPbFpfQ2k5YW9mbHc2YnFSODdESXJBT1dvc05lRU9UYlNraURfMnQtNDJydlU5NHdnTk9ITGc2aWp6b1Jmc0JxZGRBdnZseVNnWG9NS2ZnTllmVE5xTEV6dTdBeVY2aFQ3aGt6RFJoU25VbVJOMVpxQ240UTNWaHp1Wm5DZDMwcjJLSnBVa2FERU5PYUtMVHBRMjlSV19uVURzZVRoZzVXdmxXdTlEWXBqUmhmYmFDR1ZVc3o3WVd4NXFjRXZGcXlkUVlvQdIB5gFBVV95cUxNREp4TDluaE5WOFNLeWszbkw0R0hsMU1DQXBPbFpfQ2k5YW9mbHc2YnFSODdESXJBT1dvc05lRU9UYlNraURfMnQtNDJydlU5NHdnTk9ITGc2aWp6b1Jmc0JxZGRBdnZseVNnWG9NS2ZnTllmVE5xTEV6dTdBeVY2aFQ3aGt6RFJoU25VbVJOMVpxQ240UTNWaHp1Wm5DZDMwcjJLSnBVa2FERU5PYUtMVHBRMjlSV19uVURzZVRoZzVXdmxXdTlEWXBqUmhmYmFDR1ZVc3o3WVd4NXFjRXZGcXlkUVlvQQ?oc=5",
+   "publisher": "WhaTech",
+   "published": "Thu, 19 Nov 2026 15:58:04 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "LanCarte Commercial Promotes Mark Boone to Lead Dallas Team - Wisevoter",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZDU3elRIUGpBaEVEOU11b3VMNTRQaFhzeXh6N3ppOHl4N3FPa2pNWDlsMWh5N0pFQ2YxdXFYRXlBaU1PMG5DMERqOUZEbUJ1OTB2TG1aVU1BekVSMF80VWVfeWJzWGowWHc1LU40Njc5WWY2ejdhNGJMZl9EbWNKSUNlREY3dVM1bFEtdTFxczdqWDd6Tld3WngzaFROWENLNkszQlNqT2djZzFzOVE?oc=5",
+   "publisher": "Wisevoter",
+   "published": "Thu, 19 Nov 2026 21:09:40 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Court of Auditors: Climate ticket with high costs and little effect - Aviation.Direct",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMXJoZi1VX2xCZHF6cllobHQzRmt4cXFLWWwxS1Bmcjc4djRneklIS3EzOGl1T2xkWURVaDlXUkpNVXlOamFDbEQxMVRPcG1MZ1IybXMzQzhZd1NTN0t6M0pFZl9ud0ZVWDF6ZW9Kakl6ekNJYlFaN1NhSm1tTi1IWWhDZzNRY3owVzBZdmlOOVZNZw?oc=5",
+   "publisher": "Aviation.Direct",
+   "published": "Thu, 19 Nov 2026 09:10:20 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "New job postings for Auburn and Cayuga County job seekers - Auburn Citizen",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWngyMUlLYzVEU3V5WlVxV0hsRlgzYzA4anFsei1xNGZHNXNJTWRlaVpZNWpLdHZMTzVTeXBxd29Nb1pVU3hBREgxNFBFMTRmY2I0dW1VREJHWDR1TGtiUG9LYTc3aDVDc1V0UjF2b1Fza19WYkNUa1o2bmNJLXJId0QzYlhCOVFiSmoxTGF3?oc=5",
+   "publisher": "Auburn Citizen",
+   "published": "Thu, 19 Nov 2026 09:35:32 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "Court orders resentencing of transgender librarian accused of urging children to trash Tama County library - Waterloo-Cedar Falls Courier",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUlB2enFFYXlFR1doa2RzajJpa3RiVkZBNjQ5RW5ZbndoRnJMa2tEa25GVTluWDVQNXYzUUMySFhabm0xRnBYeVBJTE9YOEJoUzVJRURuaXl4ZTZQbVBjS2RSSjQ3bm5ic1hOYkpoeHJZUWJMUjlUb1dab1FuT0Y3NjNzRmtMLWNiaXI3UzVTMGFGMk53dDFjSjEzelk?oc=5",
+   "publisher": "Waterloo-Cedar Falls Courier",
+   "published": "Thu, 19 Nov 2026 19:31:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "South Korea rides AI boom to new height as exports hit $1 trillion - Nikkei Asia",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb0Z1c1NPbHZaLVJKeUFuNlhzX01RSU1rSnlYckpRVkxwTzN1eEFVeG1iU3lKUzVqR2RTbDBtWjhiNVNBVmdHWklvUlJUbXJXbkpmbF9jczRDa0c0aUp3ckY2YUJTTHl2eWE0STlPSU9fUkVpZzM5eG1YN3B1RXBNclB3YXk5WWh1eUdqSUEzWUM1UzI2Z0RrTFJfazdUQQ?oc=5",
+   "publisher": "Nikkei Asia",
+   "published": "Thu, 19 Nov 2026 07:22:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "“Claim 1 Trillion Won in Unclaimed Indemnity Insurance Benefits More Easily” ... Government to Launch Service by March Next Year - 파이낸셜뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ILV9SOXdjLUI5S3l5U1RvZ3dTa1hpNWR4d2RtcTIyYkp5SVducnhzZF82TzZUZUJoSkQydFdSdU01SnkwbEpLV0I0VEZPcHJwYVFUa1h6cUc?oc=5",
+   "publisher": "파이낸셜뉴스",
+   "published": "Thu, 19 Nov 2026 07:32:33 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "8 Best AI Voice Agents for Outbound Sales Calls in 2026 - Analytics Insight",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNmlLQkl2T3pYOFVzTjhtRE1GdENITUlBMDVObml5S0wwcHB6OGMwNmRsTWVpeVU4WWQyMzhNMlY0aEFscnVtX0NBR0FuLVZNUi1BRC1EWDQtOWZSa19IYmVxRHgyNGxnQ1FuUVVkWDY0U01tRTI1OWZKNHM1cVpkX2FrcFZwazR3M041TnVFOEFyMll0ZlA2QVJ1eC1CWXVZR1kzZ2Fn0gGmAUFVX3lxTFA2aUtCSXZPelg4VXNOOG1ETUZ0Q0hNSUEwNU5uaXlLTDBwcHo4YzA2ZGxNZWl5VThZZDIzOE0yVjRoQWxydW1fQ0FHQW4tVk1SLUFELURYNC05ZlJrX0hiZXFEeDI0bGdDUW5RVWRYNjRTTW1FMjU5Zko0czVxWmRfYWtwVnBrNHczTjVOdUU4QXIyWXRmUDZBUnV4LUJZdVlHWTNnYWc?oc=5",
+   "publisher": "Analytics Insight",
+   "published": "Thu, 19 Nov 2026 11:42:49 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "email deliverability"
+   ],
+   "title": "Security alert: Critical PHP & NGINX vulnerabilities - MyHost",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xakkwdGJ6cE9pY00yX29zR0JTS1JaaVY2Zl85OVhId0VxSnFieU5OajZCZDFmWXR3SUVsRlRWTW1ka1AtQmNGZi1wRjRXREJTbmtNWDE5QUZhQ0E?oc=5",
+   "publisher": "MyHost",
+   "published": "Thu, 19 Nov 2026 07:09:15 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "startup funding round"
+   ],
+   "title": "Vantor - Satellite Imagery Meets Software - yespress.io",
+   "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBtYjdDcjZGTDNza0FkSWxYN2VnNkpneTdYUzJ3M0NTUmRGMUhwM2lwNWJIbHZzemM0ejZMWVFIVQ?oc=5",
+   "publisher": "yespress.io",
+   "published": "Thu, 19 Nov 2026 10:12:42 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "AI Companies Tap Big Tech Talent to Power Their Push Into the Enterprise, Findem and Aptitude Research Finds - HRTech Series",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWlRXajItVnEyTWJuelJXYzRZdnNfdDc1aElrRnFqR3kwNnFIUEJUeXVVN01DbjROeV9Yd0h3SC1OMmhYcllaYk9SbTJ3VXpjV1JySjdQZ3Z5bjdHblg3RVFONmgzNFNHTWs5S1pCTDFMOXRBcDN5NG84eENhZU9scy1pS0gwU0VuUDFZSUNsU2JldGVmUkJHTFJ0a1VRVFlVWUhZQk5aaWRMNF93U0dib2l2dkduREdMRU56N1ZiUUhXQlpUNHc0cEswbGJUR1loV29Pc0xB?oc=5",
+   "publisher": "HRTech Series",
+   "published": "Thu, 19 Nov 2026 13:44:53 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "5 Podcasts National Security Recruiters and Hiring Teams Should Follow - Clearance Jobs",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUjNGcGtaRGFSbVZZV0owaERFbGx0dUQwWDdtNEpJLXpZR191UzdCV3hMQnczb1VLZ1o5dXF6cVlRQ20yanRFb19Da1JEUWJQbm1VYXRMRDlpRkJ4UGZiUElwZE00Y0JxQ293cWxPRTBKU0M0Vk44UkVIcUt6bmV1RmhnNVdFczlLbFBiNGVuMmxNbFVidkNnQWRmT2libGZaNDhTSmdkcUNWQ1ZGYWVpVUlrQQ?oc=5",
+   "publisher": "Clearance Jobs",
+   "published": "Thu, 19 Nov 2026 17:30:11 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "a16z's David Booth: The Best People in Tech Aren't on the Org Chart — and Agents Are Now Hunting Them - BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41bGZSV2U5SU5GV3VyT0RQcmYwd2RJV0psMklCNV9xWERwUktzVWgzYS04dVYta2NwSmoxQjVLQUoxbE9fay04eDhEanpwbWI0TlBqSXFlX0VUZGc?oc=5",
+   "publisher": "BigGo Finance",
+   "published": "Thu, 19 Nov 2026 14:08:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Eastern Europe Stays 18–29% Cheaper for Senior Cybersecurity Talent Despite Salaries Rising Up to 92% - HRTech Series",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNFYza0JtZkZ1MFJZbk1SX0pfSWpHaFQ5MWlSUmFjSkcwTEZhUXU0a2x2OGJYM1JOMEJhQkUtemVoZjJibWZFeURPQmNoV0U3MW04WHdNXzROR25ZSFc2T1hCemRCNHpNQUM3NEpycVE2RXEzUHNzVm5CU1NHUVBlbWxBSm11dnhYTmstRlNsSUxqRHktRXdndFcxOUJtenJhVlZIZHRKVW5Sb1dmTjB2a1FYMkZhWEJPZlQyemFpbnAtWTFZZUNaZTBiSmtIMjNCOHZJMFQ4UDM4UDQ?oc=5",
+   "publisher": "HRTech Series",
+   "published": "Thu, 19 Nov 2026 13:46:47 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Phenom Ranked Among Fastest-Growing Companies in North America on the 2026 Deloitte Technology Fast 500™ for the Sixth Time - HRTech Series",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcWF6RWlxdnJhclFHY25FUzBZSzVWNm9KZ0Y4ek5TbmNnUVUwMEtDajV2YVNlbk9Jc01KZDByQUV4Ullwd0lOaThhT1BCdEZ4dmFzcUl1ZktjVnptd2VoSmpuS0dDV2RBVmtxU2lReUt5SW5ZTDhfQlBablRaOEVDdG5PVVlXUnBscGN6WU1VZVd4V256eTJkOTRzUngtRXhpMUVoSTFXWjlYWnlUYm9qYU1tWVFkSW5CdFlDNkxFWEh4Y0hILWVOVXlSdFVNa1FhM0lwdEtfM01vVEtrc2daSm1aZEVrS0t6X2ZXd1BLNzlVT1UybHpCWmF6a2Q?oc=5",
+   "publisher": "HRTech Series",
+   "published": "Thu, 19 Nov 2026 11:11:08 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "SThree unveils its people and AI driven operating system built to redefine recruitment - HRTech Series",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeW9PcUlUXzNRNm9iYUxINWUyWm1PNjJtVFFieVEzWXBKM0luNS1Sa29OUHIxYzQzQzdVLWtBZlZyMnlqczJHZ3U5WXp4MUNuYlh5UjNuVjJJNGRocjI5d29idVFSQzA4N2tRVWgzbFNlY2FwdUNkaE1SWkE1b3FUQkY3cHc2LV9sTFJ5RGxKNXZjdFNYMUdVbzhiNm82SWVYRFp3OHZqM1QtSTNSMGpYaWtKUnpUVmR4a2RZeEhDTUd0bUYyWFM5czg1NzlGNE5oVFYwUHFn?oc=5",
+   "publisher": "HRTech Series",
+   "published": "Thu, 19 Nov 2026 13:10:15 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Using AI to screen job applicants? Be ready to explain who you reject. - HRTech Series",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNanZNempfbUJLajRYRkhRMmtadkllSnpheVZhNnBabXJucVhNM1dCNHZFRWQtRlRZWVRzYnRncU8tUlJhaWhWTXcxYnVadGJlMGxyNjd6R19YT0hPbW01N2tCYzQ3X2cwOEtLS0hGVDhuZ2oyZGlXZklFRkxKOXl5QU12dGxRQnlDOWYzdWk5SXNWTy1UUVdBVnZWMzRzV3kzSTdKNHU5Tkw?oc=5",
+   "publisher": "HRTech Series",
+   "published": "Thu, 19 Nov 2026 07:24:21 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "FDE hiring grew 1,000% globally. 60% of Indian firms now plan to hire - Digit",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc041NmIwcWx1VVBxTkVock1qemlxZlp4MkRHUFpmT0JzbnhfeGU1RXg5VUw3WmM4dEhZejduUVV0dVRPU0xrNHlhRFZfa296NmdOT21aaFNWNVo2b21pZnNjLUFuek9KaUUtb2pPNEJ2YjZsRmFOdnhaNE0zeVYyYnhsVmRqV0dzdHpnRW5uUzY3OUR6MkNNbEVsdjVrVGdTeWJuLWpIckpvOEc4M3ZYVjBkONIBswFBVV95cUxOc041NmIwcWx1VVBxTkVock1qemlxZlp4MkRHUFpmT0JzbnhfeGU1RXg5VUw3WmM4dEhZejduUVV0dVRPU0xrNHlhRFZfa296NmdOT21aaFNWNVo2b21pZnNjLUFuek9KaUUtb2pPNEJ2YjZsRmFOdnhaNE0zeVYyYnhsVmRqV0dzdHpnRW5uUzY3OUR6MkNNbEVsdjVrVGdTeWJuLWpIckpvOEc4M3ZYVjBkOA?oc=5",
+   "publisher": "Digit",
+   "published": "Thu, 19 Nov 2026 07:55:25 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Polygon CEO Tells Employees to Replace Themselves With AI or Risk Losing Jobs - The Hans India",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSnpOczlxeThRblliNWVWTElwWmlUaWZrMnAyZ0FUMXR3RDRCLVEybFphQTVUWUJ1X3RJanh2OENaaEdFOEpRN3BhU1RfOXczZDFwcEphRXZqeXVQNUZ5OGlxTjJtOU1qcHNQRHIwdmRxaWZmSzVVd3A2YkhSZ2Q3dnNjWHZEcmFkT2FiNlZlTHhra1o0YTRia0tfY3k4TzVvaXhzSUUzem1vaWY0WkNYWUhLRWtKOU90MWpWcC16WTLSAcABQVVfeXFMT0p6TnM5cXk4UW5ZYjVlVkxJcFppVGlmazJwMmdBVDF0d0Q0Qi1RMmxaYUE1VFlCdV90SWp4djhDWmhHRThKUTdwYVNUXzl3M2QxcHBKYUV2anl1UDVGeThpcU4ybTlNanBzUERyMHZkcWlmZks1VXdwNmJIUmdkN3ZzY1h2RHJhZE9hYjZWZUx4a2taNGE0YmtLX2N5OE81b2l4c0lFM3ptb2lmNFpDWFlIS0VrSjlPdDFqVnAtelky?oc=5",
+   "publisher": "The Hans India",
+   "published": "Thu, 19 Nov 2026 13:37:52 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "layoffs tech"
+   ],
+   "title": "Salesforce Layoffs 2026: India Employees Report Job Cuts And Severance - APAC Media",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMlp6OThpOXRCRy1KNi1KOFpMUS1tVUFqTjhid01lR3VDUl9YNDVLaldGRnpiOTNGQWZpUjRCbWtFOWMyZUtNNGpxNWZzSHljTGtSRTRvRHEybEtsUklxV1hhR0xieHNmQ0VWM2lRdk9CWXdtbHpzWTBNTzgyLUt6VXZOYXB2SEJWV2Zfa29ET2ZQSnBONHNkSm1qU3lQVm1FODJrdVJwRGh1QQ?oc=5",
+   "publisher": "APAC Media",
+   "published": "Thu, 19 Nov 2026 08:24:07 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Firstsource Solutions Limited and Sew.Ai Partner to Launch Smart Revenue Operations and Smart Revenue Collections for Energy and Water Utilities - www.marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPR3VtTVJ1a1JXdmRVcEpjaHV3Si01YmpPcERxNV8zV0ZSdVZqUkRraTNrWUVZaEFJZkhHM2JsQzQ1UmwyTjI2ZkZLTEtEVE9DQ1c2SGF4alY3MXRsY0s4aDZ2aEQwejUzZlNjamhrOUpBQmVZcEg1RUFQZGVzRVR0VmxIR0R2MU5fYk5adU1zNUtoQnZZTU83V3dHY2Z2UXZ6dW9Ec1EzYTV6eDZGVm1Rd250N2Y2N21UcTNHclU2ZXVsX3ZvV0VkTXcxMFFKWG85NHdEbHNpbFpLdkJpWGZPQ1lQcEZjaUxn?oc=5",
+   "publisher": "www.marketscreener.com",
+   "published": "Thu, 19 Nov 2026 12:21:02 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Integrators: Mood Media Names Jason Shannon COO - Sixteen:Nine",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTVBFUURycUhlMXFnN1MxVHNyeWZuR2FjRl9MTGw0Z1hMN1had2ttbG5pZXNGU3NnamUwTHVnMi1lYmQxYl9wMzZOY3RMbFZBMmRIRHRJWHg1ZDB6b2tFUEJVYWtrdF90bnBFRy1nSXctZUU3dmY5bVNsbnI5bDVVajZBTXJaR0E?oc=5",
+   "publisher": "Sixteen:Nine",
+   "published": "Thu, 19 Nov 2026 15:56:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "US-Based Hypergen Merges with Bulgaria’s Brandly to Connect Branding With Outbound Lead Gen - The Recursive",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZWJXVEtiZVV6MFZabVIxSjAzVUpKcTYwejRBcUVSOWJhWVN2VTM0Ql9BbmhsZUFHNzRFMDV3ejg5REw0elRMYk81UDhRaG9FUzAyMHA3VFBSM0NxYWsyZ1FrdmtFQ1NXU1NvdjN1VEhMd0Zaeno2UDgxQzlrSlZiN21CYWdEemZ4RUN0RjJNeHVWczAxYmQ1MmNPVFJKT3lYeFcyMXFPWU4wRDBDRHpRYnNiRXEzVWFpTThkQQ?oc=5",
+   "publisher": "The Recursive",
+   "published": "Thu, 19 Nov 2026 11:10:08 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Boston Legacy FC Expands Ticketing Operations With Playfly Sports Deal Ahead of Stadium Move - TicketNews",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNDJWNEczeUxQeDc0RFFIQk1OSUNIb1dRZWp5RER6Zk5iU1AxMllGOFdOY0ZvNTRIcnB0MHFKVkd1ZDRHOE9OUVdlTk04blhEN205WmxtWlM2QlpIQS1LUkstRzNLWGtvWjNDWC1QZEVtRVhsNTVUSGlDeUJpZERSWDNqcUFFaHBpbVE?oc=5",
+   "publisher": "TicketNews",
+   "published": "Thu, 19 Nov 2026 20:15:35 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Mendoza vows to speed up BOC reforms on assuming top post - Inquirer.net",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTHpjdzNuWUtXOUU3b3AyYTZrcHJ6Q0plX0huZVV0dDQtR3NkamlRLVpFNWpDdUh2R1duVW9CN0dpRGVZR3YyUm55VjlDeTNnUlQ5anNES3gza2NBV3g3T1Zrak84bERGSTdhREwwZVhqR25HejZZWVVvZ0NHQkZFeEVGYzY3QUVaaTM0SGNjWkhzZi14NkZka2ZR0gGfAUFVX3lxTFBqQjFtZThvTUJPenAyRERUckFaRlNwandNSmlyQnNNbExIVTdfVDUzbVdGcmR2eU5rU0I2RXVjSUotaTc3S05yYVdoWkRhNWY0blhnWGVpYU8yTUpIUVFRUmVNLTR2TzdZaDFMVE0xRkpzXy1vY1RlU292YzlpSGpYcXk4Q01RV3hTekJTWWVWdERQYzR6eXFheWV5ak1Raw?oc=5",
+   "publisher": "Inquirer.net",
+   "published": "Thu, 19 Nov 2026 08:47:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Mendoza vows to sustain, accelerate Customs reforms - The Manila Times",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNd19QMDZMbFoxREUzSW5jSGg1OUFiZjJJOVRWZkRGQTZ5UGFyb0hvN2NZdEQ2YUkxLTRYSzdaWlE3clQtUWJCMWdSMl9wWGtYaHhPdmpqMnVia1hSMzA2QWpCWXBFVG85TXRNc3owbXlYZUQ1R1NyRFVsS05qajliZGhBTG1NVEk4QzRCaFliV3hMYWNPaWZkSnppRzNDZG5OUGNWM055bUtKQzFXRFdLaWxZVnR0Y2ZOWFA00gHAAUFVX3lxTE0wWWE0a2RQRTNNWjV1SklaS2s0c2NxVkk0MFlrMXBhWi1zNENDTE1rVVg5aW9pT29QUjF1SFRUdWU1Y241bmgtVU9BQ2wxb2NNaWoyQUx3MGUteVFWM2w4dXc0TWZhZGk0M0puMzZWa2cwdHJ1NzYwclFXbHNvWmxjSy03YzJTdkEwNXhFaE1wSDV0WGROZ1FJX05QTGR6bVJvX1p4eWY3dTh1TGFNRUhGVnRzWWVOYjlCMVhIcFVCTA?oc=5",
+   "publisher": "The Manila Times",
+   "published": "Thu, 19 Nov 2026 16:00:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Firstsource Solutions partners with SEW.AI for utility revenue solutions - scanx.trade",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWUdoTENYc0szS1ZQRWZDMGdFUTFBREV0V2FxdDFBb2lFYThlVWs4R2daM3F5clJSM2xrb1JadEtsNC1Vc0lTcUg4ZGlsQUJwRkpuVzBab3lLeWdXRlNxOXZBa211dm9ZRGdiWWRkRktCblI0ajV5aHVCMHVYaXRHaXhqc281MjcwMkNkVUc4MlVvODBfUGNjYVl2UTlCTGhVNl9IZXl5UWdTVDZxYnY4c0tfWVJsWkotbTdsNA?oc=5",
+   "publisher": "scanx.trade",
+   "published": "Thu, 19 Nov 2026 11:23:02 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Firstsource partners with SEW.AI to bring AI-powered billing, collections tools to utilities - CNBC TV18",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSnE1OEM5MTZGTnItY0xQZXk1Qy1vVy13TW5DMF9xVVpCQ1p6amJxclRLV01ybW5RQ1RzNnRoUVNYOTRVZUYtd2x3VkFaTUR4anRhVEczOGdBbG5OYmFLOXlnN3JfdDRSbVQ4WnM5VmNkTzBHYlJKcXFnVk04QUloN05qWV8ydUk5Umo4UVQ2cmtfdlR6TGY5VkV1V293TEItMFo0cVM5OThwUjdxYkFyT3ZMOU12UTNqM1VBR3ZYZzB4TWdmRW5lZW9xNWlyYk85d0xBMVF4Tkw2eE0wVk5ISWdB0gHnAUFVX3lxTE91WFp3WmU0enV5dEwzNUEwSHNvU3paeFpXOTZhZUxLc3BIeGltMjJBRUN2QnRlMnkxQWIzbXdGN2drTGY4eWJGOWVtVVctazljZk9lX1Z0SXNjV0NzZUR4eGFoOGtIVWZzNnRCTkpNM0gwZU1mb25LVFRJaWQzX2c5eUszWXQzVl9ZczZIUzBQWkMxVHBxOVJpbUZhTFcwUUZrejU1aU1xVHctZXI3elp6WGFmWmcyQmJQVEM0VjlmXzNsejIxVjNhQ2dzaXJfRXZ4ckRJVUFBckRmNlc2LWFSbi1EOElCSQ?oc=5",
+   "publisher": "CNBC TV18",
+   "published": "Thu, 19 Nov 2026 11:31:32 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence"
+   ],
+   "title": "CRO Leader and Zuuz Combine AI and Sales Intelligence to Help MSPs Grow, CVxEXPO 2026 Podcast - Telecom Reseller / Technology Reseller News",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaExkYzB5RDVoNHdyRUFXVmFXaHdqeXljNlJpcmN4TXFNWjhDWWdqNEh2enh4MXkzT09qbnozV1E2eFJpcnhFeGptdThUUml4WUpvQ3NIS1ZHNWVIajdCRGxBYkp3RjN5aUFIQnRTU1lXYzdJcmRXVjdVNjU1VHpmeXFtMWNyTFMyV2lDX0NoV005bXFxYWRKSVZhMGFxOWZKanM1bmdOaW81aGlJTVpOUFV0eDFqUE42S2IyOHduOEpIbUhqTXlBak1pcjHSAdIBQVVfeXFMUHNTT2IyZmFPcnZlTjZMMDJQbHpFWjJUUW16QmVheHBLMlpiSnJzM2VORkIxOFFPUG9vMFhNcXNTMWV3bmJDSEZkbnF0R013SEZOaUNVM2oyQ0UwRU1faVpmUnlETk1SNHh0VTJCMFJIZ090ZmlDbndpVXd5VndYYXVMZXBDbTE5ZEMyc2hBa08tcHhoSFNSallqT1JuUkRxTDE5Q0o2eEFjbmhCcnU4R3Y1eDVxelY0RWtEV21ndW5kMmhqMGNNQmRNMmJuOUhoNlpB?oc=5",
+   "publisher": "Telecom Reseller / Technology Reseller News",
+   "published": "Thu, 19 Nov 2026 21:39:21 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence"
+   ],
+   "title": "Salesforce and Microsoft announce Copilotforce partnership - https://marketingreport.one/",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVEV3UDhJVmhxb2t0WWgwQ0RsU29NQURrTkxXNzI5eWRYRnBRQ21lSU83bjlpNFkxQ1VQVUFHMkhjTGJseFZZdUltaVQ3eHJOc2R3RWRMTnd2RWh3eWJCMHJLVUJ2d3c5cVR1TEZmb1dnblJPY2tPdDFhcGVYVzNhekt4d3djWGNHeXJ4SXE4REhLUXg4RUJzSmxpbUUxdDE1M3hWOXVCV2k4UUZ5?oc=5",
+   "publisher": "https://marketingreport.one/",
+   "published": "Thu, 19 Nov 2026 11:54:18 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence"
+   ],
+   "title": "Arrow launches cloud sales portal for partners - PCR-online.biz",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnNm5ZYkxMU2VtQXlkZXJEbjFrQkM5TEdZd2loY1hSYU1yRzZUUXJTTGZqYklSbVRNYk9TYlFqNVJ2b1VWdGYyMVJfandtak5QOERpaU9CT0FqbGhFS2I3Q2tETU5iZVpMZjJvdVNtamFuRUJGWUVF?oc=5",
+   "publisher": "PCR-online.biz",
+   "published": "Thu, 19 Nov 2026 13:02:10 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence"
+   ],
+   "title": "Arrow Electronics announces new sales portal for ArrowSphere Cloud platform - Comms Business",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSjNBQlVlR1otdklocjdoakhrTDF3d3lvRXpxRUJfeHdjTVduUkpsYUZ4T0VYRFhSMU1pLWZ4bVBpbXozVVpHaE9HdUtkT1cwUXdPZ00walM5VHlYS3BGLTc3T1BJS0xZcW5vdENUaUlMSWZCWWxZaHd3ZkVfSHZGSmVYZDR5dm4yRWdfcjh5b3dkdU40YkNMT2hLbENoNGFEQlBoY2l3UjI2TmJyQXE0bGRHcDlranp6RDBvOA?oc=5",
+   "publisher": "Comms Business",
+   "published": "Thu, 19 Nov 2026 10:27:29 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Supermetrics Launches AI-Powered Campaign Management Solution - Demand Gen Report",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUldKX01sbDBOS3ZiVnhXMmdjaV9DSHVlcDl5Qm9uYndYWHN3dW41VjlnSUVhMFpPTF9hc2g0ZkwyQlgycDItRlhlWnRkSWFabUo1WHNzQUlMUHpRbnh2TlJnWmF0N0lUTm5VSXMySVdWZVpjU01NMUdmREg0aUJnclp1Q0hOdDl0cUk1eEVPQVVPUDR6ZjNDMHJVQ1lTME5MbDZVLVp2N2JOM3d1Y25ZOGRSQm1ENU5YMFlKa3dUdXBBSG8?oc=5",
+   "publisher": "Demand Gen Report",
+   "published": "Thu, 19 Nov 2026 20:02:16 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Huawei Launches Next-Gen Core Evolution White Paper and AgenticCore Solution - Huawei",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5zU0VYcXY2d0tmMWdyRW52QUdwblB6R1podjJqY3lJaUhZVFdwb0p6SzhwWlZVRldWWmhiWjEweVM0ZExTVGVKV3pBRjNiUG5rZ29SUTBSWUl1WGZpeFpVX1ppc096UUhDT1ZaQ1Bn?oc=5",
+   "publisher": "Huawei",
+   "published": "Thu, 19 Nov 2026 08:46:59 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Booking.com Research Reveals There's No Place Like (Someone Else's) Home for Christmas - Hospitality Net",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV1pIRE9KdExRZkpYYm1FbHA2VVktQ3ZaZDhQcXdSWmdUbXF1OFNoMlZ4VnRjbWluekpIaWI4MkgtWmlRNVEyT05SSmNUamtfVW4xSFMybEg0cE84M0ZFQ255eUd1OXBzYU9qWmtWemk0REVDczMwMU9QaE1nMGFReDk0TWsxRTRKSFhOcmVaNnJfbHJGVkh2Z042TjZycFhINk8wTDkwVjI4YnJqRWJjQmRHREFmRFAyWTlyNGlXZW1OMEE?oc=5",
+   "publisher": "Hospitality Net",
+   "published": "Thu, 19 Nov 2026 12:34:37 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Your Executive Thought Leadership Strategy Should Start With the Buyer - Demand Gen Report",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM1JtTWxodmRBWURUMGhvREpKV2laSXl2bjByWjdIdll3d0FpOXpQNk53WEU1SDcwNTZXWWRIS0p0WEotdkI4Mm81UUE4czk4aXllSmhQalJPVFMyLVE0bkJfLXhRMVJXQVEzdkZvaml4TWRUcV9KZWI5N0tGMmptaWE0bnhSb0lSU2libmRWeWc2b3U1ZHlYU1NCYkxxZGxzdW4xYTVJVHY3Y3p3VmJtd2wwR3ctbl9oUjdnNllmal81Zkk?oc=5",
+   "publisher": "Demand Gen Report",
+   "published": "Thu, 19 Nov 2026 12:48:46 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Adobe Brings Agentic AI to the Content Supply Chain with CX Enterprise Coworker - Demand Gen Report",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR2tuYUVQUllCZ0c3UmFhUFRCdlo1R0s3bUxxTjlvbnhHcHU4cEpQQ2ItUXRNSFlaeWx3ZHJJbWZ4LUxjd3NhNVI2MVFsNzRLanlkdExGTkFQbExoOWhDSWE3VnlNcjBrMEYzNzRGZFIzMV9FaTJIdUpVV0NiYTRYYXFrYkpHQUR4X1VZdEpka2RCNFlpZ0pSdTg3ODhoZzhOMWN6aFlxMl9CZ1oxc0lhNzJxWVpiZTVSY3EzT2NacTVoVWpMbVBRSVZtRzhWN3hxSV9pZFNxc2gwOU0?oc=5",
+   "publisher": "Demand Gen Report",
+   "published": "Thu, 19 Nov 2026 17:02:42 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "Apollo.io"
+   ],
+   "title": "Kraken Parent Payward Agreed to Acquire Tribe Capital, a $2.7 Billion Venture Firm, to Build Private-Market Products - HedgeCo.Net",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNczFQWlBEYVY0MWc1MW1BQkgyVXlpWU4tc2ZXNk5Lb3BaWW9pWWFBWEN1Skl4NTVWa2E5QkktY0FkV0V0eUlmX1ZScGNLSWFtdlo4N1ozU2EyRjRVTlBkOHcxR0JFWEJFeUZoVmxubHNmTU53a0c0YUhXTXBxUTd1dVVmNkVsaU0yRTVnRU9pTXhRc3dkdElyWHFYcHNyeXVoZ2ZMYi1UNVRYckRfZFdRSERyRG1pLTAwTEs4UnM3MU5uVXdyRE5PUkItM1RPVm1PX2tjZ2JIeExiaU5VbnNMaUZleHRiUQ?oc=5",
+   "publisher": "HedgeCo.Net",
+   "published": "Thu, 19 Nov 2026 21:50:25 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "Apollo.io"
+   ],
+   "title": "Payward to Acquire Tribe Capital, Adding $2.7 Billion in Assets Under Management - citybiz",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONjVCMkdtRTJ1Vk94OU8yYzB5OUptZy1jLXBZR3NkMFhubm85RUpDRVJuUnBBMExmcWI4VnBFZTlhTDZFTGVwZnRSaURQeFVfVF9DXzZvVFdPZEZNVl9uQVJPOFBHYzRjNUltMEEyQmhEUXBRMlJWTVhsR0RJc0NXOUNtaFNaemVRdS0tSUZocEItdEJjUkVHaVU5UTVLbjJzaGRyemVSSDd1bGtpQ0pSYk5wRnkzWFN5?oc=5",
+   "publisher": "citybiz",
+   "published": "Thu, 19 Nov 2026 14:06:11 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "Apollo.io"
+   ],
+   "title": "Payward to acquire Tribe Capital, adding $2.7 billion asset manager to private-markets push - CryptoRank",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YaklGQjRaVGVFZ09HZVpsUUZNQU04R01BVkstaGtNZ0tlV1pSblozd2p2bGpuMXBOTFhfNEZuVnhNRGlFSTR0SDNpNUd6R3R2NDRIYXl5eWk5S05Ieml6OVkxLVY2UTd1Skp2bm5QYkRKZw?oc=5",
+   "publisher": "CryptoRank",
+   "published": "Thu, 19 Nov 2026 15:22:35 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "Apollo.io"
+   ],
+   "title": "Sequel.io Raises $15 Million For Video-Driven Audience Intelligence - Pulse 2.0",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNXVkUzdtWFpuRkh1UnAxcDNHYzFyNkxnVzhXYmlUYUFpNVZuN3hCTG9EV3A0Zk9oMFF6MmtVZFRSSUVSbl9PS0RVMWx4LWVvem9ScUdsV04zV1ZsQmlZVHVYVzg2R2NuQ2J6eU1BNnhPN1dtTHpYcmR2c1J6VGFteDVOSEIyREhsOERlejRySQ?oc=5",
+   "publisher": "Pulse 2.0",
+   "published": "Thu, 19 Nov 2026 18:26:06 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "Apollo.io"
+   ],
+   "title": "Kraken Parent Payward to Buy Tribe Capital, a VC Firm With $2.7B AUM - CoinMarketCap",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUldmZWQtNDczQ3RfVUxaazR2YU02TkxfS3o5eDhfLWVfQzlLT2lrUGRfRmJZTnhjX0NaX2k3Y3pjT3F0SjNsTWdxamhOZkVtcFZSOWNTbllNVndpWVJDcU5MUFVicEVxWjJvSUcySG94N2dXandSTUlMaHNDS3FQVTlkSjZqWU9KVjk1N0wteS0?oc=5",
+   "publisher": "CoinMarketCap",
+   "published": "Thu, 19 Nov 2026 21:06:02 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "Apollo.io"
+   ],
+   "title": "Payward Agrees to Acquire Tribe Capital, Adding $2.7 Billion Asset Manager to Kraken Parent - CryptoRank",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYmdJeWpqaHlLb0pJaEtsaC14VDR3emN4djZkOURnQzBBUG5iSXdXREF0UmloWEYtVFFHTVlYWXh5MGpIMVN2ejBmOTlfS3pnbWZqRVJyV0NRdGNqSndQdmpaazVxXzZDaVFZV0kyd1dPYW92Nkhwb2pKRFFPVnRBdDQ1aVdjRVBJdXBXOXAyQW5PaEhvakN1VXVuaFd0ZnpqZjBWVVVYQXFmUHFBZXRLOS1zMWg0czRxTXRQd1RMazdUX2FkdkE?oc=5",
+   "publisher": "CryptoRank",
+   "published": "Thu, 19 Nov 2026 13:50:24 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "HubSpot AI"
+   ],
+   "title": "3 AI Growth Stocks Retail Investors Are Watching After The Anthropic IPO - Simply Wall St",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPV0I1dE9tZlIxYmNiMXhEQW5qVTJCbDVldFh1ejJtVWU3bTJzWklCUkpnczZCUUdUNTV5R3d3bkVkUHhRSnNMMVB5QS1TQ2lJaE9EVXlSZGlKbXdpTlNhazAxRXNaNE5wbVA4YktLSVB3dWctV3d0UGxZeXpwUXY3RUZMbWlSWi1fRXRHWWVaQmRvNzFWdDJMb0NfdmdNbUYzbXh2ajR0Q29HQjBmV3NpbDh1Y2oza0JDbDh1azFNckdxMHNZdzVvR0xqcGdGNS1BU0ZFSTRHdk3SAdgBQVVfeXFMT1dCNXRPbWZSMWJjYjF4REFualUyQmw1ZXRYdXoybVVlN20yc1pJQlJKZ3M2QlFHVDU1eUd3d25FZFB4UUpzTDFQeUEtU0NpSWhPRFV5UmRpSm13aU5TYWswMUVzWjROcG1QOGJLS0lQd3VnLVd3dFBsWXl6cFF2N0VGTG1pUlotX0V0R1llWkJkbzcxVnQyTG9DX3ZnTW1GM214dmo0dENvR0IwZldzaWw4dWNqM2tCQ2w4dWsxTXJHcTBzWXc1b0dManBnRjUtQVNGRUk0R3ZN?oc=5",
+   "publisher": "Simply Wall St",
+   "published": "Thu, 19 Nov 2026 22:10:27 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "HubSpot AI"
+   ],
+   "title": "AI Skills in Customer Service 2027 That Training Partners Can Sell - AICERTs",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLWJ3VUtobENBalRsQ0V1NGticFptaFNPLXpHMkc1czdHNHptWGdzMDVfWGhGT0didTlqWW1kZEZvLTBvZGFvd2hFMzZMdUxnY1RLMXRiVXRmU051N3FobGpxanRCZ3hxNC1LT0JLSGZoQk9vdjNXdVpJN25UZXZtaFg3aFExVlRPZldicHNqVUg2RkkwTHp3SjZ0Q0g?oc=5",
+   "publisher": "AICERTs",
+   "published": "Thu, 19 Nov 2026 14:09:50 GMT",
+   "heat": 1
+  }
+ ]
+}
