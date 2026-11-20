@@ -14,6 +14,14 @@
       "file": "cover-x.png",
       "size": "1600x900",
       "overflow": false
+    },
+    {
+      "id": "video-main",
+      "kind": "video",
+      "file": "video-main.mp4",
+      "poster": "video-main-poster.jpg",
+      "seconds": 20,
+      "size": "1920x1080"
     }
   ]
 }

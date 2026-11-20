@@ -77,14 +77,21 @@
 
   // Split text into animatable word spans; *a b* marks emphasised words (can span several words).
   function wordsHTML(s) {
-    const out = [];
+    // Split into animatable word spans; *a b* marks emphasised words. Punctuation that directly follows
+    // an emphasised phrase (no space) is glued to the last word so it never wraps onto its own line.
+    const words = [];
     String(s || "").split(/(\*[^*]+\*)/).forEach(seg => {
       if (!seg) return;
       const em = /^\*[^*]+\*$/.test(seg);
       const txt = em ? seg.slice(1, -1) : seg;
-      txt.split(/\s+/).filter(Boolean).forEach(w => out.push(`<span class="word">${em ? "<em>" + esc(w) + "</em>" : esc(w)}</span>`));
+      const glue = !em && words.length && !/^\s/.test(txt);
+      txt.split(/\s+/).filter(Boolean).forEach((w, i) => {
+        const html = em ? "<em>" + esc(w) + "</em>" : esc(w);
+        if (i === 0 && glue) words[words.length - 1] += html;
+        else words.push(html);
+      });
     });
-    return out.join(" ");
+    return words.map(w => `<span class="word">${w}</span>`).join(" ");
   }
 
   window.H = { wordsHTML, esc, rich, applyBrand, logoHTML, rng, wavePath, waveSVG, fit };

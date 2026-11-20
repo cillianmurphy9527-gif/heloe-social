@@ -44,6 +44,53 @@
     "caption": "Bending Spoons' agreed price for Mailchimp. Intuit paid *$12B* in 2021.",
     "source": "Bending Spoons; StockTitan, Nov 2026"
    }
+  },
+  {
+   "id": "video-main",
+   "kind": "video",
+   "size": "1920x1080",
+   "theme": "cinematic",
+   "label": "Signal of the day",
+   "note": "Made after the first run for the founder's review; if approved it replaces the cover on the scheduled LinkedIn and Facebook posts.",
+   "scenes": [
+    {
+     "type": "logo3d",
+     "duration": 2.6
+    },
+    {
+     "type": "hook",
+     "duration": 3.2,
+     "kicker": "Signal of the day",
+     "text": "An acquisition is a *change event*."
+    },
+    {
+     "type": "stat",
+     "duration": 4.4,
+     "kicker": "Mailchimp sale",
+     "value": 3.68,
+     "decimals": 2,
+     "prefix": "$",
+     "suffix": "B",
+     "label": "Bending Spoons' all-cash price. Intuit paid *$12B* in 2021.",
+     "source": "Bending Spoons; StockTitan, Nov 2026"
+    },
+    {
+     "type": "signal",
+     "duration": 5.8,
+     "headline": "Don't pitch on *announcement day*",
+     "signal": "Acquisition",
+     "company": "Mailchimp → Bending Spoons",
+     "detail": "Agreed Nov 19. Closing expected early 2027.",
+     "advice": "Track the accounts. Reach out when the change reaches their team.",
+     "when": "Nov 19, 2026"
+    },
+    {
+     "type": "logo3d",
+     "duration": 4.0,
+     "text": "Know who. Know when. *Know why.* Know how.",
+     "url": "heloe.io"
+    }
+   ]
   }
  ],
  "posts": [
