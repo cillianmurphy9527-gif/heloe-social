@@ -1,0 +1,35 @@
+{
+ "date": "2026-11-20",
+ "scheduled": [
+  {
+   "id": "2026-11-20-li-1",
+   "buffer_id": "6affec58d5f8acdd0d79f646",
+   "dueAt": "2026-11-20T13:30:00.000Z"
+  },
+  {
+   "id": "2026-11-20-x-1",
+   "buffer_id": "6affec590f5eda1a57ca3874",
+   "dueAt": "2026-11-20T14:00:00.000Z"
+  },
+  {
+   "id": "2026-11-20-fb-1",
+   "buffer_id": "6affec59738ce4635f922707",
+   "dueAt": "2026-11-20T16:00:00.000Z"
+  },
+  {
+   "id": "2026-11-20-x-2",
+   "buffer_id": "6affec59d5f8acdd0d79f680",
+   "dueAt": "2026-11-20T17:30:00.000Z"
+  },
+  {
+   "id": "2026-11-20-x-3",
+   "buffer_id": "6affec5a0f5eda1a57ca38be",
+   "dueAt": "2026-11-20T22:30:00.000Z"
+  }
+ ],
+ "skipped": [],
+ "errors": [],
+ "notes": [
+  "2026-11-20-li-1: Buffer rejected metadata.linkedin.firstComment ('LinkedIn first comment requires a paid plan'); scheduled without the first comment. The founder should add the heloe.io UTM link as the first comment by hand."
+ ]
+}
