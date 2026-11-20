@@ -15,7 +15,7 @@ jobs:
         with: { python-version: "3.12" }
       - name: Collect Hacker News + Google News
         run: |
-          DATE=$(TZ=America/New_York date -d "+1 day" +%F)   # topics feed the next New York posting day
+          DATE=$(TZ=America/New_York date -d "+6 hours" +%F)   # the New York posting day these topics feed
           python scripts/collect_trends.py "$DATE"
       - name: Commit
         run: |
