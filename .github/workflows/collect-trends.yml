@@ -1,0 +1,24 @@
+name: Collect trends
+on:
+  schedule:
+    - cron: "0 4 * * *"   # 12:00 Beijing / 23:00 New York (previous day)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: repo-writes, cancel-in-progress: false }
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Collect Hacker News + Google News
+        run: |
+          DATE=$(TZ=America/New_York date -d "+1 day" +%F)   # topics feed the next New York posting day
+          python scripts/collect_trends.py "$DATE"
+      - name: Commit
+        run: |
+          git config user.name "heloe-bot"; git config user.email "bot@users.noreply.github.com"
+          git add trends/ && git commit -m "trends: $(date -u +%F)" || echo "nothing to commit"
+          git pull --rebase && git push

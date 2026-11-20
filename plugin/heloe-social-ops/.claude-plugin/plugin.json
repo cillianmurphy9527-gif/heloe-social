@@ -1,0 +1,20 @@
+{
+  "name": "heloe-social-ops",
+  "version": "0.1.0",
+  "description": "Multi-agent social media operations for Heloe (heloe.io): daily trend scouting, copywriting, branded covers and motion videos, brand review, Buffer publishing for LinkedIn / X / Facebook, and weekly performance reviews.",
+  "author": {
+    "name": "LeadPilot Network Tech Limited"
+  },
+  "homepage": "https://heloe.io",
+  "keywords": [
+    "social media",
+    "buffer",
+    "linkedin",
+    "x",
+    "facebook",
+    "content",
+    "automation",
+    "heloe"
+  ],
+  "license": "LicenseRef-Proprietary"
+}

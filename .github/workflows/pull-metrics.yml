@@ -1,0 +1,23 @@
+name: Pull metrics
+on:
+  schedule:
+    - cron: "30 3 * * *"  # 11:30 Beijing, before the daily content run
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: repo-writes, cancel-in-progress: false }
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Pull Buffer metrics
+        env: { BUFFER_API_KEY: "${{ secrets.BUFFER_API_KEY }}" }
+        run: python scripts/pull_metrics.py 45
+      - name: Commit
+        run: |
+          git config user.name "heloe-bot"; git config user.email "bot@users.noreply.github.com"
+          git add data/ && git commit -m "metrics: $(date -u +%F)" || echo "nothing to commit"
+          git pull --rebase && git push

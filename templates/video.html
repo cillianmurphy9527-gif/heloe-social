@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<script src="common.js"></script>
+</head>
+<body>
+<div class="canvas"></div>
+<script>
+// Deterministic motion engine: the renderer calls initVideo(spec, brand) once, then renderFrame(t) for every frame.
+// Scene types: hook | stat | list | quote | signal | cta
+const E = {
+  outCubic: x => 1 - Math.pow(1 - x, 3),
+  outBack: x => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); },
+  inOut: x => x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2,
+};
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const prog = (t, start, dur) => clamp((t - start) / dur);
+
+let S = { scenes: [], total: 0, u: 1, w: 0, h: 0, brand: null, spec: null };
+
+window.initVideo = async function (spec, brand) {
+  const { esc, rich, applyBrand, logoHTML } = window.H;
+  const theme = spec.theme || "dark";
+  const { w, h, u } = applyBrand(brand, spec.size || "1080x1350", theme);
+  Object.assign(S, { w, h, u, brand, spec });
+  const canvas = document.querySelector(".canvas");
+  const words = s => window.H.wordsHTML(s);
+
+  let t0 = 0;
+  const html = spec.scenes.map((sc, i) => {
+    const d = Number(sc.duration || 4);
+    S.scenes.push({ ...sc, start: t0, d, i });
+    t0 += d;
+    let inner = "";
+    switch (sc.type) {
+      case "hook":
+        inner = `${sc.kicker ? `<div class="kicker k"><span class="dot"></span>${esc(sc.kicker)}</div>` : ""}
+                 <div class="headline fitme" style="margin-top:${36 * u}px">${words(sc.text)}</div>`;
+        break;
+      case "stat":
+        inner = `${sc.kicker ? `<div class="kicker k"><span class="dot"></span>${esc(sc.kicker)}</div>` : ""}
+                 <div class="stat-value fitme num" style="margin-top:${30 * u}px">0</div>
+                 <div class="stat-caption lbl">${rich(sc.label)}</div>
+                 ${sc.source ? `<div class="source src">Source: ${esc(sc.source)}</div>` : ""}`;
+        break;
+      case "list":
+        inner = `<div class="list-title fitme">${rich(sc.title)}</div><div class="list-items">${(sc.items || []).slice(0, 5).map((it, j) =>
+                  `<div class="list-item li"><span class="n">${String(j + 1).padStart(2, "0")}</span><span>${rich(it)}</span></div>`).join("")}</div>`;
+        break;
+      case "quote":
+        inner = `<div class="quote-mark qm">“</div><div class="quote-text fitme qt">${rich(sc.text)}</div>
+                 ${sc.attribution ? `<div class="quote-attr qa">— ${esc(sc.attribution)}</div>` : ""}`;
+        break;
+      case "signal":
+        inner = `<div class="radar r1"></div><div class="radar r2"></div><div class="radar r3"></div>
+          ${sc.headline ? `<div class="signal-headline fitme sh">${rich(sc.headline)}</div>` : ""}
+          <div class="signal-card card">
+            <div class="sc-top"><span class="sc-live"><span class="dot"></span>Signal detected</span><span>${esc(sc.when || "just now")}</span></div>
+            <div class="sc-chip chip">${esc(sc.signal || "Funding")}</div>
+            <div class="sc-company co">${esc(sc.company || "")}</div>
+            <div class="sc-detail de">${esc(sc.detail || "")}</div>
+            <div class="sc-advice ad"><b>Best move</b><span class="type" data-full="${esc(sc.advice || "")}"></span></div>
+          </div>`;
+        break;
+      case "cta":
+        inner = `<div class="cta-wrap" style="display:flex;flex-direction:column;align-items:flex-start;gap:${40 * u}px">
+            <div class="logo-big" style="transform-origin:left center;height:${110 * u}px;display:flex;align-items:center">${logoHTML(brand, theme).replace('class="logo"', 'class="logo" style="height:100%"').replace('class="wordmark"', `class="wordmark" style="font-size:${110 * u}px"`)}</div>
+            <div class="headline fitme" style="font-size:${88 * u}px">${words(sc.text || brand.tagline)}</div>
+            <div class="kicker url"><span class="dot"></span>${esc(sc.url || brand.domain)}</div></div>`;
+        break;
+    }
+    return `<div class="scene s${i}" data-type="${sc.type}" style="display:none">${inner}</div>`;
+  }).join("");
+  S.total = t0;
+
+  canvas.innerHTML = `<div class="bg-grid"></div><div class="bg-glow"></div><div class="wavebox"></div>
+    <div class="v-top">${logoHTML(brand, theme)}<span>${esc(spec.label || "")}</span></div>
+    ${html}
+    <div class="v-bottom"><span>${esc(brand.domain)}</span><span class="counter"></span></div>
+    <div class="progress"></div>`;
+  canvas.querySelector(".v-top .logo").style.height = 40 * u + "px";
+  const wm = canvas.querySelector(".v-top .wordmark"); if (wm) wm.style.fontSize = 36 * u + "px";
+
+  await document.fonts.ready;
+  // Fit each scene's main text to the scene box while it is visible.
+  document.querySelectorAll(".scene").forEach(el => {
+    el.style.display = "flex";
+    if (el.dataset.type === "stat") {
+      const sc = S.scenes[Number(el.className.match(/s(\d+)/)[1])];
+      el.querySelector(".num").textContent = fmt(sc, sc.value);
+    }
+    const target = el.querySelector(".fitme");
+    if (target) window.H.fit(target, el, 0.45);
+    el.style.display = "none";
+  });
+  window.__total = S.total;
+  window.__ready = true;
+};
+
+function fmt(sc, v) {
+  const d = Number(sc.decimals || 0);
+  const n = Number(v).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d });
+  return `${sc.prefix || ""}${n}${sc.suffix || ""}`;
+}
+
+function setT(el, op, y = 0, s = 1) {
+  if (!el) return;
+  el.style.opacity = op;
+  el.style.transform = `translateY(${y * S.u}px) scale(${s})`;
+}
+
+window.renderFrame = function (t) {
+  const { u, w, h } = S;
+  // background motion
+  const wb = document.querySelector(".wavebox");
+  wb.innerHTML = window.H.waveSVG(S.spec.id || "v", w, h * 0.06, t * 0.35);
+  document.querySelector(".bg-glow").style.transform = `translate(${Math.sin(t * 0.4) * 30 * u}px, ${Math.cos(t * 0.3) * 24 * u}px)`;
+  document.querySelector(".bg-grid").style.backgroundPosition = `${-t * 12 * u}px ${-t * 6 * u}px`;
+  document.querySelector(".progress").style.width = (clamp(t / S.total) * w) + "px";
+
+  const cur = S.scenes.find(s => t >= s.start && t < s.start + s.d) || S.scenes[S.scenes.length - 1];
+  document.querySelector(".counter").textContent = `${String(cur.i + 1).padStart(2, "0")} / ${String(S.scenes.length).padStart(2, "0")}`;
+
+  document.querySelectorAll(".scene").forEach((el, i) => { el.style.display = i === cur.i ? "flex" : "none"; });
+  const el = document.querySelector(".s" + cur.i);
+  const lt = t - cur.start, d = cur.d;
+  const isLast = cur.i === S.scenes.length - 1;
+  // scene-level enter/exit
+  const enter = E.outCubic(prog(lt, 0, 0.45));
+  const exit = isLast ? 0 : E.inOut(prog(lt, d - 0.35, 0.35));
+  el.style.opacity = enter * (1 - exit);
+  el.style.transform = `translateY(${(1 - enter) * 40 * u - exit * 30 * u}px)`;
+
+  const q = s => el.querySelector(s), qa = s => el.querySelectorAll(s);
+  switch (cur.type) {
+    case "hook": {
+      setT(q(".k"), E.outCubic(prog(lt, 0, 0.4)));
+      qa(".word").forEach((wd, j) => { const p = E.outBack(prog(lt, 0.15 + j * 0.07, 0.4)); setT(wd, clamp(p * 1.2), (1 - p) * 60); });
+      break;
+    }
+    case "stat": {
+      setT(q(".k"), E.outCubic(prog(lt, 0, 0.4)));
+      const p = E.outCubic(prog(lt, 0.2, Math.min(1.4, d * 0.4)));
+      q(".num").textContent = fmt(cur, Number(cur.value) * p);
+      setT(q(".lbl"), E.outCubic(prog(lt, 0.8, 0.5)), (1 - E.outCubic(prog(lt, 0.8, 0.5))) * 30);
+      setT(q(".src"), E.outCubic(prog(lt, 1.3, 0.5)));
+      break;
+    }
+    case "list": {
+      const items = qa(".li");
+      const stagger = Math.min(0.9, Math.max(0.3, (d - 1.6) / Math.max(1, items.length)));
+      items.forEach((it, j) => { const p = E.outCubic(prog(lt, 0.5 + j * stagger, 0.45)); setT(it, p, (1 - p) * 40); });
+      break;
+    }
+    case "quote": {
+      const p = E.outBack(prog(lt, 0, 0.5));
+      setT(q(".qm"), clamp(p), 0, 0.6 + 0.4 * p);
+      setT(q(".qa"), E.outCubic(prog(lt, 0.9, 0.5)));
+      break;
+    }
+    case "signal": {
+      [".r1", ".r2", ".r3"].forEach((sel, j) => {
+        const r = q(sel), ph = ((lt * 0.6 + j / 3) % 1);
+        const size = (200 + ph * 1100) * u;
+        Object.assign(r.style, { width: size + "px", height: size + "px", left: (w / 2 - size / 2) + "px", top: (h * 0.62 - size / 2) + "px", opacity: (1 - ph) * 0.35 });
+      });
+      const pc = E.outCubic(prog(lt, 0.25, 0.6));
+      setT(q(".card"), pc, (1 - pc) * 120);
+      setT(q(".chip"), E.outBack(prog(lt, 0.7, 0.4)), 0, 0.8 + 0.2 * E.outBack(prog(lt, 0.7, 0.4)));
+      setT(q(".co"), E.outCubic(prog(lt, 0.9, 0.4)));
+      setT(q(".de"), E.outCubic(prog(lt, 1.1, 0.4)));
+      setT(q(".ad"), E.outCubic(prog(lt, 1.3, 0.4)));
+      const ty = q(".type"); const full = ty.dataset.full;
+      ty.textContent = full.slice(0, Math.floor(clamp((lt - 1.5) * 45, 0, full.length)));
+      break;
+    }
+    case "cta": {
+      const p = E.outBack(prog(lt, 0.05, 0.6));
+      const lg = q(".logo-big"); lg.style.opacity = clamp(p); lg.style.transform = `scale(${0.7 + 0.3 * p})`;
+      qa(".word").forEach((wd, j) => { const pw = E.outCubic(prog(lt, 0.45 + j * 0.06, 0.4)); setT(wd, pw, (1 - pw) * 40); });
+      setT(q(".url"), E.outCubic(prog(lt, 1.1, 0.4)));
+      break;
+    }
+  }
+};
+</script>
+</body>
+</html>

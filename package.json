@@ -1,0 +1,12 @@
+{
+  "name": "heloe-social",
+  "private": true,
+  "type": "module",
+  "description": "Heloe social media automation: trend collection, rendering, Buffer publishing, metrics.",
+  "scripts": {
+    "render": "node render/render.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.49.1"
+  }
+}

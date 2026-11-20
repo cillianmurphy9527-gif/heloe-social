@@ -1,0 +1,79 @@
+name: Render and publish
+on:
+  push:
+    branches: [main]
+    paths: ["content/**/plan.json"]
+  workflow_dispatch:
+    inputs:
+      date: { description: "Plan date (YYYY-MM-DD)", required: true }
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency: { group: repo-writes, cancel-in-progress: false }
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    outputs:
+      dates: ${{ steps.dates.outputs.dates }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - id: dates
+        name: Which plan dates changed
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then D="${{ github.event.inputs.date }}";
+          else D=$(git diff --name-only HEAD~1 HEAD -- 'content/*/plan.json' | cut -d/ -f2 | sort -u | tr '\n' ' '); fi
+          echo "dates=$D" >> "$GITHUB_OUTPUT"; echo "Dates: $D"
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Install renderer
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+      - name: Validate and render missing media
+        run: |
+          for D in ${{ steps.dates.outputs.dates }}; do
+            python scripts/validate_plan.py "$D" || echo "::warning::validation errors for $D (publish step will refuse)"
+            if [ ! -f "docs/media/$D/manifest.json" ]; then node render/render.mjs --date "$D" || true; fi
+          done
+      - name: Prune media older than 21 days (Pages has a 1 GB limit)
+        run: |
+          find docs/media -mindepth 1 -maxdepth 1 -type d | while read d; do
+            n=$(basename "$d"); if [[ "$n" < "$(date -u -d '-21 days' +%F)" ]]; then git rm -rq "$d" || rm -rf "$d"; fi
+          done
+      - name: Commit media
+        run: |
+          git config user.name "heloe-bot"; git config user.email "bot@users.noreply.github.com"
+          git add docs/ && git commit -m "media: ${{ steps.dates.outputs.dates }}" || echo "nothing to commit"
+          git pull --rebase && git push
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: docs }
+  deploy:
+    needs: render
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.deployment.outputs.page_url }}" }
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+  publish:
+    needs: [render, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Schedule posts in Buffer
+        env: { BUFFER_API_KEY: "${{ secrets.BUFFER_API_KEY }}" }
+        run: |
+          git pull --rebase
+          rc=0
+          for D in ${{ needs.render.outputs.dates }}; do python scripts/publish_buffer.py "$D" || rc=1; done
+          git config user.name "heloe-bot"; git config user.email "bot@users.noreply.github.com"
+          git add data/ content/ && git commit -m "published: ${{ needs.render.outputs.dates }}" || echo "nothing to commit"
+          git pull --rebase && git push
+          exit $rc

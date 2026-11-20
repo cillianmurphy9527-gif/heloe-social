@@ -1,0 +1,35 @@
+{
+  "_note": "Trend sources. collect_trends.py reads hackernews + google_news; the Trend Scout agent adds Product Hunt and web search; the Reddit scan (Chrome) reads subreddits.",
+  "hackernews": {
+    "lookback_hours": 36,
+    "min_points": 15,
+    "queries": [
+      "sales", "cold email", "outbound", "B2B", "SaaS", "startup", "founder",
+      "AI agent", "LinkedIn", "email deliverability", "Gmail", "CRM", "lead generation",
+      "hiring", "layoffs", "funding", "marketing"
+    ]
+  },
+  "google_news": {
+    "lang": "en-US",
+    "country": "US",
+    "window": "1d",
+    "queries": [
+      "cold email", "sales prospecting", "B2B sales AI", "AI SDR", "sales development",
+      "outbound sales", "email deliverability", "Gmail spam rules", "LinkedIn algorithm",
+      "startup funding round", "Series A raises", "tech hiring", "layoffs tech",
+      "revenue operations", "sales intelligence", "intent data", "Apollo.io", "HubSpot AI"
+    ]
+  },
+  "reddit": {
+    "subreddits": [
+      "sales", "coldemail", "SaaS", "startups", "Entrepreneur", "smallbusiness",
+      "b2bmarketing", "LeadGeneration", "salesdevelopment", "EmailMarketing", "marketing", "growthhacking"
+    ],
+    "sort": "top",
+    "time": "day",
+    "per_sub": 8
+  },
+  "product_hunt": {
+    "categories": ["sales", "marketing", "artificial-intelligence", "email", "productivity"]
+  }
+}

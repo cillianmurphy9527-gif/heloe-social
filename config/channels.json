@@ -1,0 +1,31 @@
+{
+  "_note": "buffer_channel_id values are filled by the 'Setup Buffer' workflow. Slots are local times in America/New_York.",
+  "buffer_organization_id": "",
+  "channels": {
+    "linkedin": {
+      "buffer_channel_id": "",
+      "kind": "company_page",
+      "slots": {
+        "mon": ["08:30"], "tue": ["08:30"], "wed": ["08:30"], "thu": ["08:30"], "fri": ["08:30"],
+        "sat": [], "sun": []
+      }
+    },
+    "x": {
+      "buffer_channel_id": "",
+      "kind": "brand_account",
+      "slots": {
+        "mon": ["09:00", "12:30", "17:30"], "tue": ["09:00", "12:30", "17:30"],
+        "wed": ["09:00", "12:30", "17:30"], "thu": ["09:00", "12:30", "17:30"],
+        "fri": ["09:00", "12:30", "17:30"], "sat": ["10:00", "15:00"], "sun": ["10:00", "15:00"]
+      }
+    },
+    "facebook": {
+      "buffer_channel_id": "",
+      "kind": "page",
+      "slots": {
+        "mon": ["11:00"], "tue": ["11:00"], "wed": ["11:00"], "thu": ["11:00"], "fri": ["11:00"],
+        "sat": ["10:30"], "sun": []
+      }
+    }
+  }
+}

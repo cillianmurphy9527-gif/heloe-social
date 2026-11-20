@@ -1,0 +1,14 @@
+{
+  "_note": "Curated hashtag library. Copywriter picks from here; the analyst promotes/demotes tags based on performance.",
+  "broad": ["#Sales", "#B2B", "#Startups", "#SaaS", "#Marketing", "#Entrepreneurship"],
+  "niche": ["#Outbound", "#ColdEmail", "#SalesProspecting", "#LeadGeneration", "#SalesDevelopment", "#RevOps", "#GTM", "#FounderLedSales"],
+  "pillar": {
+    "signals": ["#SalesSignals", "#BuyingSignals", "#IntentData", "#SocialSelling"],
+    "infra": ["#EmailDeliverability", "#ColdEmail", "#EmailMarketing"],
+    "trends": ["#SalesTips", "#StartupLife", "#AI"],
+    "data": ["#SalesData", "#Benchmarks", "#SalesStrategy"],
+    "build": ["#BuildInPublic", "#StartupJourney", "#Founders"]
+  },
+  "x_preferred": ["#sales", "#coldemail", "#buildinpublic", "#SaaS", "#startups"],
+  "avoid": ["#MondayMotivation", "#Viral", "#Follow4Follow", "#Hustle"]
+}

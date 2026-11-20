@@ -1,0 +1,198 @@
+{
+ "date": "2026-01-05",
+ "status": "draft",
+ "topic_of_day": {
+  "title": "Cold email reply rates keep sliding; signal-based outreach holds up",
+  "why_now": "Fresh 2026 benchmark posts circulating in sales communities",
+  "pillar": "signals",
+  "score": 8.2,
+  "sources": [
+   "https://www.cleverly.co/blog/find-people-to-cold-email-on-reddit"
+  ]
+ },
+ "visuals": [
+  {
+   "id": "cover-li",
+   "kind": "cover",
+   "template": "stat",
+   "size": "1080x1350",
+   "theme": "dark",
+   "fields": {
+    "kicker": "Outbound benchmark 2026",
+    "stat": "3.43%",
+    "caption": "Average cold email reply rate. Down from *5%* a year ago.",
+    "source": "Cleverly, May 2026"
+   }
+  },
+  {
+   "id": "cover-x",
+   "kind": "cover",
+   "template": "stat",
+   "size": "1600x900",
+   "theme": "dark",
+   "fields": {
+    "kicker": "Outbound benchmark 2026",
+    "stat": "3.43%",
+    "caption": "Average cold email reply rate. Down from *5%* a year ago.",
+    "source": "Cleverly, May 2026"
+   }
+  },
+  {
+   "id": "test-headline",
+   "kind": "cover",
+   "template": "headline",
+   "size": "1080x1350",
+   "theme": "light",
+   "fields": {
+    "kicker": "Signal selling",
+    "headline": "Your list isn't bad. It's *old*.",
+    "sub": "Every week, roles change, budgets move and teams get funded. A static list can't see any of it."
+   }
+  },
+  {
+   "id": "test-list",
+   "kind": "cover",
+   "template": "list",
+   "size": "1080x1350",
+   "theme": "dark",
+   "fields": {
+    "kicker": "Save this",
+    "title": "5 signals that mean *reach out this week*",
+    "items": [
+     "They just raised a round",
+     "They're hiring their first SDRs",
+     "A new VP of Sales joined",
+     "They switched CRM or email tools",
+     "They opened a new market"
+    ]
+   }
+  },
+  {
+   "id": "test-quote",
+   "kind": "cover",
+   "template": "quote",
+   "size": "1080x1350",
+   "theme": "accent",
+   "fields": {
+    "kicker": "Community pulse",
+    "quote": "Volume isn't the problem. Timing is.",
+    "attribution": "The r/sales consensus this week"
+   }
+  },
+  {
+   "id": "test-signal",
+   "kind": "cover",
+   "template": "signal",
+   "size": "1080x1350",
+   "theme": "dark",
+   "fields": {
+    "kicker": "Signal of the day",
+    "headline": "This is what *good timing* looks like",
+    "signal_type": "Hiring",
+    "company": "Seed-stage B2B SaaS · 18 people",
+    "detail": "Posted 3 SDR roles in the last 7 days. No sales leader yet.",
+    "advice": "Reach out to the founder within 72h. Angle: ramping new reps without burning the domain."
+   }
+  },
+  {
+   "id": "video-main",
+   "kind": "video",
+   "size": "1080x1350",
+   "theme": "dark",
+   "label": "Signal selling",
+   "scenes": [
+    {
+     "type": "hook",
+     "duration": 3.2,
+     "kicker": "Outbound in 2026",
+     "text": "Cold email isn't dead. *Bad timing* is."
+    },
+    {
+     "type": "stat",
+     "duration": 4.0,
+     "kicker": "Average reply rate",
+     "value": 3.43,
+     "decimals": 2,
+     "suffix": "%",
+     "label": "Down from *5%* last year.",
+     "source": "Cleverly, May 2026"
+    },
+    {
+     "type": "list",
+     "duration": 5.5,
+     "title": "What changed?",
+     "items": [
+      "Inboxes are saturated",
+      "Spam filters got stricter",
+      "Lists go stale in weeks"
+     ]
+    },
+    {
+     "type": "signal",
+     "duration": 5.5,
+     "headline": "Reach out when *something changes*",
+     "signal": "Funding",
+     "company": "Series A · B2B fintech · 45 people",
+     "detail": "Raised $12M yesterday. Hiring 4 AEs.",
+     "advice": "Message the VP Sales this week. Angle: ramping new AEs fast."
+    },
+    {
+     "type": "cta",
+     "duration": 3.0,
+     "text": "Sell on signals, not static lists.",
+     "url": "heloe.io"
+    }
+   ]
+  }
+ ],
+ "posts": [
+  {
+   "id": "2026-01-05-li-1",
+   "platform": "linkedin",
+   "time_local": "08:30",
+   "pillar": "signals",
+   "format": "stat",
+   "hook_type": "number",
+   "text": "Cold email reply rates fell to 3.43% this year.\n\nMost teams respond by sending more.\n\nThat's the wrong lever.\n\nTest",
+   "first_comment": "",
+   "media": [
+    "video-main"
+   ],
+   "sources": [
+    "https://www.cleverly.co/blog/find-people-to-cold-email-on-reddit"
+   ]
+  },
+  {
+   "id": "2026-01-05-x-1",
+   "platform": "x",
+   "time_local": "09:00",
+   "pillar": "trends",
+   "format": "stat",
+   "hook_type": "number",
+   "text": "Average cold email reply rate in 2026: 3.43%.\n\nThe fix isn't more volume. It's better timing.",
+   "media": [
+    "cover-x"
+   ],
+   "sources": []
+  },
+  {
+   "id": "2026-01-05-fb-1",
+   "platform": "facebook",
+   "time_local": "11:00",
+   "pillar": "signals",
+   "format": "stat",
+   "hook_type": "number",
+   "text": "Test facebook post",
+   "media": [
+    "cover-li"
+   ],
+   "sources": []
+  }
+ ],
+ "engagement_brief": [],
+ "review": {
+  "editor": "brand-editor",
+  "score": 9,
+  "notes": "test fixture"
+ }
+}

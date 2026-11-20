@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<script src="common.js"></script>
+</head>
+<body>
+<div class="canvas"></div>
+<script>
+// Templates: headline | stat | list | quote | signal
+// spec = { id, template, size, theme, fields: {...}, pillar }
+window.renderCover = async function (spec, brand) {
+  const { esc, rich, applyBrand, logoHTML, waveSVG, fit } = window.H;
+  const theme = spec.theme || "dark";
+  const { w, h, u } = applyBrand(brand, spec.size || "1080x1350", theme);
+  const f = spec.fields || {};
+  const landscape = w > h * 1.2;
+  const canvas = document.querySelector(".canvas");
+
+  const kicker = f.kicker ? `<div class="kicker"><span class="dot"></span>${esc(f.kicker)}</div>` : "";
+  const footerRight = esc(f.footer || brand.domain);
+  const footer = `<div class="footer">${logoHTML(brand, theme)}<span>${footerRight}</span></div>`;
+  const waveTop = landscape ? h * 0.08 : h * 0.06;
+  const bg = `<div class="bg-grid"></div><div class="bg-glow"></div>${spec.wave === false ? "" : waveSVG(spec.id || "x", w, waveTop)}`;
+
+  let body = "";
+  switch (spec.template) {
+    case "stat":
+      body = landscape
+        ? `<div class="split"><div class="stat-value" id="fitme">${esc(f.stat)}</div>
+             <div><div class="stat-caption">${rich(f.caption)}</div>${f.source ? `<div class="source">Source: ${esc(f.source)}</div>` : ""}</div></div>`
+        : `<div class="stat-value" id="fitme">${esc(f.stat)}</div>
+           <div class="stat-caption">${rich(f.caption)}</div>
+           ${f.source ? `<div class="source">Source: ${esc(f.source)}</div>` : ""}`;
+      break;
+    case "list": {
+      const items = (f.items || []).slice(0, 6).map((it, i) =>
+        `<div class="list-item"><span class="n">${String(i + 1).padStart(2, "0")}</span><span>${rich(it)}</span></div>`).join("");
+      body = landscape
+        ? `<div class="split"><div class="list-title" id="fitme">${rich(f.title || f.headline)}</div><div class="list-items">${items}</div></div>`
+        : `<div class="list-title" id="fitme">${rich(f.title || f.headline)}</div><div class="list-items">${items}</div>`;
+      break;
+    }
+    case "quote":
+      body = `<div class="quote-mark">“</div><div class="quote-text" id="fitme">${rich(f.quote || f.headline)}</div>
+              ${f.attribution ? `<div class="quote-attr">— ${esc(f.attribution)}</div>` : ""}`;
+      break;
+    case "signal": {
+      const card = `<div class="signal-card">
+          <div class="sc-top"><span class="sc-live"><span class="dot"></span>Signal detected</span><span>${esc(f.when || "2 min ago")}</span></div>
+          <div class="sc-chip">${esc(f.signal_type || "Funding")}</div>
+          <div class="sc-company">${esc(f.company || "Series A · B2B fintech")}</div>
+          <div class="sc-detail">${esc(f.detail || "")}</div>
+          <div class="sc-advice"><b>Best move</b>${esc(f.advice || "")}</div>
+        </div>`;
+      body = landscape
+        ? `<div class="split"><div class="signal-headline" id="fitme">${rich(f.headline)}</div>${card}</div>`
+        : `<div class="signal-headline" id="fitme">${rich(f.headline)}</div>${card}`;
+      break;
+    }
+    case "headline":
+    default:
+      body = `<div class="headline" id="fitme">${rich(f.headline)}</div>${f.sub ? `<div class="sub">${rich(f.sub)}</div>` : ""}`;
+  }
+
+  canvas.innerHTML = `${bg}<div class="frame">${kicker}<div class="body" id="box">${body}</div>${footer}</div>`;
+  await document.fonts.ready;
+  // fit the main text block so nothing overflows
+  const box = document.getElementById("box");
+  fit(document.getElementById("fitme"), box, 0.45);
+  if (box.scrollHeight > box.clientHeight + 1) {
+    box.querySelectorAll(".list-item, .sub, .stat-caption, .sc-detail, .sc-advice, .quote-text").forEach(el => fit(el, box, 0.6));
+  }
+  window.__overflow = box.scrollHeight > box.clientHeight + 1;
+  window.__ready = true;
+};
+</script>
+</body>
+</html>

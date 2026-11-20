@@ -1,0 +1,38 @@
+{
+  "_note": "Placeholder brand tokens. Replace colors/fonts/logo with the official Heloe brand kit; every cover and video reads from this file.",
+  "name": "Heloe",
+  "domain": "heloe.io",
+  "tagline": "Sell on signals, not static lists.",
+  "handles": {
+    "linkedin": "",
+    "x": "",
+    "facebook": ""
+  },
+  "logo": {
+    "_note": "on_dark = logo version for dark backgrounds (usually white/light). If a file is missing, a text wordmark is drawn instead.",
+    "on_dark": "brand/logo-on-dark.svg",
+    "on_light": "brand/logo-on-light.svg",
+    "mark": "brand/mark.svg"
+  },
+  "colors": {
+    "bg": "#0A0F1C",
+    "surface": "#121A2B",
+    "surface2": "#1A2438",
+    "text": "#F4F7FB",
+    "muted": "#93A0B8",
+    "accent": "#3DF5A7",
+    "accent2": "#7C6CFF",
+    "warn": "#FFB547",
+    "light_bg": "#F6F7F2",
+    "light_text": "#0A0F1C"
+  },
+  "fonts": {
+    "display": "InterDisplay",
+    "body": "Inter",
+    "mono": "DejaVuSansMono"
+  },
+  "utm": {
+    "base": "https://heloe.io/",
+    "params": "utm_source={platform}&utm_medium=social&utm_campaign=organic&utm_content={post_id}"
+  }
+}

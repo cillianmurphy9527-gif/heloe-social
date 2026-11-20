@@ -1,0 +1,10 @@
+{
+  "_note": "Master switches. Edit on GitHub to pause everything instantly.",
+  "publishing_enabled": true,
+  "dry_run": false,
+  "timezone_audience": "America/New_York",
+  "max_posts_per_day": { "linkedin": 1, "x": 3, "facebook": 1 },
+  "min_editor_score": 8,
+  "media_base_url": "https://OWNER.github.io/heloe-social/media",
+  "buffer_ai_assisted_flag": true
+}
