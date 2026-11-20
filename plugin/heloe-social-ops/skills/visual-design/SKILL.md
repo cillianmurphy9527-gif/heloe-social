@@ -1,6 +1,6 @@
 ---
 name: visual-design
-description: Designs, renders and visually checks Heloe's branded social covers (PNG) and motion-graphic videos (MP4) from the repo's HTML templates, producing content/<date>/visuals.json and files in docs/media/<date>/. Use for "make the cover", "make today's video", "redo this image", "做封面", "做视频", or as the design step of the daily content run.
+description: Designs, renders and visually checks Heloe's branded social covers (PNG) and motion-graphic videos (MP4) from the repo's HTML templates, producing content/DATE/visuals.json and files in docs/media/DATE/. Use for "make the cover", "make today's video", "redo this image", "做封面", "做视频", or as the design step of the daily content run.
 ---
 
 # Visual design

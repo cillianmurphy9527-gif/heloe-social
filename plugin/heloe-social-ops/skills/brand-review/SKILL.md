@@ -1,6 +1,6 @@
 ---
 name: brand-review
-description: Independent pre-publish review of a day's Heloe social plan: fact-checks numbers against sources, checks brand voice, platform rules, duplicates, safety and the rendered visuals, and writes content/<date>/review.json with approve / revise / drop verdicts and a 1-10 score. Use for "review today's posts", "check this before it goes out", "审核", or as the review step of the daily content run.
+description: Independent pre-publish review of a day's Heloe social plan: fact-checks numbers against sources, checks brand voice, platform rules, duplicates, safety and the rendered visuals, and writes content/DATE/review.json with approve / revise / drop verdicts and a 1-10 score. Use for "review today's posts", "check this before it goes out", "审核", or as the review step of the daily content run.
 ---
 
 # Brand review

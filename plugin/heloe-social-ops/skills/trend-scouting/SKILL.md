@@ -1,6 +1,6 @@
 ---
 name: trend-scouting
-description: Finds and scores the day's trending topics for Heloe's audience (founders, SDRs, sales leaders, B2B SaaS) from Hacker News, Google News, Product Hunt, Reddit scans and web search, producing content/<date>/scout.json. Use for "today's hot topics", "what is the sales community talking about", "选题", "今日热点", or as step 2 of the daily content run.
+description: Finds and scores the day's trending topics for Heloe's audience (founders, SDRs, sales leaders, B2B SaaS) from Hacker News, Google News, Product Hunt, Reddit scans and web search, producing content/DATE/scout.json. Use for "today's hot topics", "what is the sales community talking about", "选题", "今日热点", or as step 2 of the daily content run.
 ---
 
 # Trend scouting

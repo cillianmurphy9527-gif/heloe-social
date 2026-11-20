@@ -1,6 +1,6 @@
 ---
 name: reddit-scan
-description: Reads today's top Reddit discussions in Heloe's niche subreddits through the founder's own Chrome (Claude in Chrome), summarizes them in paraphrase, and saves trends/reddit-<date>.json to the heloe-social repo for the Trend Scout. Use for "scan Reddit", "Reddit 热帖", or when a scheduled task asks for the Heloe Reddit scan.
+description: Reads today's top Reddit discussions in Heloe's niche subreddits through the founder's own Chrome (Claude in Chrome), summarizes them in paraphrase, and saves trends/reddit-DATE.json to the heloe-social repo for the Trend Scout. Use for "scan Reddit", "Reddit 热帖", or when a scheduled task asks for the Heloe Reddit scan.
 ---
 
 # Reddit scan (via the founder's Chrome)

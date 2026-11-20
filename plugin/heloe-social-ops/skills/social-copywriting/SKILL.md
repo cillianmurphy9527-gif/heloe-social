@@ -1,6 +1,6 @@
 ---
 name: social-copywriting
-description: Writes Heloe's LinkedIn, X and Facebook post copy in the brand voice with platform-native structure, hooks and hashtags, producing content/<date>/copy.json. Use for "write the posts", "draft a LinkedIn post", "rewrite this tweet", "写文案", "改文案", or as the copywriting step of the daily content run.
+description: Writes Heloe's LinkedIn, X and Facebook post copy in the brand voice with platform-native structure, hooks and hashtags, producing content/DATE/copy.json. Use for "write the posts", "draft a LinkedIn post", "rewrite this tweet", "写文案", "改文案", or as the copywriting step of the daily content run.
 ---
 
 # Social copywriting
