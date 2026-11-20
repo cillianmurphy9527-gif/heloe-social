@@ -12,7 +12,7 @@ Inputs: `REPO`, `D`, `content/D/brief.json` (slate), `content/D/scout.json` (fac
 2. Write two hooks (first lines) using different hook types (number, contrarian, question, story, how-to). Keep the stronger one; save the other as `alt_hook`.
 3. Write the body in the slot's format (see strategy.md section 5 and `references/examples.md`).
 4. Platform finish:
-   - **LinkedIn**: 700-1,400 characters, hook in the first ~210 characters, one idea per line, ends with a question or takeaway, 3 hashtags at the end (1 broad + 1 niche + 1 pillar). No links in the body; when the post mentions Heloe or offers a resource, put `https://heloe.io/?utm_source=linkedin&utm_medium=social&utm_campaign=organic&utm_content=<post id>` in `first_comment` with one short sentence.
+   - **LinkedIn**: 700-1,400 characters, hook in the first ~210 characters, one idea per line, ends with a question or takeaway, 3 hashtags at the end (1 broad + 1 niche + 1 pillar). No links in the body. The Buffer free plan cannot post LinkedIn first comments (`config/settings.json` → `linkedin_first_comment` is false), so leave `first_comment` empty; if a post needs a link, say "link in my profile" instead. Only when that setting is true, put the heloe.io UTM link in `first_comment`.
    - **X**: count characters (URLs count 23) and stay at or under 270 to leave margin. Line 1 stands alone. 0-1 hashtag. No links. Slot 3 is a genuine question that invites replies.
    - **Facebook**: 250-600 characters, conversational, may adapt the LinkedIn angle, 1-3 hashtags, may end with the UTM link (`utm_source=facebook`).
 5. Product mentions: at most 1 post in 5 names Heloe. When it does, show the idea (a signal → the right moment → the right message), not a feature list.

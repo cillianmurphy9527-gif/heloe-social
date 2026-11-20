@@ -36,12 +36,14 @@ A list of visual specs exactly as consumed by `render/render.mjs` (see the visua
   "visuals": [ ...visual specs... ],
   "posts": [
     { "id": "2026-11-23-li-1", "platform": "linkedin", "time_local": "08:30", "pillar": "signals", "format": "teardown",
-      "hook_type": "number", "text": "...", "first_comment": "", "media": ["video-main"], "sources": ["https://..."], "alt_hook": "..." }
+      "hook_type": "number", "text": "...", "first_comment": "", "media": ["video-main"], "fallback_media": ["cover-li"], "sources": ["https://..."], "alt_hook": "..." }
   ],
   "engagement_brief": ["..."],
   "review": { "editor": "brand-editor", "score": 9, "notes": "...", "checked_at": "ISO time" }
 }
 ```
+`fallback_media` is required on posts that carry a video: it is what goes out if the founder has not approved the video 60 minutes before the slot.
+
 Rules the pipeline enforces (`scripts/validate_plan.py`): known platforms/templates/scenes, slots, X <= 280 chars and <= 2 hashtags, no links in LinkedIn/X bodies, LinkedIn <= 5 hashtags, stat posts need sources, no banned phrases, no repeated hooks, video 8-45 s, approved requires editor score >= `min_editor_score`.
 
 ## publish-result.json (written by the pipeline)

@@ -5,45 +5,124 @@
       "name": "Signal Selling",
       "share": 0.35,
       "promise": "Teach sellers to reach out when something just changed: funding, hiring, leadership moves, tech changes, expansion, public news.",
-      "angles": ["signal of the day", "trigger -> message teardown", "timing frameworks", "why static lists decay", "signal stacking"]
+      "angles": [
+        "signal of the day",
+        "trigger -> message teardown",
+        "timing frameworks",
+        "why static lists decay",
+        "signal stacking"
+      ]
     },
     "infra": {
       "name": "Outbound Infrastructure",
-      "share": 0.20,
+      "share": 0.2,
       "promise": "Practical deliverability: domains, mailboxes, warmup, authentication, inbox placement, sending limits.",
-      "angles": ["setup checklist", "mistake of the week", "provider rule changes", "myth vs fact"]
+      "angles": [
+        "setup checklist",
+        "mistake of the week",
+        "provider rule changes",
+        "myth vs fact"
+      ]
     },
     "trends": {
       "name": "Trend Takes",
       "share": 0.25,
       "promise": "A sharp, useful take on what sales/founder communities are talking about today, tied back to an outbound lesson.",
-      "angles": ["hot take", "what this means for sellers", "community pulse", "contrarian view"]
+      "angles": [
+        "hot take",
+        "what this means for sellers",
+        "community pulse",
+        "contrarian view"
+      ]
     },
     "data": {
       "name": "Data & Benchmarks",
-      "share": 0.10,
+      "share": 0.1,
       "promise": "Real numbers with sources: reply rates, timing, channel benchmarks.",
-      "angles": ["stat + interpretation", "benchmark table", "myth busted by data"]
+      "angles": [
+        "stat + interpretation",
+        "benchmark table",
+        "myth busted by data"
+      ]
     },
     "build": {
       "name": "Build in Public",
-      "share": 0.10,
+      "share": 0.1,
       "promise": "Honest notes from building and launching Heloe. Only facts the founder supplied in playbook/founder-notes.md.",
-      "angles": ["what we shipped", "lesson learned", "behind the product", "launch countdown"]
+      "angles": [
+        "what we shipped",
+        "lesson learned",
+        "behind the product",
+        "launch countdown"
+      ]
     }
   },
   "weekly_calendar": {
-    "mon": { "pillar": "signals", "linkedin_format": "video", "x_media": "video" },
-    "tue": { "pillar": "data", "linkedin_format": "image:stat", "x_media": "image" },
-    "wed": { "pillar": "trends", "linkedin_format": "image:quote", "x_media": "image" },
-    "thu": { "pillar": "infra", "linkedin_format": "video", "x_media": "video" },
-    "fri": { "pillar": "build", "linkedin_format": "image:signal", "x_media": "image" },
-    "sat": { "pillar": "trends", "linkedin_format": "none", "x_media": "image" },
-    "sun": { "pillar": "signals", "linkedin_format": "none", "x_media": "none" }
+    "mon": {
+      "pillar": "signals",
+      "linkedin_format": "video",
+      "x_media": "video",
+      "fallback_cover": "image:headline"
+    },
+    "tue": {
+      "pillar": "data",
+      "linkedin_format": "video",
+      "x_media": "image",
+      "fallback_cover": "image:stat"
+    },
+    "wed": {
+      "pillar": "trends",
+      "linkedin_format": "video",
+      "x_media": "image",
+      "fallback_cover": "image:quote"
+    },
+    "thu": {
+      "pillar": "infra",
+      "linkedin_format": "video",
+      "x_media": "video",
+      "fallback_cover": "image:headline"
+    },
+    "fri": {
+      "pillar": "build",
+      "linkedin_format": "video",
+      "x_media": "image",
+      "fallback_cover": "image:signal"
+    },
+    "sat": {
+      "pillar": "trends",
+      "linkedin_format": "none",
+      "x_media": "image",
+      "facebook_format": "video",
+      "fallback_cover": "image:quote"
+    },
+    "sun": {
+      "pillar": "signals",
+      "linkedin_format": "none",
+      "x_media": "none"
+    }
   },
   "daily_x_mix": [
-    { "slot": 1, "role": "trend take of the day, with the day's media" },
-    { "slot": 2, "role": "pillar insight, text only" },
-    { "slot": 3, "role": "question or micro-tip that invites replies, text only" }
-  ]
+    {
+      "slot": 1,
+      "role": "trend take of the day, with the day's media"
+    },
+    {
+      "slot": 2,
+      "role": "pillar insight, text only"
+    },
+    {
+      "slot": 3,
+      "role": "question or micro-tip that invites replies, text only"
+    }
+  ],
+  "daily_video": {
+    "enabled": true,
+    "attach_to": [
+      "linkedin",
+      "facebook"
+    ],
+    "needs_founder_ok": true,
+    "fallback": "each video post carries fallback_media (a cover); if the founder has not said OK 60 minutes before the LinkedIn slot, the post goes out with the cover instead",
+    "style": "cinematic 1920x1080, logo3d intro and outro (see visual-design skill)"
+  }
 }

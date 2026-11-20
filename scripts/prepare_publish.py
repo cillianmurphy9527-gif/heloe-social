@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Build the exact Buffer `create_post` payloads for an approved day, for Claude to send through the Buffer connector.
 
-Usage: python3 scripts/prepare_publish.py 2026-11-23 [--include-approved-only]
+Usage: python3 scripts/prepare_publish.py 2026-11-23 [--fallback]
+  --fallback  posts still waiting for the founder's video OK are prepared with their fallback_media (cover) instead
 Prints JSON: {"ready": [...], "awaiting_approval": [...], "skipped": [...], "errors": [...]}
   ready[i] = {"post_id", "platform", "payload": {...create_post arguments...}}
 
@@ -36,7 +37,7 @@ def alt_text(v):
     return (txt or "Heloe graphic")[:900]
 
 
-def main(date):
+def main(date, use_fallback=False):
     out = {"date": date, "ready": [], "awaiting_approval": [], "skipped": [], "errors": []}
     settings = jload(os.path.join(ROOT, "config", "settings.json"), {})
     ch = jload(os.path.join(ROOT, "config", "channels.json"), {})
@@ -82,8 +83,13 @@ def main(date):
         if not chan:
             out["errors"].append(f"{pid}: no channel id for {plat}")
             continue
+        media_ids = post.get("media", [])
+        is_video = any(files.get(m, {}).get("kind") == "video" for m in media_ids)
+        used_fallback = False
+        if use_fallback and is_video and need_ok and pid not in approvals.get("approved", []) and post.get("fallback_media"):
+            media_ids, used_fallback = post["fallback_media"], True
         assets, kinds, bad = [], [], False
-        for mid in post.get("media", []):
+        for mid in media_ids:
             item, vis = files.get(mid), visuals.get(mid, {})
             if not item:
                 out["errors"].append(f"{pid}: media {mid} not rendered")
@@ -98,11 +104,11 @@ def main(date):
                 kinds.append("image")
         if bad:
             continue
-        if need_ok.intersection(kinds) and pid not in approvals.get("approved", []):
+        if not used_fallback and need_ok.intersection(kinds) and pid not in approvals.get("approved", []):
             out["awaiting_approval"].append({"post_id": pid, "platform": plat, "time_local": post["time_local"],
                                              "media": [f"{base}/{files[m]['file']}" for m in post.get("media", [])],
                                              "local_files": [f"docs/media/{date}/{files[m]['file']}" for m in post.get("media", [])],
-                                             "text": post["text"]})
+                                             "text": post["text"], "fallback_media": post.get("fallback_media", [])})
             continue
         y, mo, d = map(int, date.split("-"))
         hh, mm = map(int, post["time_local"].split(":"))
@@ -121,14 +127,14 @@ def main(date):
         meta = {}
         if plat == "facebook":
             meta["facebook"] = {"type": "post"}
-        if plat == "linkedin" and post.get("first_comment"):
+        if plat == "linkedin" and post.get("first_comment") and settings.get("linkedin_first_comment"):
             meta["linkedin"] = {"firstComment": post["first_comment"]}
         if meta:
             payload["metadata"] = meta
-        out["ready"].append({"post_id": pid, "platform": plat, "due_beijing": due.astimezone(ZoneInfo("Asia/Shanghai")).strftime("%m-%d %H:%M"),
+        out["ready"].append({"post_id": pid, "platform": plat, "used_fallback": used_fallback, "due_beijing": due.astimezone(ZoneInfo("Asia/Shanghai")).strftime("%m-%d %H:%M"),
                              "payload": payload})
     done(1 if out["errors"] else 0)
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1], "--fallback" in sys.argv)

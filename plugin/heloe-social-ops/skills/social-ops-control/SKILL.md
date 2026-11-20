@@ -13,6 +13,7 @@ The daily run sends each video with its post text and leaves it in `content/<D>/
 - **Change request** ("字幕改一下", "换个开头"): have the visual-designer (or copywriter) apply it, re-render with `render/render.sh D --only <id>`, push, wait with `scripts/wait_deploy.py`, and send the new file for another OK.
 - **"不要" / "no"**: `python3 scripts/record_publish.py D reject <post_id>`; commit and push.
 If several videos are pending and the reply is ambiguous, ask which one.
+- **OK arrives after the fallback went out** (the cover version is already scheduled or posted): offer to publish the video as an extra post in the next free slot (LinkedIn next weekday morning, or Facebook), rather than replacing a post that is already live. If the cover post is still only scheduled, you may instead swap its media with the Buffer connector's `edit_post` (assets) after the founder agrees.
 
 ## Pause / resume
 Edit `config/settings.json` → `publishing_enabled` (`false` pauses: the daily run stops early and the publisher refuses to schedule). Commit and push with a clear message. Already-scheduled Buffer posts are not affected by the switch: if the founder wants them gone too, list them via the Buffer connector (`list_posts`, status scheduled) and delete only after the founder confirms the list, since deletion cannot be undone.

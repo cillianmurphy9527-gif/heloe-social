@@ -17,5 +17,8 @@
   "approval_required_for": [
     "video"
   ],
-  "_approval_note": "Posts whose media includes one of these kinds wait for the founder's OK in chat before they are scheduled."
+  "_approval_note": "Posts whose media includes one of these kinds wait for the founder's OK in chat before they are scheduled.",
+  "buffer_plan": "free",
+  "linkedin_first_comment": false,
+  "_first_comment_note": "Buffer free plan rejects LinkedIn first comments; set true only after upgrading Buffer."
 }

@@ -101,9 +101,11 @@ def validate(date):
             errors.append(f"{tag}: time_local must be HH:MM")
         elif weekday and post["time_local"] not in channels[plat]["slots"].get(weekday, []):
             warnings.append(f"{tag}: {post['time_local']} is not a configured {plat} slot for {weekday}")
-        for m in post.get("media", []):
+        for m in post.get("media", []) + post.get("fallback_media", []):
             if m not in vids:
                 errors.append(f"{tag}: media {m} not in visuals")
+        if any(vids.get(m, {}).get("kind") == "video" for m in post.get("media", [])) and not post.get("fallback_media"):
+            warnings.append(f"{tag}: video post without fallback_media (slot stays empty if the founder does not approve)")
         low = text.lower()
         for b in BANNED:
             if b in low:

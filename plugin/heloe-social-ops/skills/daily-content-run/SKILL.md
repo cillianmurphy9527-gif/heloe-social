@@ -32,7 +32,7 @@ Write `content/D/brief.json` following `references/plan-schema.md`:
 - The slate: one entry per slot in `channels.json` for D's weekday, capped by `settings.max_posts_per_day`. For each: platform, `time_local`, pillar, format, hook direction (one line), media assignment.
 - Follow the weekly calendar for the LinkedIn pillar/format and X media; follow `pillars.json.daily_x_mix` for X slots; Facebook reuses the day's main asset and angle.
 - Apply Active rules from `learnings.md`. During cold start (first 14 days of `data/posts.jsonl`), make sure formats rotate so every format gets tested.
-- Media needed today: on video days, one cinematic 16:9 video (1920x1080, see the visual-design skill) shared by LinkedIn/Facebook/X; on image days, a 1080x1350 cover for LinkedIn/Facebook and, when X carries media, a 1600x900 cover. Posts carrying the video need the founder's approval, so on video days also give each platform at least one image or text post.
+- Media needed today (see `config/pillars.json` → `daily_video`): **every day one cinematic video** (1920x1080, see the visual-design skill) for the LinkedIn post (weekdays) and the Facebook post, plus a **fallback cover** for those same posts (template from the calendar's `fallback_cover`), and a 1600x900 cover when X carries media. Video posts list the video in `media` and the cover in `fallback_media`.
 
 ## 4. Create (run both agents in parallel)
 - **copywriter** (`heloe-social-ops:copywriter`, fallback file `agents/copywriter.md`): writes `content/D/copy.json`.
@@ -63,7 +63,8 @@ If the deploy fails, report it and stop: do not schedule posts whose media is no
 2. For each `ready` item call the Buffer connector's `create_post` with its `payload` unchanged. Then record it:
    `python3 scripts/record_publish.py D scheduled <post_id> <returned post id> <returned dueAt>`.
    On an error: `python3 scripts/record_publish.py D error <post_id> "<message>"`. If Buffer rejects media, retry once after 60 s (Pages can lag), then give up on that post.
-3. **Videos wait for the founder.** For each `awaiting_approval` item: send the founder the video file (`SendUserFile` with the `local_files` path) together with the post text and the planned time, and ask for "OK", a change request, or "no". Record `python3 scripts/record_publish.py D pending <post_id>`. Never schedule a video without an explicit OK; the social-ops-control skill handles the reply.
+3. **Videos wait for the founder.** For each `awaiting_approval` item: send the founder the video file (`SendUserFile` with the `local_files` path) together with the post text and the planned Beijing time, and ask for "OK", a change request, or "no". Record `python3 scripts/record_publish.py D pending <post_id>`. Never schedule a video without an explicit OK; the social-ops-control skill handles the reply.
+   Then schedule the fallback check in this same session with `send_later`, 60 minutes before the earliest pending slot (Beijing time), with the message: "Video fallback check for D: if any video post is still pending, run `python3 scripts/prepare_publish.py D --fallback`, schedule the `ready` items through the Buffer connector, record them, and tell the founder the cover version went out." Tell the founder the deadline in the report.
 4. Commit and push `data/` and `content/D/` again.
 
 ## 10. Report (Chinese, short)
