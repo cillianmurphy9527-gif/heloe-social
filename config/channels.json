@@ -65,7 +65,7 @@
           "15:00"
         ]
       },
-      "buffer_name": "@heleo_io",
+      "buffer_name": "@heloe_io (Heloe.io)",
       "voice": "brand"
     },
     "facebook": {
@@ -92,7 +92,7 @@
         ],
         "sun": []
       },
-      "buffer_name": "Heleo.io page",
+      "buffer_name": "Heloe.io page (renamed from Heleo.io on 2026-11-20, pending Facebook review)",
       "voice": "brand"
     }
   },

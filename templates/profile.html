@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="base.css">
+<script src="common.js"></script>
+<style>
+  .pf { position: absolute; inset: 0; overflow: hidden; }
+  .pf-bg { position: absolute; inset: 0; background: radial-gradient(ellipse at 62% 45%, #1A1740 0%, #0B0A18 45%, #06060B 80%); }
+  .pf-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px); background-size: 56px 56px; mask-image: radial-gradient(ellipse at 60% 50%, #000 0%, transparent 60%); }
+  .pf-glow { position: absolute; border-radius: 50%; background: radial-gradient(circle, rgba(97,89,240,0.55) 0%, transparent 65%); filter: blur(20px); }
+  .pf-row { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+  .pf-text { color: #F5F5FF; font-family: "InterDisplay", sans-serif; }
+  .pf-line { font-weight: 800; letter-spacing: -0.03em; line-height: 1.04; }
+  .pf-line em { font-style: normal; color: #A5A1FF; }
+  .pf-sub { font-family: "Inter", sans-serif; font-weight: 500; color: #A9A7C6; }
+  .pf-url { font-family: "DejaVuSansMono", monospace; letter-spacing: 0.14em; text-transform: uppercase; color: #8C88FF; }
+  .pf-logo img { display: block; height: 100%; width: auto; }
+  .avatar-bg { position: absolute; inset: 0; background: linear-gradient(135deg, #6159F0 0%, #4338CA 100%); }
+  .avatar-shine { position: absolute; inset: 0; background: radial-gradient(circle at 30% 22%, rgba(255,255,255,0.22) 0%, transparent 45%); }
+</style>
+</head>
+<body>
+<div class="canvas"></div>
+<script>
+// Static 3D H mark built from stacked SVG layers (same look as the video intro).
+function mark3d(size, ry, rx, sweep, id) {
+  const N = 34, u = size / 560;
+  const strokes = (col) => `<g fill="none" stroke="${col}" stroke-linecap="round"><path stroke-width="15" d="M27.5 31.5 V68.5"/><path stroke-width="15" d="M72.5 31.5 V68.5"/><path stroke-width="15.8" d="M27.5 62.0 A22.822 22.822 0 0 1 72.5 62.0"/></g>`;
+  let layers = "";
+  for (let k = 0; k < N; k++) {
+    const f = k / (N - 1);
+    const r = Math.round(30 + f * 55), g = Math.round(26 + f * 45), b = Math.round(80 + f * 120);
+    layers += `<svg viewBox="0 0 100 100" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible;transform: translateZ(${(k - N) * 0.9 * u}px)">${strokes(`rgb(${r},${g},${b})`)}</svg>`;
+  }
+  layers += `<svg viewBox="0 0 100 100" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible"><defs><linearGradient id="g${id}" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8E88FF"/><stop offset="${sweep - 0.12}" stop-color="#B7B3FF"/><stop offset="${sweep}" stop-color="#F1F0FF"/><stop offset="${sweep + 0.12}" stop-color="#B7B3FF"/><stop offset="1" stop-color="#5A52E8"/></linearGradient></defs>${strokes(`url(#g${id})`)}</svg>`;
+  return `<div style="perspective:${1400 * u}px;width:${size}px;height:${size}px"><div style="position:relative;width:100%;height:100%;transform-style:preserve-3d;transform:rotateX(${rx}deg) rotateY(${ry}deg)">${layers}</div></div>`;
+}
+
+window.renderProfile = async function (kind, brand) {
+  const sizes = { "fb-cover": [1640, 624], "x-header": [1500, 500], "avatar": [1080, 1080] };
+  const [w, h] = sizes[kind];
+  document.documentElement.style.setProperty("--w", w + "px");
+  document.documentElement.style.setProperty("--h", h + "px");
+  const c = document.querySelector(".canvas");
+  c.style.width = w + "px"; c.style.height = h + "px";
+  const lockup = brand._logos.on_dark;
+  if (kind === "avatar") {
+    c.innerHTML = `<div class="pf"><div class="avatar-bg"></div><div class="avatar-shine"></div>
+      <div class="pf-row"><img src="${brand._logos.mark_white}" style="width:${w * 0.62}px;height:${w * 0.62}px"></div></div>`;
+  } else {
+    // Keep all content inside the centre (mobile crops the sides of the Facebook cover; the X avatar covers the bottom-left of the header).
+    const fb = kind === "fb-cover";
+    const markSize = fb ? 430 : 360;
+    const lineSize = fb ? 50 : 44;
+    c.innerHTML = `<div class="pf"><div class="pf-bg"></div><div class="pf-grid"></div>
+      <div class="pf-glow" style="width:${h * 1.3}px;height:${h * 1.3}px;left:${w * 0.5 - h * 1.05}px;top:${-h * 0.15}px"></div>
+      <div class="pf-row" style="gap:${fb ? 40 : 34}px; padding-left:${fb ? 0 : 160}px">
+        ${mark3d(markSize, -24, 9, 0.42, kind)}
+        <div class="pf-text" style="max-width:${fb ? 640 : 600}px">
+          <div class="pf-logo" style="height:${fb ? 64 : 56}px;margin-bottom:${fb ? 30 : 24}px"><img src="${lockup}"></div>
+          <div class="pf-line" style="font-size:${lineSize}px">Know who. Know when.<br><em>Know why.</em> Know how.</div>
+          <div class="pf-sub" style="font-size:${fb ? 23 : 21}px;margin-top:${fb ? 22 : 18}px">AI-powered B2B sales intelligence &amp; outreach,<br>built on real-time buying signals.</div>
+          <div class="pf-url" style="font-size:${fb ? 19 : 17}px;margin-top:${fb ? 22 : 18}px">heloe.io</div>
+        </div>
+      </div></div>`;
+  }
+  await document.fonts.ready;
+  await new Promise(r => setTimeout(r, 150));
+  window.__ready = true;
+  return [w, h];
+};
+</script>
+</body>
+</html>
