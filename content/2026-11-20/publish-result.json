@@ -28,8 +28,11 @@
   }
  ],
  "skipped": [],
- "errors": [],
+ "errors": [
+  "2026-11-20-fb-1: Facebook rejected the post at 2026-11-20T16:00Z: 'Facebook requires that you confirm your identity' (Page needs identity verification in the Facebook app). Not published."
+ ],
  "notes": [
-  "2026-11-20-li-1: Buffer rejected metadata.linkedin.firstComment ('LinkedIn first comment requires a paid plan'); scheduled without the first comment. The founder should add the heloe.io UTM link as the first comment by hand."
+  "2026-11-20-li-1: Buffer rejected metadata.linkedin.firstComment ('LinkedIn first comment requires a paid plan'); scheduled without the first comment. The founder should add the heloe.io UTM link as the first comment by hand.",
+  "2026-11-21T02:00Z: founder approved swapping fb-1 to video-main ('换'). Buffer post 6affec59738ce4635f922707 edited: media -> video-main.mp4, 'Yesterday' -> 'On Nov 19,' (post date moved), saved as draft until Facebook identity is verified; then re-queue the same Buffer post into the next free Facebook slot."
  ]
 }

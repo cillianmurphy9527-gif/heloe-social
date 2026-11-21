@@ -136,15 +136,18 @@
    "pillar": "signals",
    "format": "teardown",
    "hook_type": "contrarian",
-   "text": "An acquisition is a sales signal. Just not on announcement day.\n\nYesterday Intuit agreed to sell Mailchimp to Bending Spoons, with closing expected in early 2027. If your prospects run on Mailchimp, it's tempting to email all of them this week.\n\nWe'd wait. Announcement day is the noisiest moment, and every vendor has the same headline.\n\nTrack those accounts instead, and reach out when something actually changes for that team.\n\n#SalesSignals #Outbound\n\nhttps://heloe.io/?utm_source=facebook&utm_medium=social&utm_campaign=organic&utm_content=2026-11-20-fb-1",
+   "text": "An acquisition is a sales signal. Just not on announcement day.\n\nOn Nov 19, Intuit agreed to sell Mailchimp to Bending Spoons, with closing expected in early 2027. If your prospects run on Mailchimp, it's tempting to email all of them this week.\n\nWe'd wait. Announcement day is the noisiest moment, and every vendor has the same headline.\n\nTrack those accounts instead, and reach out when something actually changes for that team.\n\n#SalesSignals #Outbound\n\nhttps://heloe.io/?utm_source=facebook&utm_medium=social&utm_campaign=organic&utm_content=2026-11-20-fb-1",
    "first_comment": "",
    "media": [
-    "cover-li"
+    "video-main"
    ],
    "sources": [
     "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp"
    ],
-   "alt_hook": "Selling to Mailchimp users? Here's why we'd wait before emailing them."
+   "alt_hook": "Selling to Mailchimp users? Here's why we'd wait before emailing them.",
+   "fallback_media": [
+    "cover-li"
+   ]
   },
   {
    "id": "2026-11-20-x-2",
