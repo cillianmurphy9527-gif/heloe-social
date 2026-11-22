@@ -1,0 +1,562 @@
+{
+ "date": "2026-11-22",
+ "collected_at": "2026-11-22T12:07:40.227252+00:00",
+ "counts": {
+  "hackernews": 35,
+  "google_news": 15
+ },
+ "hackernews": [
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Hurried Announcement: Alessandro Masullo GRH",
+   "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50579568",
+   "points": 2426,
+   "comments": 1179,
+   "age_hours": 41.6,
+   "heat": 233.57
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Lean verification of the Riemann Hypothesis",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50589618",
+   "points": 1066,
+   "comments": 885,
+   "age_hours": 21.5,
+   "heat": 226.79
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+   "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50596133",
+   "points": 597,
+   "comments": 359,
+   "age_hours": 8.0,
+   "heat": 207.65
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50597612",
+   "points": 181,
+   "comments": 252,
+   "age_hours": 3.2,
+   "heat": 184.08
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Detonating a pile of lead azide",
+   "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+   "discussion_url": "https://news.ycombinator.com/item?id=50588982",
+   "points": 625,
+   "comments": 391,
+   "age_hours": 22.7,
+   "heat": 108.04
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "My monitor was cutting my download speed by 75%",
+   "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50587875",
+   "points": 600,
+   "comments": 279,
+   "age_hours": 25.5,
+   "heat": 81.66
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Jensen Huang's fall is bad news for Silicon Valley's accelerationists",
+   "url": "https://www.economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists",
+   "discussion_url": "https://news.ycombinator.com/item?id=50591835",
+   "points": 170,
+   "comments": 359,
+   "age_hours": 18.1,
+   "heat": 80.41
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+   "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+   "discussion_url": "https://news.ycombinator.com/item?id=50582069",
+   "points": 1072,
+   "comments": 226,
+   "age_hours": 39.1,
+   "heat": 78.01
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Inkling-2-Mini in 5.4 GB Memory",
+   "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+   "discussion_url": "https://news.ycombinator.com/item?id=50591853",
+   "points": 480,
+   "comments": 120,
+   "age_hours": 18.1,
+   "heat": 65.31
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Sandwich Simulator",
+   "url": "https://stulle.app/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50594911",
+   "points": 300,
+   "comments": 103,
+   "age_hours": 12.0,
+   "heat": 61.29
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "The Mythology of Conscious AI",
+   "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50595537",
+   "points": 80,
+   "comments": 166,
+   "age_hours": 10.0,
+   "heat": 56.58
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+   "url": "https://github.com/ItsNotRexed/Leonida",
+   "discussion_url": "https://news.ycombinator.com/item?id=50595168",
+   "points": 168,
+   "comments": 129,
+   "age_hours": 11.2,
+   "heat": 54.16
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Data Processing Incidents on Inference Providers",
+   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50595554",
+   "points": 173,
+   "comments": 66,
+   "age_hours": 9.9,
+   "heat": 42.09
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
+   "url": "https://simple-bench.com/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50588916",
+   "points": 176,
+   "comments": 162,
+   "age_hours": 22.9,
+   "heat": 38.24
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Advice for the next 100 Rust GUIs",
+   "url": "https://linebender.org/blog/next-100-guis/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50593737",
+   "points": 183,
+   "comments": 78,
+   "age_hours": 14.8,
+   "heat": 35.43
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "The Engineering Manager's role is under attack (again)",
+   "url": "https://www.manager.dev/newsletter/the-engineering-manager-s-role-is-under-attack-again",
+   "discussion_url": "https://news.ycombinator.com/item?id=50597014",
+   "points": 42,
+   "comments": 63,
+   "age_hours": 5.1,
+   "heat": 34.97
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "GnuPG Security Advisory for GPGME",
+   "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+   "discussion_url": "https://news.ycombinator.com/item?id=50587208",
+   "points": 257,
+   "comments": 106,
+   "age_hours": 27.6,
+   "heat": 31.22
+  },
+  {
+   "source": "hackernews",
+   "query": "sales",
+   "title": "Adult-only households accounted for 55% of toy sales in the first half of 2026",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-18/jellycats-squishmallows-and-lego-sets-for-adults-drive-holiday-traffic",
+   "discussion_url": "https://news.ycombinator.com/item?id=50588436",
+   "points": 92,
+   "comments": 151,
+   "age_hours": 23.9,
+   "heat": 29.19
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Getting the mind to steer the body to steer you",
+   "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+   "discussion_url": "https://news.ycombinator.com/item?id=50583028",
+   "points": 298,
+   "comments": 100,
+   "age_hours": 37.9,
+   "heat": 26.07
+  },
+  {
+   "source": "hackernews",
+   "query": "B2B",
+   "title": "FBI reportedly investigating apparent hack of its criminal database",
+   "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+   "discussion_url": "https://news.ycombinator.com/item?id=50587859",
+   "points": 179,
+   "comments": 93,
+   "age_hours": 25.6,
+   "heat": 25.71
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Backblaze Notice at Collection and Privacy Policy",
+   "url": "https://www.backblaze.com/company/policy/privacy",
+   "discussion_url": "https://news.ycombinator.com/item?id=50585593",
+   "points": 237,
+   "comments": 87,
+   "age_hours": 32.7,
+   "heat": 24.05
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Upload2Shell (CVE-2026-125396)",
+   "url": "https://pwn.ai/upload2shell",
+   "discussion_url": "https://news.ycombinator.com/item?id=50592097",
+   "points": 127,
+   "comments": 63,
+   "age_hours": 17.6,
+   "heat": 23.37
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "AI Supply Chain Security: What Canary Tokens Found",
+   "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+   "discussion_url": "https://news.ycombinator.com/item?id=50596511",
+   "points": 86,
+   "comments": 20,
+   "age_hours": 6.9,
+   "heat": 21.85
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Show HN: The Riemann Proof Handbook",
+   "url": "https://github.com/tamnd/riemann-handbook",
+   "discussion_url": "https://news.ycombinator.com/item?id=50596664",
+   "points": 59,
+   "comments": 27,
+   "age_hours": 6.4,
+   "heat": 20.68
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "PostgreSQL Extensions in Go",
+   "url": "https://jespino.github.io/gopgext/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50591260",
+   "points": 154,
+   "comments": 25,
+   "age_hours": 19.0,
+   "heat": 17.86
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+   "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+   "discussion_url": "https://news.ycombinator.com/item?id=50594132",
+   "points": 125,
+   "comments": 18,
+   "age_hours": 14.0,
+   "heat": 17.55
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+   "url": "https://github.com/EL4CTEO/fast-anything",
+   "discussion_url": "https://news.ycombinator.com/item?id=50596155",
+   "points": 48,
+   "comments": 30,
+   "age_hours": 8.0,
+   "heat": 17.17
+  },
+  {
+   "source": "hackernews",
+   "query": "AI agent",
+   "title": "ClawDOS – An AI coding agent for DOS",
+   "url": "http://ricapar.net/ClawDOS/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50586292",
+   "points": 166,
+   "comments": 52,
+   "age_hours": 30.5,
+   "heat": 16.67
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Pandex – Official European Law for AI Agents, over MCP",
+   "url": "https://www.pandex.io",
+   "discussion_url": "https://news.ycombinator.com/item?id=50593481",
+   "points": 101,
+   "comments": 25,
+   "age_hours": 15.3,
+   "heat": 15.41
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Surprisingly Adorable Insect Portraits",
+   "url": "https://amateurphotographer.com/latest/these-astonishing-insect-portraits-reveal-a-hidden-world-you-never-knew-existed/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50586648",
+   "points": 162,
+   "comments": 38,
+   "age_hours": 29.4,
+   "heat": 15.1
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "LLMs can read and write executables byte by byte from a hex dump",
+   "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50546587",
+   "points": 260,
+   "comments": 160,
+   "age_hours": 93.9,
+   "heat": 15.07
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "International UN talks on controlling use of autonomous weapons collapse",
+   "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+   "discussion_url": "https://news.ycombinator.com/item?id=50594564",
+   "points": 43,
+   "comments": 34,
+   "age_hours": 13.0,
+   "heat": 12.75
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+   "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+   "discussion_url": "https://news.ycombinator.com/item?id=50595812",
+   "points": 38,
+   "comments": 13,
+   "age_hours": 9.0,
+   "heat": 9.38
+  },
+  {
+   "source": "hackernews",
+   "query": "B2B",
+   "title": "Pakistan's solar revolution is so successful the national grid is lagging behind",
+   "url": "https://www.bbc.com/news/articles/ckvg2n2q3103o",
+   "discussion_url": "https://news.ycombinator.com/item?id=50593016",
+   "points": 28,
+   "comments": 17,
+   "age_hours": 16.2,
+   "heat": 6.1
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "GrapheneOS made a proof of concept RCS messaging app without Google Messages",
+   "url": "https://twitter.com/GrapheneOS/status/2124158267123233056",
+   "discussion_url": "https://news.ycombinator.com/item?id=50591780",
+   "points": 47,
+   "comments": 7,
+   "age_hours": 18.2,
+   "heat": 5.5
+  }
+ ],
+ "google_news": [
+  {
+   "source": "google_news",
+   "queries": [
+    "cold email"
+   ],
+   "title": "The future belongs to students who create opportunities | Opinion - FSView & Florida Flambeau",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQVlmdVp3dV9ZcHo0VWRQdnZrU1VlZVNjRDhnY01JZTB0VXQwcHd3dmIyUkh3TV9IaVcxaGpKYjVKcGtDczhoRUhQZUEyc1hLaVQ0dkRMS3hKMkxlVkVlZUtWT3FXZi1UUnNjbDJMZmJvNUNCYmdVNEVrMms0YldDdENkSHI4MVlmT3JvVjVJTEIzbGgxWTBzd25ZVnBOQWZTWGZmQnNUYUlKbmF4WUdvcU5RR3FVOWprUGN1dS0zeEZIUlNUMHVz?oc=5",
+   "publisher": "FSView & Florida Flambeau",
+   "published": "Sat, 21 Nov 2026 14:02:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "cold email"
+   ],
+   "title": "Chase Vendor Hack: 5 Steps to Protect Your Money - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wSnZ0X1RTSjhvTXZmd19sdHZ3NWNUWFVUTHFBdFdBdF9qTFctdGstbXFaZW1IUVZkXzI2bGhMTkZ0WEhHYm83YmdqQmR2MnRHTEYwVmFVcXJZenRPTzVFVnIzWW5RV0VTNFNCbEhWQWFyNjdk?oc=5",
+   "publisher": "shattered.io",
+   "published": "Sun, 22 Nov 2026 08:44:24 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "AI SDR"
+   ],
+   "title": "With Agents, We’re All Going to Have to Work Weekends. They’ll Want To. You May Need To. - saastr.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWHM5MUNBUnVqTU90T1NRajZ0a1NXaDV1SVlwVU5zb01PbFpQREprU2lUOHlwTF9TT3k3c2VNRWQ0UUxBb2U3clNjQndqNnV1VjBlSU8wQ3BmNXRaOG1aTWZVNzQwaER0Z28zVTQtNmdmWk9UbUh1SWRjTk9vcGt0VlF3amQ2RHBnTGFISXNGZUVGVUw5NWI1LUdDWVd0TkVnT1ktZFFjaHVldw?oc=5",
+   "publisher": "saastr.com",
+   "published": "Sat, 21 Nov 2026 16:32:08 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "New Chamber of Commerce leader hopes to continue strengthening community - Your Arlington",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RYm9FaEdlaVpseW5QSFl5akdGbmlYNzJ4SzlLZzY0TmtGUnhicWdKTnRyUm5fSjZzWTVxNkJGeG9KZHM0NFZNYTRWY21JTFJGS29GMllIS0R6YUxwb0RQOVRIS2E2Wjc2dVl6bw?oc=5",
+   "publisher": "Your Arlington",
+   "published": "Sat, 21 Nov 2026 13:51:58 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Salesforce’s $1,000 AI Cap Is 25x Copilot’s Default Limit - FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbktBR0NobEpMMnB6T0ZSbTJKcmpDc0dENDd3RHBPQWdPc3Y0bEV5b0dDZzhQY2xJRlM1NHVGREtWUGx2QnRxRWVZLWtHRHZjYWczT2gxMDRUN1FrQ0Fpd3ZPRldKYmFKMmc0Vk8yMzV0QnMyRTlpYk5oYVhBY09JdmFVcHQ4VmNq?oc=5",
+   "publisher": "FourWeekMBA",
+   "published": "Sat, 21 Nov 2026 15:51:18 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "UK Sponsor Licence Start-ups: 2026 Guide to Hiring Overseas Talent - Global Advisory Experts",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQV9EWEJnTVBWa0dXd1J5c295Q25yVm5Gbk1UTTVMOUo0MlJEMTAxbk5tQVplcGVRMU5Ga09oNUI3T1QtUkhtSFNFRU1CZ1hnc1c5dUkzdHRpOEJKTVIxTVRUek05ZzJiZ0pvN21YTG9McGxLdTZRaXRQc0JVNml1Q080aU4?oc=5",
+   "publisher": "Global Advisory Experts",
+   "published": "Sun, 22 Nov 2026 02:07:32 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Weekly Roundup – November 21, 2026 - Healthcare IT Today",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRmx2aE5DM3VXdWg0OExlcDNidGtOVEEwMXhxbHFzSHdJNFlsNTZmQjk0SEw3M2h3STNaSUxJUzVBcUJEZkpmekhIaDlsS1pyTmNkem5NSXJxeFRDbGkyU3Vsc1RTWFFpNUxtTzhUZ2ZlN2VSTDluSjVzeEFLb0JRVHhGbw?oc=5",
+   "publisher": "Healthcare IT Today",
+   "published": "Sat, 21 Nov 2026 23:47:05 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Mobile devices: the new financial fraud frontline - Cybersecurity Insiders",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTVoyUTZmd1IwTWk1eWdtQXdtZkM3RXJUOThTZzhSMWg3cWFWX1Z5SWI4SlNuUVBobEVZYW53M3NXNEJfSlFWTTF0TnBuR1NuQnBVVGdRR0lTSFRJRkU1OXlJbWhwRDhVdHlwOEptMGx5Vkk5M0h0VVZKR3RMc3BWNVktWjR3MEhZNkRvWnJ2TVItZw?oc=5",
+   "publisher": "Cybersecurity Insiders",
+   "published": "Sat, 21 Nov 2026 12:10:13 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Pesti Group Launches Survey on Supply Chain Sales Strategies - MyChesCo",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNEoxODlsMGNManUxTVlLVEl0ZnFGR3Z1aGVoOG1rZno5RGFkMU5iS3JpZkVFUXBLSU5xMWM0dVNLQ19OeGplcU1YUExhVjNmZXVmTHN6VngxRmNTcG5vQmlUVXYwZXZySHFZZnk5cm54dkdjMy0tb1dpZVYwZ2pBb1g2b0VaUnpQd0hKUDlIdHVzbFFDZ21vTkpxRmlrNlNsbGhBWQ?oc=5",
+   "publisher": "MyChesCo",
+   "published": "Sat, 21 Nov 2026 20:48:43 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Scott Sutton - Chief Executive Officer, Later - yespress.io",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBnUm50LXVkMFZ0MlZFOHNSQmRHa3RHRVhNS3ZyWF90Q0p0VFczQjAzNFhzZjJLVkZGY1BNMjZkVnZ5SkNDNVkw?oc=5",
+   "publisher": "yespress.io",
+   "published": "Sat, 21 Nov 2026 18:36:33 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Writing the future of AI to drive digitalisation in the metals industry - ABB",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxON0RPbGl6WWREUTlzRWg3WFhGa2tzekdVVlYyMkhkUlpzZmNiT3BjbTlub2pwd0xXSW1rQVdHR2RfZ0xKZ2d1YWktWk1UQkdPYUlZTk85cEdRWUJsQjNvX2dfOTVCTnc1MmhqaHVjdVh2N2hXZmxzRGVyRFdvdG96eU9XSEJ2V2RMNkxnVXhIeUZ5YkdzUFBXdUNybTVwQWh5LVg4bDBxYmRUVklreC1TcmJYRkxSZXB3cDJjQjBpZVV6SE0tc1Y2N0dmTFVLNGY1Y1JjaQ?oc=5",
+   "publisher": "ABB",
+   "published": "Sun, 22 Nov 2026 03:33:26 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Generative AI now decides your purchases: 77% of French people use it daily - Foro3D",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSUp5ZTd4UGFGaFMxRE53Y0M4ZWpLb2lmblc3bDJoRlJwVG1tNU12YVI0M1Y4TUV0eGtlZ0tyXy1tRWJub0NaZGFOMGVuQWlSX0hOa1lSMjI4WDIzTlVxcG9GdW44QU9GLWwtUjdHZ1JoMi1xS05LakYxbmN0TDBOSl8ydGJkbFlnQU52dmdEazVRZng5OC1Iek9mWDlJbF9nRUo0SngxdXk3eTB2dzRiVTNR?oc=5",
+   "publisher": "Foro3D",
+   "published": "Sat, 21 Nov 2026 16:19:26 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "Apollo.io"
+   ],
+   "title": "Annie Bernhardt - Chief of Staff to the CEO, Apollo.io - yespress.io",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE40VUZDN2I2SVVMcmNfeXZ2V3JLN0VCWXA1NGdTc1FuY3NwYTFUQkpOQ1VZY3NWOVhxRXZlTEdtbmc3WGpVeUFESHZpMA?oc=5",
+   "publisher": "yespress.io",
+   "published": "Sat, 21 Nov 2026 17:56:38 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "Apollo.io"
+   ],
+   "title": "Rachael Pfenning - Chief of Staff to the CEO, Sprout Social - yespress.io",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5hZHVRUHZBYXVNMmFsTEhVN0NhRFhkejRsdjFLZHZTNEV4TTVuRXc2dGZaVWNHczdmTkhMNmtaTnZucTRFR2lBQ2lYX0U?oc=5",
+   "publisher": "yespress.io",
+   "published": "Sat, 21 Nov 2026 17:56:40 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "HubSpot AI"
+   ],
+   "title": "HubSpot Beat on Revenue and Earnings — But Missed on Customers and Got Crushed 20% - TradingKey",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLXZ1RXJMaDZmMlRFSTFSdGVndmhqNWlwZG1Ya21yeVVlV1dKN0FTem9wVC1WblNBanRaSkdpUDF5QW12RDRYQ2JzcFppR19SeXhfaVpsRnJrUmNoWW40ZmJGMVdnSmx2RU9RSVhERXJPUHdMOGlUVF94bzhLSTc4dXd5Rzl2a1VxMXJxUTctMkRTTzFYNWtCSEdhTnlwa01YZHl0YjdUVFAwVzBfMzdfQ2JJTTNGQ0ZuS0ZuWE1KYzJhZ0pzSDhB?oc=5",
+   "publisher": "TradingKey",
+   "published": "Sat, 21 Nov 2026 15:03:57 GMT",
+   "heat": 1
+  }
+ ]
+}
