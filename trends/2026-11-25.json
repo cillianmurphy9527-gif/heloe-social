@@ -1,0 +1,992 @@
+{
+ "date": "2026-11-25",
+ "collected_at": "2026-11-25T13:42:41.248588+00:00",
+ "counts": {
+  "hackernews": 47,
+  "google_news": 42
+ },
+ "hackernews": [
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "discussion_url": "https://news.ycombinator.com/item?id=50637220",
+   "points": 761,
+   "comments": 431,
+   "age_hours": 12.4,
+   "heat": 192.28
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "LLM agents work for their parent companies, not for you",
+   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50627340",
+   "points": 982,
+   "comments": 404,
+   "age_hours": 25.0,
+   "heat": 127.99
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "GTA 6 Running on Windows",
+   "url": "https://twitter.com/raul_bs3/status/2125213756238291075",
+   "discussion_url": "https://news.ycombinator.com/item?id=50627783",
+   "points": 445,
+   "comments": 512,
+   "age_hours": 24.4,
+   "heat": 107.13
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "2035 came early",
+   "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+   "discussion_url": "https://news.ycombinator.com/item?id=50624497",
+   "points": 1007,
+   "comments": 374,
+   "age_hours": 31.2,
+   "heat": 106.49
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
+   "url": "https://github.com/ItsNotRexed/Leonida/issues",
+   "discussion_url": "https://news.ycombinator.com/item?id=50622638",
+   "points": 368,
+   "comments": 664,
+   "age_hours": 35.6,
+   "heat": 93.21
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+   "url": "https://buttons.joshwcomeau.com/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50638032",
+   "points": 525,
+   "comments": 80,
+   "age_hours": 10.3,
+   "heat": 91.84
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Ternary Bonsai 2.5 27B",
+   "url": "https://prismml.com/news/bonsai-2-5-27b",
+   "discussion_url": "https://news.ycombinator.com/item?id=50633922",
+   "points": 488,
+   "comments": 150,
+   "age_hours": 17.6,
+   "heat": 72.97
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+   "url": "https://news.ycombinator.com/item?id=50630809",
+   "discussion_url": "https://news.ycombinator.com/item?id=50630809",
+   "points": 351,
+   "comments": 271,
+   "age_hours": 20.9,
+   "heat": 72.82
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+   "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+   "discussion_url": "https://news.ycombinator.com/item?id=50637686",
+   "points": 304,
+   "comments": 131,
+   "age_hours": 11.1,
+   "heat": 72.1
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+   "url": "https://github.com/xoxorwr/pw-loudness-eq",
+   "discussion_url": "https://news.ycombinator.com/item?id=50641171",
+   "points": 102,
+   "comments": 50,
+   "age_hours": 2.1,
+   "heat": 64.85
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+   "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+   "discussion_url": "https://news.ycombinator.com/item?id=50637890",
+   "points": 281,
+   "comments": 101,
+   "age_hours": 10.6,
+   "heat": 63.49
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+   "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50637056",
+   "points": 305,
+   "comments": 52,
+   "age_hours": 12.8,
+   "heat": 47.38
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Active intrusion campaign against Check Point security management servers",
+   "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+   "discussion_url": "https://news.ycombinator.com/item?id=50630594",
+   "points": 290,
+   "comments": 144,
+   "age_hours": 21.2,
+   "heat": 46.77
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50634658",
+   "points": 300,
+   "comments": 89,
+   "age_hours": 16.7,
+   "heat": 45.97
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+   "url": "https://gpu-demo-gallery.pages.dev/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50638503",
+   "points": 197,
+   "comments": 47,
+   "age_hours": 9.2,
+   "heat": 42.18
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+   "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50638220",
+   "points": 163,
+   "comments": 69,
+   "age_hours": 9.9,
+   "heat": 41.46
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "Cloudflare hides shortcomings of the underlying infrastructure",
+   "url": "https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50632883",
+   "points": 163,
+   "comments": 103,
+   "age_hours": 18.6,
+   "heat": 32.74
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "A training engine for your local model, using your idle compute",
+   "url": "https://github.com/sous-labs/songe",
+   "discussion_url": "https://news.ycombinator.com/item?id=50629231",
+   "points": 221,
+   "comments": 68,
+   "age_hours": 22.7,
+   "heat": 27.49
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Taking over US Treasury subdomains for $3 each",
+   "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+   "discussion_url": "https://news.ycombinator.com/item?id=50638478",
+   "points": 135,
+   "comments": 27,
+   "age_hours": 9.2,
+   "heat": 27.27
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Macrohistory in Six Facts",
+   "url": "https://basilhalperin.com/essays/macrohistory.html",
+   "discussion_url": "https://news.ycombinator.com/item?id=50637891",
+   "points": 101,
+   "comments": 50,
+   "age_hours": 10.6,
+   "heat": 26.42
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+   "url": "https://news.ycombinator.com/item?id=50634426",
+   "discussion_url": "https://news.ycombinator.com/item?id=50634426",
+   "points": 94,
+   "comments": 85,
+   "age_hours": 17.0,
+   "heat": 25.07
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "The Spray Bottle",
+   "url": "https://mechanical-pencil.com/products/spray-bottle",
+   "discussion_url": "https://news.ycombinator.com/item?id=50598555",
+   "points": 530,
+   "comments": 120,
+   "age_hours": 74.4,
+   "heat": 23.98
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Camillo Sitte made the blueprint for beautiful cities",
+   "url": "https://www.worksinprogress.news/p/how-to-make-a-lovable-city",
+   "discussion_url": "https://news.ycombinator.com/item?id=50630423",
+   "points": 101,
+   "comments": 86,
+   "age_hours": 21.4,
+   "heat": 21.93
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
+   "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50630245",
+   "points": 124,
+   "comments": 69,
+   "age_hours": 21.6,
+   "heat": 20.91
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "An Italian folding bicycle design that fits into a suitcase",
+   "url": "https://www.core77.com/posts/145766/An-Italian-Folding-Bicycle-Design-that-Fits-Into-a-Suitcase",
+   "discussion_url": "https://news.ycombinator.com/item?id=50610820",
+   "points": 200,
+   "comments": 136,
+   "age_hours": 49.0,
+   "heat": 20.3
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+   "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+   "discussion_url": "https://news.ycombinator.com/item?id=50638070",
+   "points": 93,
+   "comments": 14,
+   "age_hours": 10.2,
+   "heat": 16.31
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "Why Is TikTok a National Security Threat, but Jensen Huang Is Fine?",
+   "url": "https://www.techdirt.com/2026/11/24/ive-been-under-a-rock-why-is-tiktok-a-national-security-threat-but-jensen-huang-is-fine/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50634780",
+   "points": 66,
+   "comments": 28,
+   "age_hours": 16.5,
+   "heat": 11.8
+  },
+  {
+   "source": "hackernews",
+   "query": "startup",
+   "title": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage",
+   "url": "https://masondata.ai/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50630294",
+   "points": 98,
+   "comments": 21,
+   "age_hours": 21.5,
+   "heat": 11.2
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "The Shapes of Rivers",
+   "url": "https://dominicroye.github.io/shapes-of-rivers/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50627079",
+   "points": 93,
+   "comments": 24,
+   "age_hours": 25.5,
+   "heat": 9.96
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Here in the World: Letters of Albert Camus, 1944–1959",
+   "url": "https://literaryreview.co.uk/here-in-the-world",
+   "discussion_url": "https://news.ycombinator.com/item?id=50636925",
+   "points": 56,
+   "comments": 14,
+   "age_hours": 13.1,
+   "heat": 9.57
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "1,615 New TLDs Are Coming. Is Your DNS Ready for a Bigger Namespace?",
+   "url": "https://www.akamai.com/blog/security/2026/nov/1615-new-tlds-dns-ready-for-bigger-namespace",
+   "discussion_url": "https://news.ycombinator.com/item?id=50628517",
+   "points": 39,
+   "comments": 38,
+   "age_hours": 23.5,
+   "heat": 8.63
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "New rewritable antimony selenide display shows an image for months without power",
+   "url": "https://tmos.org.au/news/new-rewritable-displays-can-show-an-image-for-months-without-power/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50626430",
+   "points": 52,
+   "comments": 33,
+   "age_hours": 26.8,
+   "heat": 8.01
+  },
+  {
+   "source": "hackernews",
+   "query": "SaaS",
+   "title": "Jensen Huang Disclosed More Affairs to Board Before Reinstatement, Report Says",
+   "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/nvidia-ceo-jensen-huang-disclosed-more-affairs-to-board-before-reinstatement-report-says/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50632308",
+   "points": 42,
+   "comments": 19,
+   "age_hours": 19.3,
+   "heat": 6.93
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "Show HN: Carry – Save every AI conversations as Markdown, in a folder you Own",
+   "url": "https://carry.md/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50637995",
+   "points": 22,
+   "comments": 11,
+   "age_hours": 10.4,
+   "heat": 5.87
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
+   "url": "https://www.reuters.com/legal/transactional/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-2026-11-24/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50629620",
+   "points": 41,
+   "comments": 17,
+   "age_hours": 22.2,
+   "heat": 5.85
+  },
+  {
+   "source": "hackernews",
+   "query": "SaaS",
+   "title": "Show HN: Sliding-panes React UI library (inspired by WebOS Enyo)",
+   "url": "https://vcarl.com/sashay/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50637936",
+   "points": 31,
+   "comments": 6,
+   "age_hours": 10.5,
+   "heat": 5.69
+  },
+  {
+   "source": "hackernews",
+   "query": "SaaS",
+   "title": "Coworker rejects PR (one month in) because it does not meet his standards",
+   "url": "https://news.ycombinator.com/item?id=50622809",
+   "discussion_url": "https://news.ycombinator.com/item?id=50622809",
+   "points": 18,
+   "comments": 41,
+   "age_hours": 35.2,
+   "heat": 5.54
+  },
+  {
+   "source": "hackernews",
+   "query": "startup",
+   "title": "Ask HN: Am I the only one whose AI hype is cooling down a lot?",
+   "url": "https://news.ycombinator.com/item?id=50633601",
+   "discussion_url": "https://news.ycombinator.com/item?id=50633601",
+   "points": 28,
+   "comments": 16,
+   "age_hours": 17.9,
+   "heat": 5.49
+  },
+  {
+   "source": "hackernews",
+   "query": "AI agent",
+   "title": "Compiling web applications into verified operations for AI agents",
+   "url": "https://protocolis.co/paper/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50632998",
+   "points": 34,
+   "comments": 13,
+   "age_hours": 18.5,
+   "heat": 5.35
+  },
+  {
+   "source": "hackernews",
+   "query": "startup",
+   "title": "T3code Backslash",
+   "url": "https://twitter.com/realchendahuang/status/2125153472450527440",
+   "discussion_url": "https://news.ycombinator.com/item?id=50639142",
+   "points": 21,
+   "comments": 1,
+   "age_hours": 7.4,
+   "heat": 3.83
+  },
+  {
+   "source": "hackernews",
+   "query": "SaaS",
+   "title": "New York Ban AI Toys for 5 Years",
+   "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+   "discussion_url": "https://news.ycombinator.com/item?id=50635246",
+   "points": 32,
+   "comments": 3,
+   "age_hours": 15.9,
+   "heat": 3.78
+  },
+  {
+   "source": "hackernews",
+   "query": "B2B",
+   "title": "Show HN: Brickie – Deploy sandboxes in your own AWS account",
+   "url": "https://github.com/hatchet-dev/brickie",
+   "discussion_url": "https://news.ycombinator.com/item?id=50629936",
+   "points": 31,
+   "comments": 8,
+   "age_hours": 21.9,
+   "heat": 3.71
+  },
+  {
+   "source": "hackernews",
+   "query": "B2B",
+   "title": "Why are so many services using email magic links for login?",
+   "url": "https://news.ycombinator.com/item?id=50625996",
+   "discussion_url": "https://news.ycombinator.com/item?id=50625996",
+   "points": 18,
+   "comments": 18,
+   "age_hours": 27.8,
+   "heat": 3.57
+  },
+  {
+   "source": "hackernews",
+   "query": "B2B",
+   "title": "Pop Goes the Bubble",
+   "url": "https://paulkrugman.substack.com/p/pop-goes-the-bubble",
+   "discussion_url": "https://news.ycombinator.com/item?id=50638940",
+   "points": 19,
+   "comments": 0,
+   "age_hours": 8.0,
+   "heat": 3.0
+  },
+  {
+   "source": "hackernews",
+   "query": "SaaS",
+   "title": "Nvidia CEO Jensen Huang Disclosed More Affairs to Board Before Reinstatement",
+   "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/nvidia-ceo-jensen-huang-disclosed-more-affairs-to-board-before-reinstatement-report-says/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50625602",
+   "points": 22,
+   "comments": 11,
+   "age_hours": 28.7,
+   "heat": 2.84
+  },
+  {
+   "source": "hackernews",
+   "query": "hiring",
+   "title": "Bosses who pushed AI at work are now drowning in \"workslop\"",
+   "url": "https://www.businessinsider.com/ai-generated-workslop-leads-to-policies-firings-boss-fed-up-2026-11",
+   "discussion_url": "https://news.ycombinator.com/item?id=50637507",
+   "points": 16,
+   "comments": 1,
+   "age_hours": 11.6,
+   "heat": 2.23
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "Army invokes emergency powers to detonate lead in Iowa, bypass court order",
+   "url": "https://www.yahoo.com/news/us/articles/iowa-detonation-lead-proceed-under-163603593.html",
+   "discussion_url": "https://news.ycombinator.com/item?id=50623364",
+   "points": 28,
+   "comments": 1,
+   "age_hours": 34.0,
+   "heat": 1.71
+  }
+ ],
+ "google_news": [
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development",
+    "outbound sales"
+   ],
+   "title": "Tendata Launches iTrader V6.0 to Advance AI-Powered Trade Intelligence - StreetInsider",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTGlEOGVyNk44MUlNNHQ1cFE0dnFBWk1fdk14bGVrMUFYZlRJY2o4NzVhaTVWTEdtYjNRcHhKakZhMDlKVHFBVkVlXzJhN2RGMkpjRWlVeHlvcU5Iam5QdEVCQ0FQelRMcjFnMVF3aTN3ZThhMll2dk1oNGp6aXR6VlBad3hocW9BalBQRHk3Q2pfQ3Nkd0xJdFpiRU9wbUFGX0NpeDRzYkFYZ1NtRzhCT0hSNmxJenV4RnU3UzZNZ0RRem5aQXBvTw?oc=5",
+   "publisher": "StreetInsider",
+   "published": "Tue, 24 Nov 2026 15:09:25 GMT",
+   "heat": 2
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "cold email"
+   ],
+   "title": "Are You the Appalachian Trail’s Next Artist in Residence? Here’s How to Apply. - Backpacker Magazine",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbmVsLW1VUTRJMVZKLUtVS2UtSXNUVG54bjloNjVOWjAwRlF3ZDUwOVFqZlVfUUtDbVdTc29QMl9qdmVLdGI2X0V6MVNkVW84SFZqQXNDXzl2X2R1VTI3MllqUUZEcmpuVGRzQTF3ZngtcjF2RmpBYXlFSnpaZ05OajI2d3VQem8?oc=5",
+   "publisher": "Backpacker Magazine",
+   "published": "Tue, 24 Nov 2026 20:22:06 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales prospecting"
+   ],
+   "title": "How Clearwing Gets More Decision Makers Registered for Its Hands-On Events With HubSpot's Marketing Studio - HubSpot",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrWFJCb1M2RDN6WE1ZZnQ3WnFlN2lZM2J3cXkzdzRlY2tqZm8wX0hyTFNSVlp1X0k4M1pmcllsNVY4dnVVMEVjLTJxcnk5cXp0UFZzaDdyWkNhVjltWjJnUURNOGZlaXF2bGR4NXRyT1U?oc=5",
+   "publisher": "HubSpot",
+   "published": "Tue, 24 Nov 2026 18:29:18 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Hynes & Waller is 2026 Speed Queen Distributor of Year - American Coin-Op",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSUJMbjFTUEp0cWx1SldCTDljdGdaR094NC1TOWF3WUMxRGtXRU1XLVVvN3piTW5yWkpfZjdKQkdySkk1eEl1SlVqWU1QU1ZKUnIzUU9fLTB1aEhCckR5OXpma3hxSEx4V280SGl3Tll2MDQ1MlA0Q3QybzNVOVQ2X1NYdl9LNlhSVUE?oc=5",
+   "publisher": "American Coin-Op",
+   "published": "Wed, 25 Nov 2026 12:14:49 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Clay helps sales teams win with Codex and ChatGPT - OpenAI",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBBb0tGWUktSUdfb2dqV293TksySWhia1FQRl9jVzJZWE5XZWpGZjBHbzdUazBFbjZ1dUpGYk56cVpDQ3d3TDdPSFVrSDBsS1JOSGtSQjFaWFFodFdjbTRyMUdXNmdIdFp5aE40cU5NWm9WZko2NDB1V3hrMA?oc=5",
+   "publisher": "OpenAI",
+   "published": "Tue, 24 Nov 2026 23:24:41 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Military Group Concludes Framework UAV Agreement with AG-NAV - TipRanks",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUkRuanF0Q1R4OUpyUW5PNmVJa3hVRkt5cHhSZlJZYldhOW5CandCTkJrSnk3SlhkU1MwUW1sWHppTXh3aDh2SFRrTEYwYVNaZTBQaFdnRWEwZDVQbzR2REpPZ2FkdU96VFBzSDBMMHkzb2JfbTlZdmtDTXY0Wk9DWmJlS3c3NVZUeHZxNXpzV05Xb1BmUDhoak9waHBzai1IZ3VGeG9zYjJ4a3ctbXB1bnJR?oc=5",
+   "publisher": "TipRanks",
+   "published": "Tue, 24 Nov 2026 15:22:44 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "GTM Dinner London | SalesCaptain × Instantly - Superpower Daily",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT20xMzRfSEQ3VDJTeTFNeU8tbF83TTN1alZINFRzbk5SSVJxcktTS1VqZG8ybWNLV1FYMHZVU2RLZHRONlZIWDBZUHNfd1p0dktCMllKNDc0ajdvM0VJVXBRbFp2WTdlNkJMQUJ4VTA0T2tCM2k4Njh0QU9GNTltemhIbzZPR1NZNkszVFo3STMwYlNGMmxpa3ZLaUFISGtqMW1DajZWb21IX1RXNW5HZmlB?oc=5",
+   "publisher": "Superpower Daily",
+   "published": "Tue, 24 Nov 2026 15:22:11 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "Broadcom Ships Emergency Patches for 23 VMware Flaws Including Critical vCenter Auth Bypass and ESX RCE + Video - Howl.Link",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE8tREJhM05DamVNa0Z0cTBzeWJrVE9YME9iV0JZaURCbGdhOURXRGN4eElwUmROcnFFa1JF?oc=5",
+   "publisher": "Howl.Link",
+   "published": "Tue, 24 Nov 2026 23:55:03 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "Murf AI launches Finch speech-to-text model, claims top accuracy across 11 Indian languages - ET Enterprise AI",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNeGVXMUt3Nm92ZFlyM0JTbnhDbEFuSXhDemUxLW5rOU05TmFydV9PTWJ5dzlqUkJMZTdpa1kzbHdkLXhQWV9WRUtnb2p2STRJQUZiTmVCbWVIZFlFSDIxX0dSUG1CYlFQVHNGeGNjVFZsUWpmUjEtRG80Q2gtVmVCSzBIQXY2NmcteUdlejVibmpFUy0weDZJYm92MDF4RmNpa0lpckNZUGNDUjZadlhyZlVvN1ZsdlR5dFBvRFY3elZfYU5KRV9BTWtTZHZxX1VHNTNoNXluY3kyWVNwaWh0aG5XLU8ydlJMOExBMmYzOUFZTHVyeDJ5X2Q4NlbSAfwBQVVfeXFMTXhlVzFLdzZvdmRZcjNCU254Q2xBbkl4Q3plMS1uazlNOU5hcnVfT01ieXc5alJCTGU3aWtZM2x3ZC14UFlfVkVLZ29qdkk0SUFGYk5lQm1lSGRZRUgyMV9HUlBtQmJRUFRzRnhjY1RWbFFqZlIxLURvNENoLVZlQkswSEF2NjZnLXlHZXo1Ym5qRVMtMHg2SWJvdjAxeEZjaWtJaXJDWVBjQ1I2WnZYcmZVbzdWbHZUeXRQb0RWN3pWX2FOSkVfQU1rU2R2cV9VRzUzaDV5bmN5MllTcGlodGhuVy1PMnZSTDhMQTJmMzlBWUx1cngyeV9kODZW?oc=5",
+   "publisher": "ET Enterprise AI",
+   "published": "Tue, 24 Nov 2026 16:02:23 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "Autonomous AI Exploit Engines Strike Crypto Wallets and Web Infrastructure as Simulated Threats Turn Real + Video - Howl.Link",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBpQ045VFIzekZ4N0JHa1MzWG5XMzF0MWM3bkVBNms4RVRjWmVDSXBJV1NWZ1U3SnBXTlNn?oc=5",
+   "publisher": "Howl.Link",
+   "published": "Wed, 25 Nov 2026 00:12:35 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "Murf Launches Streaming Speech-to-Text Model, Claims Top Spot Across Every Indian Language Ahead of ElevenLabs, OpenAI - The Tribune",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNOWNpbElMNE91T1FNRm15bGNuT3c0ZnhRZGE3YzgzQXItNFo0ak91cndhd3ZYLVhVX2d3ZkNUYll1M0pPQ1VjakFpcFcteGVzVFlxaldLb1FESmdBazZ5b1kzcUxUOG5kWVl5bXFzclVNMGNjaWhvZ0htUVpJOFRLZGc4MVd1YjM1SEh4ZV83RnR1MVY4TnVyNlduOTFCVXAwdE1zLVlSc3gxLUZtbGRvcnRNa0VGRjF5NnBYMWMydl9Bb1ZVZlhhQkZIVy1VaWEteVdGX3lKODg2R1JFWTMteWQxZUptVEVkeXlwNTNRaV91UdIB9gFBVV95cUxPbWpzUlp4ZVpiZGx6RVE1Nm9laVFaQzY3aTNGOE1rNm42VjRwMTVJMXFWTUFqaVpKenlzQzJDUnN0SmQ5Znltb2psZlVNV1F6Sk9lMjRWQzhJY09ocjd2eWlGWjBCcHRNLXViY0s0d2g4SnRlZWFQVGdmNUFyU21KeC1pQ01LY2FfMDhfTEU0S2VYaGZ0LUJwU1VveFdCX1kyUFZMX19pUHRPNTlicGJCcjB2YkJ1WFd0bTVLMW83TFItdkk4Z2dsSkY2TzBEVTJTZmxhNUozcWxMZk5TeWdMUExlNGRfS2s4b2ctMXE3MS1QdWFuY2c?oc=5",
+   "publisher": "The Tribune",
+   "published": "Wed, 25 Nov 2026 11:22:41 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "email deliverability"
+   ],
+   "title": "InboxAlly Shortlisted in The 2026/27 Cloud Awards - markets.businessinsider.com",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaVJNYWUyM0theTZla3ZoUEtZVE9TY3dQUjBiYmJOYkRzNUpGMHkyRFFlUW92REs2T0gyNVlPXzdWdnVmRkIxckJTYldfZFBUY0lUX2RoZ0xta1V3QVdMWVdXODhwU0k5OW14VVRyTVF4ZndMcUdPZ2xTUUxUX3JvN3hmb1RUcHNUZ2lQMUhEWTgzMjdYaVRNUVRqVWxsNU9SOEN5dUllSXZCeW1v?oc=5",
+   "publisher": "markets.businessinsider.com",
+   "published": "Tue, 24 Nov 2026 15:11:28 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "Series A raises"
+   ],
+   "title": "MetLife Series A Preferreds: The Limitations Of Floating-Rate Protection (NYSE:MET.PR.A) - Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLW43X0J1VFVram16N0plcHRoZGVxSnpQUS1Rci11eFdvTWl4OG9fcV9kV1JoLTRiQkFJWlZMb013V3lmV3ZyVWJJQmhJUFVVUXpJQzUzSXZzT1JrVDVRdThXMHpoQWFGNUJ1Ujl2dTlYa0dlWTlYYWRxeHFFSElLT09wZDVHeGFRdFJlMGRSSkFodEJXU2drQTNsOWRKMXI2SEVBa0FDWGc?oc=5",
+   "publisher": "Seeking Alpha",
+   "published": "Wed, 25 Nov 2026 06:35:33 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "IBM to H-1B visa and green card holders in its biggest division: You can leave the company by end of 2026 - The Times of India",
+   "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPZEdFT1JXV1JORzRJWDhMd0E5SVBmTDFEWmFtQWhvU1JhZ2V0SU5peHBlbkJhcGFlbnJZZU9CWmJ0MG1oT3B2cnlSMUJCdWo2ck9QVmg0M3dpYWUzclFOUzZCUlJSMUNQcXFGbHYwajVxdUVpYXhibGpoR0Z0N3hOcG1kTjJyaEhzNF85aVYzaUZwMkR0NVJyQ2ltOGpuNkYwSVRuUzNyajloTVk1RlROelBuUE93cm9hWEFETGdodHJmNXJtZmljNFQ5UHM4aWx5Z0VKMXZKeVhEbFIzMzFIck9EUm1HQkplNDlodWQya1h5Y2lTd2RRaHhoNk1Hbk5OOEthS2FwZVIwazNaZzdMV0hUNm1EYU5XRklwQ1Bvbm1CVFpyNWhOWHQ5d2VEUdIBswJBVV95cUxPSGJjRmQ2dk1hSDk2c3k4NHg1Y3FDeW1XMDFNSzNwS1NYU2k3aEVBX1lBTFZpWDhhR1M2dWx4YnhwR3hWQ1NmOU93aWJxZjJMb1JueGFjMWxJYjVCRjYxSTVDbm1iVGxqTUlodWwxb0xSa3FmR3VfaExnNFRON0RGbzByaFMyZXQ2ekdvNjlTME40eGhaOGtOTGFKQkdyLVExQTBUclhPbTVjcnVmU2tRQlIyRldHRkhfUHNuN0ZMbnlzRVZ1LW93aExmTmN3MVpKTG42OE9FVDBmbWpaSXlWMDI2R3I2eHJIQzJSRTF0Z0lNSTBYWEpScXpWOVB4WFdpZGxZZ25EcWdYUE5GZjBDUTBmTkNESXRBN1BKMWxGQ25xV2VsT0l5bUl1cW9TRmNESEFV?oc=5",
+   "publisher": "The Times of India",
+   "published": "Wed, 25 Nov 2026 04:26:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Health Cos Set Sights on 'Medical Geeks' for Leadership Roles - ET HealthWorld",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRk9jWlp4VFJEc1JwX21BeGJsWFhuejdlNTk3UEtPbGhjWmpKNTBYbXNldVlDNHFfZUJlcjFVcmJRRjJETndRY3JLT3JJYnNLeWFGaklvUDQwUE1sTFExREMtSUVvNWZVSnFqbElWZVZfblR5Ykp0MFlGVnRDcTVyU0k3X21KajZtNkM4OVNTbklhR3Z0dW9meFByZTlmN25nRy1mT0RCUWp3Y2xDTWh2U0JiNEg1dXYwSmg2Yks1UDk5eWU0ZVHSAcsBQVVfeXFMTXJFRG5LOWFqM3RVQ1dwUnJHdmVRZW1RaE1saW9RZjMtdENHVDdXS1hxbG0xbWFtOEtoNmNLVEpnb1ltMEd3d3ZJOXBUY0szMUNFMlJvUXhOajIwWFBKSVFvZGN4cDNPbGJlSGQtSnlodDByRUZ4em9UNlB2bGJ2b0dnckY5d3R5c3lrQTBwSks4UVF4QWk0cGpyTmtJb3NvMjFQR05uekQtbmlFSEZNZkJSblB1MWczNnBzWmdjQzRHY0J5blNHSEI5SDg?oc=5",
+   "publisher": "ET HealthWorld",
+   "published": "Wed, 25 Nov 2026 02:16:46 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Finance and healthcare hire, tech slows down - The Hans India",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQT3RwdHZjcFc2M0hoM3RURjNpNUhEVXNNVkE0TkpEcGYzdTUwMTJWWnl6ZjFRelduWGdMMHRwN0xtM2pCRHF5aHMxZGJKelFpUzdMUGVrUVNpVFA4WUd1VlBJSE9fdmZKaXJneHI4cUFoTnpfeEFSU2s3a3VQWWRVOW1VRlNyaV9aNld0Y212eWEzaEHSAZgBQVVfeXFMT05GNzNZVWJvRjM2QmpjSnNra0lVZWRSRFAwWVdEQ0l4eFNNSl9BdWNtT0RmVF9Ubzc3Q2pFN092d1dQdDVoeURRN2RwcVVmS3lHbDk2dTMxWEVUTEpDMU9KZkJSZmhIWjJQZk9pd19WVWRjcmhLcDIxbVJmWTdTYTBaTHpQNThiVVpZcjg1N2w0VTlvZk02VEs?oc=5",
+   "publisher": "The Hans India",
+   "published": "Tue, 24 Nov 2026 23:54:26 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "IBM Ends US Visa & Green Card Sponsorship For Most Consulting Roles, Asks Staff To Relocate Or Leave - Free Press Journal",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYWk2d2FJZWlfM2RnX1pXTWRWanUyOUU5U0ZXaV9odFVVbmpwQ0EwRU9pWTg2Tmw0NG96UERESml5b01rNHh3dEtPNUV2R0RQTTQxVlMxNnBkcjZBaHV0N0FXWkZUcTVvYXhwQmR5TVRNNi1RQ3oyYmw3N3pTanI5MTVIX3lweEp6UVhGZmxOemFXbF9uUnUtOXlzV0NNS1h1UHZPS2VIejNNYjZEOWlFUXZESmNXMGRyeVRPdDVpZXdENVQ4WHdPRjZjVnJJTlnSAdQBQVVfeXFMTzI2dHlXRkVpbUFxS3NJbmJSUENmNzI2UFJkV05ablBrblFQNF8xeXRubWlfd2ZQa3VjMjdfY3RRaTVuSW5wV195c245SHp6Q2ctRExYc1dfUEgzWGhaNGJuZ2l1UENDNjh6VzN0SnpGOVdTNy1uOTZiMW1SM1BuSmRza0ZwVlF4SFAtem5ubm4xVzM2YzhtZmxQUWZVMGFDdmtwQ3RsQTdVdTFUYWNZdEk3bGJSVGFlVDI5Tk9oWm55YkVfOFZtd2FuVFpvUzJCbXZYaFk?oc=5",
+   "publisher": "Free Press Journal",
+   "published": "Wed, 25 Nov 2026 11:10:36 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Share of flexi workforce down to 51% in 2026: ISF - The Economic Times",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTzhnbm5GeHRtYUVaR1NFdEMwam01SERsZ1JLTVpQVGRjdl9sUWpBR2FZOG9EdTNqVVFVZVA0Qjlua0hQeF9Ba2ppOU5NUjZZNGRUTnhYMTZNb09aM1VrYU9pdE5uM3JpVFIxMW4ycV9wLUpqVkFSMXZaNTdlUWZTbVNlLV9sNTFGYXgtMks0NG5YVmEzTk5qb2Y2My1aX3cyUzVpTnF5dTJ4T0JGZDFfN1NudHlibWVMVFMzbXF5UXEyaUnSAcgBQVVfeXFMUGZZWnNKMXU0bTBIU3RPNm1mRUxtSF85cTVCUlJSb1VWdHlWWnhxbVo0bi1PV3ZHTTNqdEpmcFJnTUM3alAyejVtYXY0V2k2UTVzQU9EMHVQZTBHSHJBNUpyeTNaMGpqbzBERnlxanhDSFZMRVl2SGFVcXBFMUlQVFZ4LUpqSm5pMjZOR2VLQlhRRUx2bmd6OW84MFlqcDhjVU94dVp1YktmWFdiTWNuZlpqNkw3Y2xCOGM4SXhIcTN4UE5vamdzNWk?oc=5",
+   "publisher": "The Economic Times",
+   "published": "Wed, 25 Nov 2026 10:38:06 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "IBM Consulting ends most visa and green card sponsorships 2026 - NewsBytes",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTlU5MFpUUm41ejNBMnhSc1RyVzJlQ2xmWnpteWstclBMSF9rajZuaDliMzlac1JrSmFmNzU2MVg0OU9LUkdZay10YTFxQ1lWekJabzBwTGJWM0o3T3FqQjUxVmxhNVJRaVNLUXhRclRJanlhQXRnUnZhQi1NQlVBUFhveENjZ003WWZUZjJrZTdtejd1blJuaVpBME44b3NkNlJtckt6NWtLR2pPQ0dz?oc=5",
+   "publisher": "NewsBytes",
+   "published": "Wed, 25 Nov 2026 04:42:58 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "10 Companies Hiring Sales Operations Professionals - Built In",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbW45d2FHWEJCd0R1Zi15R1dVdXR3dWExTjd5YmJoNGZGTVVuQXRyZWhhR0pkcVBzUVdRaVk4bVhBcUM5VkJqZ2Uyd2wxOHppU1kwZnNMRlFxM2lpNlBzMU16NDVQN2kzWjhwMmEtSURqeWxvVHlrVlNhMkY1QWpYZmtn?oc=5",
+   "publisher": "Built In",
+   "published": "Tue, 24 Nov 2026 17:58:45 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Revenue Rendezvous: Smaller or smarter finance teams? - Superpower Daily",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRTVxeG9sYkhXNEk4ZWg2QTZqemFSbm4zLXVPMkVIbV91MzBzZ1FVOEQ5Y085T0VBV05Zc0Z4V29FZkRfMmRvV1B2TUxwNndzVUZmRmNDNjRfUmpIMUdmcEJjUWZnaGExeWVyb3hlb2VzSnctWmttTGFSRVlkdTktZzZwMDZPeGJWcGpPNnZuZDZtZTgyWHdZSGNJazdnWWlRYm05ckItU2Rkdko2Wk1wUUJWUk5zUnp2Q3h6dnZiTGw?oc=5",
+   "publisher": "Superpower Daily",
+   "published": "Wed, 25 Nov 2026 12:54:18 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Vyond Appoints Jon Baron Chief Revenue Officer and Mike Etheridge Chief Financial Officer - citybiz",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNlpITUF3WVV5NkdGNWpKSHZqSWpnWlZlRWxlR0ktQ0VYaEs2a0dkQ3JEbU5teEphU1VlNnY1eTliNDBiR3UtcVJWMFFjVkRfNVN4X2pWdWN4dDZFUlc2OWpuSnJBazNkMWlIOHBSZDlidlZDYzdnSVZRa2JENC1kYXRGcFRhNWxsT3k3VDhHU3RvQm9WYlBDY0JzWE1TaXdUV3N4YnZ5c2ltWkl1d3gzWThSdERuaEQ2dE9HczB4QXV6dHl5bVVZ?oc=5",
+   "publisher": "citybiz",
+   "published": "Tue, 24 Nov 2026 15:44:06 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "BLAZE Appoints Brad Cross Chief Revenue Officer - mg Magazine",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcTlwSkd5WWxzMTVVQnFycTlESWIzbm5IOU9McENseEI1Q3lqdFpIeFpNNnFmZnQzeXFWYzc2eFVOeTBqR2Q3VWFyWVF6YnVFZU1uajRjSHFWYllYTlpjaVhxS0VFMzBpbmlPRDBpdU5fSzR5SVJtakdZWkFUZUhPUnZlNi1BU3N0ZUF0NWJwMA?oc=5",
+   "publisher": "mg Magazine",
+   "published": "Tue, 24 Nov 2026 17:43:47 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "DecisionHR Names Ernest Morozov Vice President of Sales Analytics - mykxlg.com",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPWmpNOFVlWnZwMWVWSDduaUFWa3ZfbThaTU1lelBFcmJpRTA5WkE2OUlXb1F4SDQtSEt6Ylg2a0pwOE5uNTF4dFg5SFB4dS00VTdObUJDNG9qNUY2NHJrb2ZyZFZyTS0zQS1KUG9Dc2dZZzNvZFF5TlNoc3NaTjJlRnpNTjB1Y3JBREFFVGduUktkRURMa1hyZWx4UmMxUnY4VWg3S09iX2JBU1FzN211OWV4aGdOU1dtMmN2UGY5NG9LazlUeFVqYlo0YzlpMUpUcXc1RWo1ckZDT0NNakJsNHFTckhhaWpxWnpzdzJmU0JMbjRVYWFVWUk1aHlkdw?oc=5",
+   "publisher": "mykxlg.com",
+   "published": "Tue, 24 Nov 2026 14:00:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Firstsource named Leader in Everest Group BFS agentic ops 2026 - scanx.trade",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZVQwVFpYdV82WHZ2M0xwWExEa2xOR3hwaUpQYnJROXhSZG45anJfYkJ1RVBBTHVyMG9uYTBTWnNiMk80UFdEVDhsbUc4ell0U3dScjdWZ3puU3ZQQzNqX2ZaemhjNjhROVNyLUxzQXBQdV9aTW1rc1M5TC1JR2xpZFBqYjNpbjF5Rzh0YXhnbzdaVS1CUmczeFBnT2VJWlZPZFJqbUw2NzJyQThvalFZR0Y3c3hnREk?oc=5",
+   "publisher": "scanx.trade",
+   "published": "Wed, 25 Nov 2026 10:27:21 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "DecisionHR Appoints Ernest Morozov as Vice President of Sales Analytics - citybiz",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmhIMjhsOWhnaFRSbXpRYkpXdncxU2hUcVBKbjRrOEVSeGM3cWRsWE0tNW5yRFRUNGNmM0JtY3VsZEhHRDBEZC1fQ0tCWHROajc5N01DRGMzT2xoZDNTWWZuaEFhNjdxbFJFYzZJazRYaWpTcG9SQXFYaXFVU0ZwdnRKVlA4dGlwSVNaQVQ3REtBcTlHcXBINDIxbEd4dWpzSFBaVHZLN2s4R0ViNWZ3?oc=5",
+   "publisher": "citybiz",
+   "published": "Tue, 24 Nov 2026 14:24:05 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Sokin Taps Christopher Morris as Embedded Partnerships Reach 40% of New US Revenue - https://www.thekeyexecutives.com/",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSHF3Y1ZsQUdjZlZjVTluR1hJX1g4TXV5SmNXcHZwNmh4NWJfeHVQZF8yTDlqRHQzMWdwVHd5Z185bVFZNWIxSzhhS0l6a2VEaWZBNkxFSXpRamlzMzNnMFpxUkdxSHM2MlJzblNjS0loQUstd2FxOGN2MWFuTUs4WHd5MUVpYzhlMDJTNnlzQkctNzQwQWtoX2IxN1oxSk9BdEJWVUxXX0p0eE1OYXRwaEZIVGZVdXBQMWlvOUIwOG5GZlRP?oc=5",
+   "publisher": "https://www.thekeyexecutives.com/",
+   "published": "Wed, 25 Nov 2026 08:00:07 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Flexprice Ferry Launches AI Revenue Operations - TechnoSports Media Group",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OYVhDYTJrcGhBeS16UU9hWjNTaXRuTW9xYTRxOUFOd0NqWWNzMG9TS1ZkdTk3VGFySlE2SVpURE1FQkNaanVsTzFTODZzSXRXUVdlQ0hmRmFXbkVEMnhv?oc=5",
+   "publisher": "TechnoSports Media Group",
+   "published": "Wed, 25 Nov 2026 12:27:48 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "FBR Separates Sales Tax from Income Tax in Major Administrative Move - TechJuice",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONm1EWmRjU3J0ajY3WnNNY0dlYW83SWxFSFFfZk5EYzdrdVd6WUs5RGItT0NVd1JnZmxCVUkwZmZuMVRmeHFkM1dqU1dCcVE4TTRycmFld1NZcjJDajFrUlZselRUZUR6Q3VwUTZJSHRpOFk2SFBuVFJiVFR6cnRLRWF2N2pWeEVBRlhVRklfRENncy1jZHpWcW1B?oc=5",
+   "publisher": "TechJuice",
+   "published": "Tue, 24 Nov 2026 16:50:15 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence"
+   ],
+   "title": "Zoom’s conversations-to-completion strategy is starting to pay off - SiliconANGLE",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVI5VmdCel9Pb2ItU3gtbjE4aXgxb1hvOHVjNnB1SlduOWdxOEJsNDdrR1U5clNQMG1nVE9YZ2liSi12UzR2SEQzcmNQZnFMYUlXM0w2ODEyWmUwQ2t2ZG5uVDRWN0VIb3hpcGJ4OURlU212R2JkX1pCd0hOcnJzMHBkWm16Sy1aRE5oV2J1LWZSbjRPR3VBODdfT28zQWhSM1NTZQ?oc=5",
+   "publisher": "SiliconANGLE",
+   "published": "Wed, 25 Nov 2026 04:43:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence"
+   ],
+   "title": "Justa CRM Launches to Transform How Residential Property Management Companies Win New Business - StreetInsider",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObWlFMDdBdjFSWjlvV3NDRkVSaDJBelhuY2x6aEk1WF9HaHo3TkRUdGhob0dYaGF5Yk9LRXRXVWd6SGZaNXhTb19HMVc3MjNCZi1DVWJJTmYwRW9xVHBWaVRiZjBCS3JXV1pTWnJpeXZOQm9JLWhtdXk5MklNYlRGekNHZjN2U29LMEJERjNtcVprekhxWjF4UjQ5dHhiTGRpUGQ0ZjVYdkt2WUx5cWM0aFRmVXBCTm5TbTVFZGJ0S0ZnUWE4LVh3NnFCc1l5dkNaUC1KcWF4ZUw0cGNOR0pPV1pIZw?oc=5",
+   "publisher": "StreetInsider",
+   "published": "Tue, 24 Nov 2026 13:55:46 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence"
+   ],
+   "title": "Live Data Technologies Acquires Champify - PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMmo3OHRVOW5obXNMWE00eFZ1a3Z5LUkyYkJqSDJhU1BTeGs2SG5PUmpTaXZGTlFKSjh2blBsMkNGdFFUbldGWkxKRXYtQnhUZy1QSnYweUZsR2Q2WXhEemZuRDlsZWNjeW9mc2MzdUhRR1BXR2x5N3FIRm9tdjE1dHY0Z0dHRS1SMFBmVkg2ckxQcUtSMFE4RXZ3SEY?oc=5",
+   "publisher": "PR Newswire",
+   "published": "Tue, 24 Nov 2026 15:00:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Xoriant Launches Intent360.ai. to Help Retailers Turn Customer Signals into Actionable Shopper Intelligence - CXO Digitalpulse",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbFU2U0hudlpHUW9sYVFvdXdESmlVUFRjZmxuZWdGXzNjbjRPVHBDWk45S3RoVmlUS3RFYlVSNDZaRDB0NU93amprVzdlVXdHTEx5bEU1WFhMbHBSOFgycTdnRWdMWjFfLTFMRmRTT3MxV2JOMlQxaXNYMFFISndXbWRsZ2xpY3lqTVhMTEpveUIydzdDVUZzVHVkd2hYNzRIUnFZd0NVeXRkNl9iYkhLMzNoakR3NlRvNWViakNvTWNsYnhZWW0tOHY0c3prOFNodTNSWmtn?oc=5",
+   "publisher": "CXO Digitalpulse",
+   "published": "Wed, 25 Nov 2026 11:13:50 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Marcus Collins Named First B2BMX 2027 Keynote Speaker - www.demandgenreport.com",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNFA1ZEF3aGo2Z0szWEkxVm5GYXRURHFTQmtwMG0xbXItaXpqNFFJNkVaakhEcTNvMXZvTG80cXQ0OUY3S3NLd1BJX1BvY0JDVWNtZHN4QW8xSjZtS0pBVWNwSnk4V3RiTW5kbEdhamhRb1VNZzVCRDdWX2dJSVFxTktrVzRzaTEyT1hlekpNMmNGaTd6SDA4WW1VOFFHZw?oc=5",
+   "publisher": "www.demandgenreport.com",
+   "published": "Wed, 25 Nov 2026 11:33:54 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Acrivon Therapeutics stock price target cut to $6 by Citizens on ACR-2316 data - Investing.com Canada",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZ3AtdFNsNDRaa21jeENaM3IzQkN4c1d0NlNsSDZKTEJ6dnh5TjF2VzhtMTdKWi1NTmRmc1ctYmZyenlZRlRTeFYzZHl1cDBRQ2pYUHA0ZkFrMFdfeXhvQnpDNDFUMlN0RGdhalJha1VPU0NHbXlkaks4MlYzWWhpdFcwVUZ2VDhnWjd2RlJFZ3FxQVowQjhOUkI2UUhsamF1V1Nra1E2RUxmMDhkc1pZVm83bHNyWWFIVXBpcXBodjd5YUZPQjNzQXpBR01WWE95cm04?oc=5",
+   "publisher": "Investing.com Canada",
+   "published": "Wed, 25 Nov 2026 10:40:55 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Pinterest Opens Its Ad Inventory to Microsoft Advertising - https://www.thekeyword.co/",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81WmxhZ0V2RFJsSW9lMWxkdE9LcWlqeEtsSWZJUjl5SWdCV3FwU3MtM1A0Sjg2aFVhbVpPcnZZU2c4cXN1cDlWQTRYV0ZrZW1yeWthRk5maG94cGtNelBVMU9ENzZrVTZKV293R254TQ?oc=5",
+   "publisher": "https://www.thekeyword.co/",
+   "published": "Tue, 24 Nov 2026 15:34:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Pinterest open ad inventory to Microsoft Advertising, extends reach across 661 million users - Storyboard18",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcnB4bFpKZW1UdUxPSU1WYVVpM01jRE1mY3RGRDY1NkJPTm9DbU9pTkJTNVdnWExCLXV1ZkFkaF9PdHY5OHVKOWN4N09RSDduckNEdjI0aWJzSjktTmNSY3NnOEUyWWRYd19Ha05PX1E4RTMwYmN6dlpnREJGTUpsdmhiX3ZpaXVlQjNkTmdrcjNWcFlxODlaZGZKdElsZUY1RHdCNmYzaGRIRjVuVE1xaDRsVEdUb3kxRWRiaFJIaEtUNUtKNGlqSnoxSjR1allaTlZid9IB1AFBVV95cUxPcnB4bFpKZW1UdUxPSU1WYVVpM01jRE1mY3RGRDY1NkJPTm9DbU9pTkJTNVdnWExCLXV1ZkFkaF9PdHY5OHVKOWN4N09RSDduckNEdjI0aWJzSjktTmNSY3NnOEUyWWRYd19Ha05PX1E4RTMwYmN6dlpnREJGTUpsdmhiX3ZpaXVlQjNkTmdrcjNWcFlxODlaZGZKdElsZUY1RHdCNmYzaGRIRjVuVE1xaDRsVEdUb3kxRWRiaFJIaEtUNUtKNGlqSnoxSjR1allaTlZidw?oc=5",
+   "publisher": "Storyboard18",
+   "published": "Wed, 25 Nov 2026 12:01:02 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Liferay CMS Now Available for B2B Content Teams - Demand Gen Report",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMnR0dF9BaTZuVlZDdmpvbkM2ZTQ5dmpFTFBpVDgzcXZ5azZjQ2FUTU00ZGdGV2MtYWV6Y1F3bk9NNjM2eDFmMlNIXzJFYmNEQ1lERkduYkEzaGJrdHBFNmp5T2ozS055c1VfWF9rb3lqZVFEVC0wcWxGNGNkVUtUSXlOcVFJejhCUmVvRGtEeXhEWDdRTUt0ZVBjSVdpVWRKRWxsclExUVJubWR3LVI2cw?oc=5",
+   "publisher": "Demand Gen Report",
+   "published": "Tue, 24 Nov 2026 20:07:46 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Adwave Study: 71.5% of CTV Viewers Bookmark Brands on Their Phones - Demand Gen Report",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMHV4TlhTWmh4Z0F5N2FYbERUVWZRREtucnZSZFNob2RQNjhnZEVjZWNocjJOLWFmTUpkVTYxbDV0VU8wQzhFbFU0UGZRdWM4TTNQOWkzSHZpN0R5dmoyc3A4aVFueURjeWkxUkd2OW40OWJLZ3pER0pCdGZMcFlnMkVRaVFsWFRuUjJjWDEyZUhMY3U3V2U3MW9lOERKVnNIZFNubEo1V0tndWVJMnNqYzZQRFlibFQ1UmZESzl5Q0NjVFhnLUo0?oc=5",
+   "publisher": "Demand Gen Report",
+   "published": "Tue, 24 Nov 2026 18:02:08 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "RateGain Reports Strong Festive Hotel Search Demand Amid Resilient Domestic Travel - Sahi",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOFJUNldCajdaZmIzZjNvbmxVTmRfWVBIcTNldGw2aEdMRk9rRXJNSVdnZEhZR3M0SzBhMWlnMW1YbDlzZzNWWno1SXRHMHBTOFBfNk1ETnZoNzBWUFFNUVJGVUhsUEQ2ZmtGV3ZGc1dEQkNOUUhGaE15bEhhX3dNeXRrd1Qxalo0UklBZEtIVWE3UTk2Z2NWdUFxWDhmLUo5WU53cU5RSTRhWGhn?oc=5",
+   "publisher": "Sahi",
+   "published": "Wed, 25 Nov 2026 10:46:21 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "RateGain Travel Trends: Hotel Searches Rise, Flights Lag - Kalkine India",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT2ZQcTVCMm1sS3hvaFphZk54b2ZKS0FhVWtZNVptX1JYNjlMenRiQlhPTGE4Nkh3dmp1SE9TdmVMMGRpVlphdTFvN1Vnamp1c0ZtRjVwZUxTV1FMUnZtaU1mNEdBWFFHaS12NmxMOGNOOVFJRHlkVmQ3WGxvVHBVZjdyei1JdUE0REQxdG1mLWw5YjQ0YkhIS25QVm1Ia1hRUU5lajF3c3lVOVU?oc=5",
+   "publisher": "Kalkine India",
+   "published": "Wed, 25 Nov 2026 10:28:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "HubSpot AI"
+   ],
+   "title": "Your Lead Score May Be Learning Who Sales Already Chose to Call - HackerNoon",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWWRSajlVNHp3eDNfMzhWYW5oeUhlNkhvTlhGUGxnbGhwdEFGRDkwanhRWFdNNV9yLXhLWURZWlE4Smh4cTRIWnBMOHJkMVNNTWIyaTJxWTl2dHVjR0FrQTB1NndNaGVJblA2TVdVNmNoRmVmVUlzcFBwOEx2VWJCUjhIbUZQV284dTVlS2o5Yw?oc=5",
+   "publisher": "HackerNoon",
+   "published": "Tue, 24 Nov 2026 19:21:22 GMT",
+   "heat": 1
+  }
+ ]
+}
