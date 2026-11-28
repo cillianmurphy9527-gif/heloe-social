@@ -1,0 +1,1068 @@
+{
+ "date": "2026-11-28",
+ "collected_at": "2026-11-28T12:33:45.873214+00:00",
+ "counts": {
+  "hackernews": 43,
+  "google_news": 53
+ },
+ "hackernews": [
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Michael Nielsen took down his book on neural nets",
+   "url": "https://neuralnetworksanddeeplearning.com/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50670757",
+   "points": 573,
+   "comments": 358,
+   "age_hours": 17.0,
+   "heat": 122.01
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+   "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+   "discussion_url": "https://news.ycombinator.com/item?id=50668145",
+   "points": 548,
+   "comments": 288,
+   "age_hours": 20.9,
+   "heat": 91.85
+  },
+  {
+   "source": "hackernews",
+   "query": "startup",
+   "title": "Claude sabotaging ML research tasks?",
+   "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+   "discussion_url": "https://news.ycombinator.com/item?id=50664325",
+   "points": 723,
+   "comments": 319,
+   "age_hours": 28.1,
+   "heat": 89.34
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+   "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50672565",
+   "points": 457,
+   "comments": 166,
+   "age_hours": 13.5,
+   "heat": 88.27
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+   "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+   "discussion_url": "https://news.ycombinator.com/item?id=50670855",
+   "points": 405,
+   "comments": 257,
+   "age_hours": 16.9,
+   "heat": 87.69
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+   "url": "https://unkernel.dev",
+   "discussion_url": "https://news.ycombinator.com/item?id=50674218",
+   "points": 401,
+   "comments": 101,
+   "age_hours": 9.2,
+   "heat": 87.03
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Group chat where your AI talks behind your back",
+   "url": "https://construct22.com/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50663595",
+   "points": 714,
+   "comments": 291,
+   "age_hours": 29.8,
+   "heat": 81.36
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Farewell",
+   "url": "https://github.com/p-e-w/heretic/issues/601",
+   "discussion_url": "https://news.ycombinator.com/item?id=50676672",
+   "points": 126,
+   "comments": 24,
+   "age_hours": 1,
+   "heat": 72.25
+  },
+  {
+   "source": "hackernews",
+   "query": "Gmail",
+   "title": "I'm Scared of AI",
+   "url": "https://thesoapbox.email/archive/3",
+   "discussion_url": "https://news.ycombinator.com/item?id=50669561",
+   "points": 215,
+   "comments": 247,
+   "age_hours": 18.8,
+   "heat": 62.53
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "US Air Force's cloud computing platform hacked",
+   "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+   "discussion_url": "https://news.ycombinator.com/item?id=50666375",
+   "points": 346,
+   "comments": 213,
+   "age_hours": 23.7,
+   "heat": 57.57
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Knuth: Moratorium on Error Reports",
+   "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
+   "discussion_url": "https://news.ycombinator.com/item?id=50674452",
+   "points": 177,
+   "comments": 88,
+   "age_hours": 8.7,
+   "heat": 52.84
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+   "url": "https://bouncemarket.minhanhday.com/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50667726",
+   "points": 387,
+   "comments": 129,
+   "age_hours": 21.5,
+   "heat": 51.55
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Convex skills send the user's app idea to a remote server without telling them",
+   "url": "https://github.com/convex/convex-backend-skill/issues/64",
+   "discussion_url": "https://news.ycombinator.com/item?id=50669765",
+   "points": 324,
+   "comments": 105,
+   "age_hours": 18.5,
+   "heat": 47.63
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "I am scared: Careless People – Sarah Wynn-Williams on living under a gag order",
+   "url": "https://www.theguardian.com/books/2026/nov/27/careless-people-author-sarah-wynn-williams-the-silence-is-mine-it-doesnt-have-to-be-yours",
+   "discussion_url": "https://news.ycombinator.com/item?id=50671301",
+   "points": 192,
+   "comments": 115,
+   "age_hours": 16.1,
+   "heat": 41.53
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "False computer-checked proofs",
+   "url": "https://cr.yp.to/proofs/falseccp.html",
+   "discussion_url": "https://news.ycombinator.com/item?id=50667989",
+   "points": 236,
+   "comments": 104,
+   "age_hours": 21.1,
+   "heat": 35.98
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
+   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+   "discussion_url": "https://news.ycombinator.com/item?id=50643158",
+   "points": 467,
+   "comments": 295,
+   "age_hours": 69.3,
+   "heat": 34.81
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "European Commission Declares Browser Competition a Digital Markets Act Priority",
+   "url": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50664191",
+   "points": 171,
+   "comments": 178,
+   "age_hours": 28.4,
+   "heat": 34.35
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "The Balatro Timeline",
+   "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
+   "discussion_url": "https://news.ycombinator.com/item?id=50657346",
+   "points": 421,
+   "comments": 112,
+   "age_hours": 43.2,
+   "heat": 30.57
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+   "url": "https://tabernet.es/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50672521",
+   "points": 158,
+   "comments": 50,
+   "age_hours": 13.6,
+   "heat": 28.72
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "9/UX: a Macintosh-inspired desktop for 9front",
+   "url": "https://progrium.github.io/9ux/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50672008",
+   "points": 143,
+   "comments": 36,
+   "age_hours": 14.8,
+   "heat": 22.54
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Citroën Hydraulic System",
+   "url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
+   "discussion_url": "https://news.ycombinator.com/item?id=50662313",
+   "points": 218,
+   "comments": 71,
+   "age_hours": 33.4,
+   "heat": 20.76
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Show HN: DragDropMath – Learn math by feel",
+   "url": "https://dragdropmath.com/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50669673",
+   "points": 153,
+   "comments": 40,
+   "age_hours": 18.6,
+   "heat": 20.7
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "First images of the impact of DART asteroid deflection experiment",
+   "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50657392",
+   "points": 221,
+   "comments": 68,
+   "age_hours": 43.2,
+   "heat": 16.94
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Rayshader 1.0: Exit the Matrix",
+   "url": "https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html",
+   "discussion_url": "https://news.ycombinator.com/item?id=50667371",
+   "points": 139,
+   "comments": 17,
+   "age_hours": 22.1,
+   "heat": 13.58
+  },
+  {
+   "source": "hackernews",
+   "query": "AI agent",
+   "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+   "url": "https://sessiongraph.ai/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50671651",
+   "points": 68,
+   "comments": 27,
+   "age_hours": 15.4,
+   "heat": 12.39
+  },
+  {
+   "source": "hackernews",
+   "query": "B2B",
+   "title": "Norse Atlantic suspends all flights as it faces potential collapse",
+   "url": "https://www.bbc.com/news/articles/c9kgmd0ldy0lo",
+   "discussion_url": "https://news.ycombinator.com/item?id=50667143",
+   "points": 54,
+   "comments": 51,
+   "age_hours": 22.4,
+   "heat": 12.11
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Show HN: I restored Palm's last device, and brought its OS to other platforms",
+   "url": "https://www.webosarchive.org/pivot/2026/11/27/the-story-so-far/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50667452",
+   "points": 80,
+   "comments": 27,
+   "age_hours": 21.9,
+   "heat": 10.56
+  },
+  {
+   "source": "hackernews",
+   "query": "startup",
+   "title": "Claude silently added rules to ignore users skintone preferences in our app",
+   "url": "https://twitter.com/jakozloski/status/2126281598517576049",
+   "discussion_url": "https://news.ycombinator.com/item?id=50674489",
+   "points": 36,
+   "comments": 17,
+   "age_hours": 8.6,
+   "heat": 10.55
+  },
+  {
+   "source": "hackernews",
+   "query": "B2B",
+   "title": "'Cyber incident' forces UK Gov to take some services offline",
+   "url": "https://www.bbc.co.uk/news/live/c6rrg94lgjrjt",
+   "discussion_url": "https://news.ycombinator.com/item?id=50664885",
+   "points": 48,
+   "comments": 52,
+   "age_hours": 26.8,
+   "heat": 10.33
+  },
+  {
+   "source": "hackernews",
+   "query": "AI agent",
+   "title": "Pizza history: AI agent's cardless purchase is a first for UK",
+   "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+   "discussion_url": "https://news.ycombinator.com/item?id=50665732",
+   "points": 20,
+   "comments": 43,
+   "age_hours": 24.9,
+   "heat": 7.62
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Show HN: Analysis of Hacker News predictions since 2008",
+   "url": "https://hnpredictions.com/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50633531",
+   "points": 103,
+   "comments": 77,
+   "age_hours": 88.8,
+   "heat": 6.97
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "Michael Giles, co-founder and drummer of King Crimson, dies aged 84",
+   "url": "https://www.theguardian.com/music/2026/nov/26/michael-giles-co-founder-and-drummer-of-king-crimson-dies-aged-84",
+   "discussion_url": "https://news.ycombinator.com/item?id=50670694",
+   "points": 59,
+   "comments": 7,
+   "age_hours": 17.1,
+   "heat": 6.88
+  },
+  {
+   "source": "hackernews",
+   "query": "B2B",
+   "title": "UK net migration at lowest level since 1997",
+   "url": "https://www.bbc.com/news/articles/cq36gj12n0l3o",
+   "discussion_url": "https://news.ycombinator.com/item?id=50671417",
+   "points": 17,
+   "comments": 24,
+   "age_hours": 15.9,
+   "heat": 6.46
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Nvidia CEO's comeback fuels debate on misogyny or impunity for rich and powerful",
+   "url": "https://www.pbs.org/newshour/nation/nvidia-ceos-comeback-fuels-debate-over-misogyny-and-impunity-for-the-rich-and-powerful",
+   "discussion_url": "https://news.ycombinator.com/item?id=50668828",
+   "points": 20,
+   "comments": 28,
+   "age_hours": 19.8,
+   "heat": 6.45
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Quad9 Blocks Nginx2root.com",
+   "url": "https://quad9.net/?url=nginx2root.com#domain-tester",
+   "discussion_url": "https://news.ycombinator.com/item?id=50671619",
+   "points": 29,
+   "comments": 16,
+   "age_hours": 15.5,
+   "heat": 6.18
+  },
+  {
+   "source": "hackernews",
+   "query": "AI agent",
+   "title": "Google adding official Google AI plan support to Pi coding agent",
+   "url": "https://github.com/earendil-works/pi/pull/12614",
+   "discussion_url": "https://news.ycombinator.com/item?id=50675069",
+   "points": 25,
+   "comments": 4,
+   "age_hours": 6.9,
+   "heat": 5.77
+  },
+  {
+   "source": "hackernews",
+   "query": "front_page",
+   "title": "Loom seamlessly combines weaving, knitting and braiding",
+   "url": "https://news.cornell.edu/stories/2026/11/loom-seamlessly-combines-weaving-knitting-and-braiding",
+   "discussion_url": "https://news.ycombinator.com/item?id=50632052",
+   "points": 165,
+   "comments": 19,
+   "age_hours": 90.4,
+   "heat": 5.43
+  },
+  {
+   "source": "hackernews",
+   "query": "B2B",
+   "title": "New AI research suggests AI bubble bursting and to expect major market collapse",
+   "url": "https://www.london.edu/think/ai-bubble-about-to-burst",
+   "discussion_url": "https://news.ycombinator.com/item?id=50662153",
+   "points": 39,
+   "comments": 26,
+   "age_hours": 33.8,
+   "heat": 5.2
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+   "url": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50665811",
+   "points": 43,
+   "comments": 5,
+   "age_hours": 24.7,
+   "heat": 3.83
+  },
+  {
+   "source": "hackernews",
+   "query": "founder",
+   "title": "Stanford Physicist Uses AI to Tackle Quantum Gravity Problem",
+   "url": "https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50667664",
+   "points": 23,
+   "comments": 11,
+   "age_hours": 21.6,
+   "heat": 3.58
+  },
+  {
+   "source": "hackernews",
+   "query": "B2B",
+   "title": "Jason Arday's research cleared in investigation",
+   "url": "https://www.bbc.com/news/articles/ck9d7e11lnq4o",
+   "discussion_url": "https://news.ycombinator.com/item?id=50666919",
+   "points": 17,
+   "comments": 5,
+   "age_hours": 22.7,
+   "heat": 2.07
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Marmot, an Alternative Go Compiler",
+   "url": "https://marmot.gaurav.zip/",
+   "discussion_url": "https://news.ycombinator.com/item?id=50666051",
+   "points": 23,
+   "comments": 0,
+   "age_hours": 24.3,
+   "heat": 1.68
+  },
+  {
+   "source": "hackernews",
+   "query": "CRM",
+   "title": "Linus Torvalds: \"Tell Your AI Companion to Get Its Act Together\"",
+   "url": "https://www.phoronix.com/news/Linus-Torvalds-EXT4-AI-Big",
+   "discussion_url": "https://news.ycombinator.com/item?id=50662164",
+   "points": 18,
+   "comments": 0,
+   "age_hours": 33.8,
+   "heat": 1.03
+  }
+ ],
+ "google_news": [
+  {
+   "source": "google_news",
+   "queries": [
+    "cold email"
+   ],
+   "title": "How a social enterprise can win corporate partners with cold email - The CSR Journal",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOXJkNWpKVEtxTWFESWV6QjhNOTRmMDZYT2xySTdQaHpwT1p1M2g1dmd5T0NWN01fdUhqd09WVFRxbWx6b0tZd1NXNHk2Zm5LOGlmMXYtMHRmdm1zQkZBYnRWX1hSOF8xa3l5MzVZZHg2UHhCWWxqTHRnNXhnemhSQlhURzdJV0VVbFdEWW1WZ2ZBWDA?oc=5",
+   "publisher": "The CSR Journal",
+   "published": "Fri, 27 Nov 2026 21:13:59 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "cold email"
+   ],
+   "title": "Freshman 15: Advice from a college junior about maximizing your college experience - Los Angeles Loyolan",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZHU2aktHZ1lpRk5nNjhRYlNjdUF0NVNyQ1h3UEhJTEZ2VkZoWDJ3RlByLUUtZE02TkliS2Y5Qkp1Vm9uOUpHWnpVZTBXajZldVQzQXF3TmlaaG5rSmJ6dXYxUVhqbVNNNDRoekI3bDhEdzVwS3J5SFVHWEpKdmo0cVpNYXVaTGdGUVF4UWhoQlNHQmVIUWdPc09mTjNaRXhEWnIwVTlFYXdVVEJhaG9VSUZjTlJtM3ZlOTF0Yk9hSmFYdG9lbFJqMFpxalFJa0NmbU9IM2NuU2xFZ3ZYU2NvX0xPOE4xZ040OXgyOWl6SzYwMEYyZTlv?oc=5",
+   "publisher": "Los Angeles Loyolan",
+   "published": "Fri, 27 Nov 2026 20:00:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "cold email"
+   ],
+   "title": "8 Best ChatGPT Alternatives for Content Creation - Impakter",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HVWhKdy1oSWtMUHlsYVV0SDhLNFdjMmg1Zm9zSEl0dmN6QUY5LVl5bmV1MWVFUXh2bjlVTFYzRnhaOXZVcVZNRGNDUnJ6MlJ1VVVfLUlDS05uQVdYMTNBbGNZTHA5VkU0d0h5ME1SR2xlWnpnV09nRFdn?oc=5",
+   "publisher": "Impakter",
+   "published": "Fri, 27 Nov 2026 15:56:33 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales prospecting"
+   ],
+   "title": "Marblism Brings AI Agents to Mexico’s SME Market - Mexico Business News",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONUtBVDZmaXYxWm9yQzFyVUZraFpnOHN6Qko0cGJzWTVwOTB6NTk0WGdSRnEtaEdkQU40SEExNlVSLS1QQmE0c19oaG5hX2o1bm1IbkNMOVdSc29zV3hPdGE4WThiX0pnaThzQ1V5eUsyQ0tYWHVlVUh1ZFRIZVVQY2p4NURmOUhNd29sUkVVeEZ3eVhV?oc=5",
+   "publisher": "Mexico Business News",
+   "published": "Fri, 27 Nov 2026 22:41:08 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "AI SDR"
+   ],
+   "title": "Come Meet Us Live at Granola HQ in SF: Granola’s VP of Sales and I Will Be There to Talk Agents for GTM, What’s Working and What Isn’t - saastr.com",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOa1pnSEl2Nnk2VVl5M1RzYUhEYnNtWXI2QU9PeEpxdUhVZlB0dlMwTWZkbFV4eFZrVVdTV2xIYnFKcFFuaEViLXdrOWp6NGtrbTZ4RXd3ZG5lR05nMHQzTk5ON05GVXVrWHg1cXJ3a1NUQXdydThhVEFBQUN1QjZuQTNKZzdtcEtYNzdRaXFLMkhJTGY1WjFLdktRdG5LZDUzRVcwZUs4S1RWTTFlQzhjQTRlcHJ1Y2FBeTNqTmk4ZFdMeWpiY1p3Wm5GeWY4X0R6T1ZJZVEzWVZiLWFKV3Y2SmhGdEhYNHY1?oc=5",
+   "publisher": "saastr.com",
+   "published": "Sat, 28 Nov 2026 02:59:27 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Austin loses authority over 170 properties near proposed White Rocks project - Austin American-Statesman",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOVFKLUs3MWp6YXhfRHpTV25qYU1GdTFqTDRXeTVoRzRrVnNWN3gtWGhXcVVkLUZiTDBUWWlLOGxHc3NiV3REZW5FRzV0SVU4QmpNanVhTi1nWllmeW9GWUYyMjROVmJvNl9JNzNsLVdqVXR4TVlGTC14djRiSU5rbnVjQWtCR2pESzBrMTRvVzZRcThsU1dtc08zMFV5bDktZTlocHUtZl83TUJn?oc=5",
+   "publisher": "Austin American-Statesman",
+   "published": "Sat, 28 Nov 2026 11:22:14 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Gulden Abdrakhmanova: I'm Interested in Projects Where Technology Delivers Measurable Business Results - CEOWORLD magazine",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLS1hdHBJYVZTekVXWWhZWnk3NXpGaVhoRGtZWkNPbzMtYk5kUmdWbnVFUnNlQ2NuRHFYQU9GVFJaeG9FMmloM0dlUjlmbU9iVVUzaEtWbjRLYjR1bjAyZENrZ2ZhUHozSV9IOXdIMXl6RzdEZmVBLVhkWkxyNDgxSHN4aWxoTnRLY0R3bFpyMW56bTdyS1ZrNzdCM0lYYjJPaUJxT05oNkJuMEVnZm9tZnZYdEtIZWxEME1ReU5ialQ3VkR1bnVnZ2pQZEstUQ?oc=5",
+   "publisher": "CEOWORLD magazine",
+   "published": "Sat, 28 Nov 2026 04:34:22 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Black Friday Online Sales Hit $9.7B by Evening, Adobe Says - FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa0JIM0JXdTlPWVVEYjJSTjUza1ZjM09GcC1tMWdRQWhJdkU5OG1wMkI0OEUybUVkVUl5UzNWeXNzMEtTWmFsU3ZnbFM5LUVQa2VRS1EwRGt5c1JneVF0T0J4N2lfeWRBVVc0MDBaTl9fY1JwZVIxWEJ4VFpzSU9PUXhSV0ZVcktFc0o4MA?oc=5",
+   "publisher": "FourWeekMBA",
+   "published": "Sat, 28 Nov 2026 03:30:21 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "AI Earnings Week Ahead: Marvell, Salesforce, Snowflake - FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb29aQUI4blhlaDFYVnZBclg2NWVfc0o1RUludTVtVkZ4NXpkRGJlaVV6blhScklQZ0p2Z3huSlplYS0tNnctREVPODRsTmR6MDZhZUtKNTVwaXU3UzFRWk9DLUhUbWM1TjNNdHJ2NUZQQ1czYVBLNWhJbUNTckxCRFlR?oc=5",
+   "publisher": "FourWeekMBA",
+   "published": "Fri, 27 Nov 2026 20:24:46 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Shopify Hails First Agentic Black Friday as Agents Hit Walls - FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYnNNT2xNZjVjSHBsaG1mMmROQlpob00xRks0TmVGbE1mVlNZYzgxejVaYkYzVUJ5b3hJV0FnLWhvbVdYQUZFLW1ZXzNNUDFVbTVVMmlSRHhjOVJ6TWNNdWpEbVpQd0xWbTc1bGEtQU5ER0NDNW0yRktRbjI2dThnYW9rVjUzeGtlYndRQ0Z3U00tdw?oc=5",
+   "publisher": "FourWeekMBA",
+   "published": "Fri, 27 Nov 2026 19:54:22 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Microchip Paid $68.78 a Share for Microsemi; Stock Up 21.1% - FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYlVQMmYzeV9sclo3elZDbVRBNzljaXE1YXFCb3V2bE1uVFgxWTgySUliX1NhZm9NUGE5TlNJNjlzTDJURk9YdHIyckVNRlJqTG9FQlZGSVNTVlQtYmpBaGNYRG92VzBHNDUyS1MtNDZkaHdGcjBEc0ZKandrS3hsdGZid3RIcnZjdnp6QQ?oc=5",
+   "publisher": "FourWeekMBA",
+   "published": "Fri, 27 Nov 2026 21:11:10 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Holiday Spending Up 5.4%, but Only 2.8% After Inflation: PwC - FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObHkyZlNLUE05SEx1QjQ3UURjM0g3NVhkR1VuZlliWEdFbmdFV2hCd2hVakZmNXl0QUVxTTluZmNLb0ZubWZtdkNaWHdibEZKNGR5SmxiaW1Zb3ZaVkxlUzBxQ0lsR3lJOGt0Z3RlaXZLZnE5el94MkxjVkp5R1JHbGNZVjVubzBDbEZqcg?oc=5",
+   "publisher": "FourWeekMBA",
+   "published": "Fri, 27 Nov 2026 13:53:47 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "China’s Industrial Profits Jump 20.1% as Electronics Double - FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYUNaQzlJSjVGRXVpM0F2dEpsYXI4WlRyQVRZZ1liTUNyRVRENjN4cWp1SDRVMzlEd0xMaEdUZmo3aUlTdmgyTDZEOEhMOV9ILW04SjFIa1UwRllhWGdpTWdmYUE2bHYzYmNfQTBVZC00OUJlZElpYmVFTEs4ckpXbk0tT3Bjd0hXWlJQTg?oc=5",
+   "publisher": "FourWeekMBA",
+   "published": "Fri, 27 Nov 2026 12:49:16 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales development"
+   ],
+   "title": "Does Claude Sabotage AI Research? The Viral Claims, Checked - FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNb28yUXNWa1ZpY1diU245YkIxZmhFbmZoLW5SdThiZjlLU3Nua3diaFNXclFJLUlRY2FUclM3TFJISHlmZDdWa191RGJaT0ZVanhBT2hJUEhjd3pEQlFXNHlnU3VDVkJ0SG1sNkFXSWlfeTMxOTJNRnNLeXE0M1lhaXVyX05oU3RTZ0VhRVN3?oc=5",
+   "publisher": "FourWeekMBA",
+   "published": "Fri, 27 Nov 2026 16:36:39 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "AI2Earn raises $2M to build distributed AI sales network - Dealroom",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSUhTTWN4ZDgtcjBsWWYzY1p0bWVXc1pJQU91MFJaWTV5WVlvSWVkUjhLdzlFekoxNGVZOS1TQlNjQ051TDVuWUttYmRRV3U4cEJ3S0FNMGZ1ajdkQmdpTTJndzY5dHFjWXh3MGVvRFhYaDRGZmZiSUVXbklmbkFtUGJxMF9EWWpjWGFycFQ0dVhnVTQ?oc=5",
+   "publisher": "Dealroom",
+   "published": "Fri, 27 Nov 2026 14:09:24 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "AI Coding Agents at Scale: Enforcing Architectural Guardrails, Runtime Verification, and Formal Checks in 2026 + Video - Howl.Link",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBrbW9qNWZldkVpVjk3N2VXQ1d2WFNwWk1OdXJEd0VyamFSZTFPMGJTOGxoTXFaVGNYMWJN?oc=5",
+   "publisher": "Howl.Link",
+   "published": "Fri, 27 Nov 2026 18:10:14 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "AI2Earn Raises US$2 Million to Build the World’s Largest Distributed AI Workforce Network - StreetInsider",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcktwUnFEZjF1R0pnVFVUUXRFRXNJUmRhUF83aTJUMXFneG10RUNpVkRUN0FaQjlUUFZDRkIxQnNlTFk5V1F5b3NKeGNIa0kydzhhMDJhY3poS1NsZ0FobjZCcjIxd2YxUjJqSVNJZlRsMTgyMjdmVUhYOHdqMmdMOW5aV24tdWlzRnVuNHpJWjI0SS1YYndlcW50MmRROGpGaXlyZV9YWjFpQVlnLWhWbllnUnVTWkhUSWpjUmF2ZFc0RGtZWVVVOENObDd3NHZpMGZVWTdXLVZSYnlMbkpvUnplWlU3Zmx3bmR0dTY3eXg?oc=5",
+   "publisher": "StreetInsider",
+   "published": "Fri, 27 Nov 2026 16:32:56 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "Turing Recruits Early-Career Cybersecurity Specialists to Train and Evaluate AI Models on Offensive and Defensive Security Tasks + Video - Howl.Link",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1ISDJHemk5NTdYQjcwSWw3aGtuR05sLUFUUEhHVEFHSjhWYndoQzdVSExwVnVsMnZ2bERN?oc=5",
+   "publisher": "Howl.Link",
+   "published": "Fri, 27 Nov 2026 16:08:49 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "Caribbean Tire brings Gold Rush Super Sale to San Pedro with free hotdogs for customers - Belize News and Opinion on www.breakingbelizenews.com",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXZPVzdSdFpNek5fYkp5d1A0cFM0VUNYRG9TWW44NkMtd2cwc1lXNERzTm51cV9IVzhySVdTQVBad1dPZFgzUVZsVWJFUnBVRDFoN25NVXN4dVpyQXFVOGdIcjhtR0xCT0FDbTVLcDB4UlBnUUdGNU1SRFZGMjUxdmRsWnRJRy1UeWZ1TU14N1IxUzg1VmxTSWcwZlIydWoycjdPdUNZeHlOQ1J0S3N5OUJlcUUycmdpY3NIVUlYOWdEUWcwNW5Ka2RGbzhxM2M?oc=5",
+   "publisher": "Belize News and Opinion on www.breakingbelizenews.com",
+   "published": "Fri, 27 Nov 2026 18:58:38 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "Bulridge Ltd. leads planting of 300 seedlings in Mountain Pine Ridge Forest Reserve - Belize News and Opinion on www.breakingbelizenews.com",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUElUdzhaQXB6RkFVbEg2Y2dEcEpmNnhKRm9NTGdVaXM4UGhfMmdfejg5Ul8wWU1mVVdVRnhzWENGa2xSRXN5bUJsY19ycGRFR1BMbmFCMVg1MW9yTWl4ZzlPMEhrVzlDOW9yMHcyRS12dWtLT3VDLXEwTzh0TWNwdm9YelZ3eEpWVHZLdlZJM1FHNThRNmxKMmtiQXctb01wem1fSzRMUmxrQksyUF85czNMOGpKck9NTklnRzEwaVVGUTJGcDEyYg?oc=5",
+   "publisher": "Belize News and Opinion on www.breakingbelizenews.com",
+   "published": "Fri, 27 Nov 2026 19:06:03 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "Halo BPO seeks experienced sales agents for remote positions in Belize - Belize News and Opinion on www.breakingbelizenews.com",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbE45eTQwZFdER2dRYkJtaUdoNHFCbndYVUU3OFN0c0M4elpFWW8yQ1dCYTJLVUVWRk5LUG5wWmViSEFtckVab3luVV93TnVQOVB2YmUwVXliajA3cHZwdEZfRmpTXy1SdWl3bWFJbG1QS0t6TURPOHgwbjRreWlUNEhfdDZyYV9INlk5Y3p5ejRrcUlYYWl1Q21zMkJCLVEzNlFzZ3JXdDVtaEJFVlRrU0hJek5hZXlB?oc=5",
+   "publisher": "Belize News and Opinion on www.breakingbelizenews.com",
+   "published": "Fri, 27 Nov 2026 18:53:36 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "Mostly sunny and mild Friday with little to no rain - Belize News and Opinion on www.breakingbelizenews.com",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdlVtcE4yZ1ZPRUM1YjVRd3J4UGpEWDdsTWE3RXBlaFZuQVVIc1N5VGpiNmY3QnRZUnBHSFF4bEYxUm9UQ2hlR25QR1UtM0FnRm1yVGhhV3o3QkZkN0ZaZUVPNkdCUVBJdGZaa3g1M2k0b1B1ZVpCaGR6dG16QzkxWk5LUzBJbWZfdnFSS3FXWEtndE43ejU0Z2lNV2pQNG8?oc=5",
+   "publisher": "Belize News and Opinion on www.breakingbelizenews.com",
+   "published": "Fri, 27 Nov 2026 13:40:49 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "outbound sales"
+   ],
+   "title": "Ministry of National Security planning new intake for all three security forces - Belize News and Opinion on www.breakingbelizenews.com",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNHpRTHZGQzB2ZDZzWHdHbF9aaHJGV3Rmbzdxbk1zSE8ta3hMQzNTN0NsQ2tXell0akdoakJtTHRYWXdDX1JRb01hWGFEbEtPOXhDemdfVzl3cjNhQTdqZnNFRGhId2I3dkVMd3lHOGhVYWJiQVpEMmo1WjVBem9CcnVlZzZ3LWpENkZKVUZUM29nLWtXRFhLaEpJOGcxZnpaMDN1d1ZLZ1lETDB5dUVmZVNoYWpqYXlrVTNONGpYZDZXSzF6?oc=5",
+   "publisher": "Belize News and Opinion on www.breakingbelizenews.com",
+   "published": "Fri, 27 Nov 2026 13:50:49 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "LinkedIn algorithm"
+   ],
+   "title": "The Hidden LinkedIn File That Shows Which Posts Get Seen - Forbes",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd29rZlFwTXZDU2xKNVYxUTVCTGJNU2FfVHVLTHpmUTRETmo0VGhzYnhGZ2hlNGE1S0djOHM5a2VkbUY1M2E2OFg5ODlRRUJ1YWpHaVJGTlBwdF9ZanlfSGRnem1MOUtIV0hOSzMwTHh0WkhFdUhrLXlNUGNnWE04b1NhUWdCeXFTa3dqaUh2am1iQWNGcG84a0hmRHdfLTJuSnp5aU8yOHFnaVE?oc=5",
+   "publisher": "Forbes",
+   "published": "Fri, 27 Nov 2026 19:43:55 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "startup funding round"
+   ],
+   "title": "6 Essential Tools for Monitoring Your Google Website Rankings - TechBullion",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQb1N1dkN3b29LQ3A5V015eWVsSTY0Y2VmX3JZVjl2NVVtNUxuS3lVaXhtUHN3U2ZDcHdOaG1VVjVLb0VoTGV6UHRHSjNTd0Z4cHFFNkRJTFBRMWdJUEFHX283UW5jRGlTUEJxdWFFWGgtY2FDSVU0RExiS3RyMW45Y2g4dw?oc=5",
+   "publisher": "TechBullion",
+   "published": "Fri, 27 Nov 2026 19:34:25 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Woman indicted over tech hiring for Chinese firm - Taipei Times",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVQ3ZSWFgxYmpHckRFZUNoa3NmMzdtcWZJUWFWcUFPbUI2a1BXU202YzZzWkNPdWZTS1VBOWk5ZzIxVFgxVndpQWRZUXdKYVR6N1VPU2pRazFHSThYLW5IeV9qRlBraWR2a0w2NDNUMENScmJ3eENOUGx3?oc=5",
+   "publisher": "Taipei Times",
+   "published": "Fri, 27 Nov 2026 16:00:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Wigiwork Flips Tech Hiring: Engineers Set Their Price, AI Matches the Company, No Agency Commission - StreetInsider",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPR1k1XzFzbTVaUkFZSUNfaW5WREY0Y0tWSmlYb1lwUmVFYktIbW5vQjNvREJ3X2gtdFE2OXRBbkE2S0xTRkxKd3FEcXJRNmxIUWdGWC1vR0tCR1dOay1hV2VtV2VsSzRtX3ctNm5FTXVXeVQ1SF9ZcXd1UV84QnVTNURUV05WbnRBRU5kNF9MUXZleElHNmR1cXBHeHVhR2NHQW1EMUFlNGJ3UjJhMk91UG5yNFQ0U1MzbW1jclg2d0M0ZzREUkpLWEY1amdYZlNyWWdvb1NzSWlOcEY4VW96ZU52OEF2bWdNbXRUOUgwcXNFQQ?oc=5",
+   "publisher": "StreetInsider",
+   "published": "Fri, 27 Nov 2026 16:02:27 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "How Software Teams Scale Without Burning Out Their Core Developers - Caribbean National Weekly",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNY3dXSWJGUVgyNl90RDVHV2ZJc193dVNwMXBGUXQyREJQeXdocHZXZmpBWlplcnB3STF5ckZJU2JXYkxOVG5yb29WNzdocEN5b1lCaDctNXA4WjBYbXN3UWt0NnpfYzNBdGdWRDg1aWJQVVZqLWdNdVYyVTBJZ2FRNHljUlBuTV9YNFhhVnphcVlDSjc4ZnRQSW5wS2ZXcXRjbWZhS0hiQ0RzalRrcHdNZlhR?oc=5",
+   "publisher": "Caribbean National Weekly",
+   "published": "Sat, 28 Nov 2026 02:49:03 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Uber Recorded Rides feature introduced to strengthen passenger safety - Industry Odisha",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcHFLLWdIdTdWRzVmUEZYRmRYWlpCdDQxUjFjY1JMZmJRUVpZQmZEZEN6NTFIN1k1T0VLNE1tZGg1TDBlRzBoNWNyUWRIQ1ZUTktmV0s0UGQwaXFhOXhUSzZtRkVSMk4wYlRkRW1Ha3paa3MyVExRbzhoQ24xSkhhUjhGVzBZLUp4RGM1MmNLZEI1dzRXX0xTOTNOSEdRUnJXVTBnZEtCd2dPQzV6OHc?oc=5",
+   "publisher": "Industry Odisha",
+   "published": "Sat, 28 Nov 2026 00:00:05 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "RBI Urges Banks to Speed Up MSME Loans and Rely Less on Collateral - Industry Odisha",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcExyeTRrb2dVeGZIMVhCVTBndlUxRnM0bEs2anVSdWJOMVNoaUNGZVpvYVM5RkVmSFU2MkVUcG9LRzlCdlhyREtYQ1RaX2hTNzRCWEpORlRjdmV2cm9PUmV4WmkwVkxpX1dxOUtwWWhxOGFsM2x6Nl80cHBtTlNFUGtGRUlJMnN5U0RiN1lFS19Nc19UT0lESjdFRW1PcE9rRlktUjBPQkE3Zw?oc=5",
+   "publisher": "Industry Odisha",
+   "published": "Sat, 28 Nov 2026 00:00:05 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "India Inc Ramps Up Factory Capacity as Strong Consumer Demand Revives Private Capex - Industry Odisha",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaTE1cEdzNkZ5X0JsY21TRmJuN1VRWnpFUGlCY3hsVlN2bjEtSW5pSGdFYmlacVkxSG1ScFJoWVYyVEppRzJhR0hWU1NVTFBjS3VUbDl3VUVfa3JDVmdPcGw1R2lfSm1YQThtZnFmSXppQjhsc0VTLTFpYlJqcFItRHN1QTZOQ3FXS3VxSkZCY2N5WEhoVUJyVXRNU3R2aldDLXFNODJENFNrQTJNVU51OTZLc1o4VWx0bTFRWW5wc2g?oc=5",
+   "publisher": "Industry Odisha",
+   "published": "Sat, 28 Nov 2026 04:45:59 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Honda Chooses Loyal Riders Over Market Share in India's Two-Wheeler Race - Industry Odisha",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOGhiSjFfQl9aUnVXTzFNM0VXd0dpdGJvSjFNOEhIVUlDc1lrdFl6MV9qc1drN3lNQUdmVHVFNnZMUlY3Tm9nUnpPYmtXTkVVNU9EUjhfSnY5QjJjNUo3TU85LXlrUVdpLVg2MnZlMXJqRXJ1ZUNfXzNPLV9GRTVzdzY5aDhydUxtLXFjd2dRSEpZLV9HYjJ0MzJIR0VwUXNCZnhJcDNPZ0F4ajNXT3o5N1pR?oc=5",
+   "publisher": "Industry Odisha",
+   "published": "Fri, 27 Nov 2026 22:00:05 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Public Sector Banks' Lending Edge Under Pressure as Deposits Lag Loan Growth - Industry Odisha",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQzFva0RVVEtPbVE5ak5fYlBXY2lFRnlNZlQ4a3ptQndVem9XX0ZxcmM0d2J0WmgtbGswS2N5UHB3aWVYYkhXcGROZFQ3SmtUbTVfYmlYaHVWQ0xQUTNoQ21lU0JUYjJ2WjU5aG43dWtDazdiUGNxX0pMemNVbk40N2lLUmNwaUVicTJXTGZXSnFlU213OTd5SjF3LVc4UFAtR25IMnd3U0NwZ0ptUXF4MlRFcTl0dw?oc=5",
+   "publisher": "Industry Odisha",
+   "published": "Fri, 27 Nov 2026 19:00:05 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "Tech Hiring Rebound in India: Why Freshers Still Face a Tough Market - Analytics Insight",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZE9VUEh3cnp1azkyblJSallFeE56dnJETmVsdUw3VEJlNHhsaUVfb05tT1djZGxUMUV5N1U4NGoyR25vZGFzaGRQeVFfNEp1cDZJdFBKMkNWdWdnaXB6bW9NS19VUTZWWlY3ZUl5VTB0THJBQW12TWlqOENZRFBiSTVoallZMWdRcndUWElwdnJNMElFNHNzWm9zZk9icFJwQUFDNm9NZnnSAbYBQVVfeXFMUHNGQzY0aTZ1S3o1UEhvSDVhNlpSVWlsMFV1NldWT1BlTDVCUVVFSkMyajgtLWxvSFdZWVBKdUNscXoySzU2TDBGUlJ1aXVsX3UyUVhuQUZQTXlDSUNCeWdvZ3JEU192M2ZPUzB5R0xJNmxTRUVMTmJFVTNLOHFObnZtek10VHVsb2VuRUUxdXdxNHNYQ1g3X0lObTltZjN5YXhiZlhBWW42ODhTQUdHZU9RUml5cnc?oc=5",
+   "publisher": "Analytics Insight",
+   "published": "Sat, 28 Nov 2026 11:30:00 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "tech hiring"
+   ],
+   "title": "NBFCs Turn to Retail Borrowers as Industry Lending Slows, RBI Data Show - Industry Odisha",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR0JLNHF3S1dmd18yMkhzcXc1NWlKc0huX3d0X1JNQm5kOVRzZWcwcE9LUDhaUS03Uk1wSTFyMDZQSG4ybDRSbW9Hd1VyRlVqaWxSSFNSVktkNWFzSk10RHRfekhQekNabmdPYjdhd2oyd2FreS01WlNiTk1BRGZOU1ZXb3p5cnQ3TFhNeXVaTUlGTllTT2x2eHJQRXd2UE1MTVRtXzZoVVlFLW1DVnBF?oc=5",
+   "publisher": "Industry Odisha",
+   "published": "Fri, 27 Nov 2026 19:44:16 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Digital Payments E-Mandate India: A Revenue Operations Guide to Recurring Billing - Global Advisory Experts",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPY3RkSmxYTnIta3JyLV9QVWtFd005aVdWZl9DMGlRNkI0alNheS0tSlZYVXI5TldqTlllQ1EwcmMtZmtXMWhpUVpjTTVqOFpncGJRQllUMGdHS0VHdDZET0stV2V2ajZMN0plYjN6T2xab3pNNEUxV3dVMlg2VHh0aGR6dWNYc3BrYmNsVnlQQlJxeElrWFduOHczaEo3VUpVVWc?oc=5",
+   "publisher": "Global Advisory Experts",
+   "published": "Sat, 28 Nov 2026 07:29:10 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "The technology of independent luxury: why Small Luxury Hotels of the World likes to keep things simple - Hospitality Net",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPa3Q0Ukk3SkdWdGJMVmxaY1J5bllXZ1ZJS2YweGlpS3dtelpVZHpXVWtpLTdqRkN6c1RubXBnaFFrRkpWbndnN19Rcm0tQ2lWYU9LcEN5bmJiYS1Jbm10ZFgzdHkwdk90dktUMlU1dGtobVVmOGI3eFBrUXVSbFlTTV9GUWVKd0dyS2hoME8wN2YwRzI3ekZ0X3oyOGcxWVkxNU9OUzFGalpUN0ZrcElZNVVOeVNSRUdPN2t6alRpalQtQnhxYVRVU0xGZnk2NkNGOXdDREh4aG9LR2ZOLTR2TWVB?oc=5",
+   "publisher": "Hospitality Net",
+   "published": "Fri, 27 Nov 2026 15:36:56 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Eversports taps ex-Xing boss Villa as CCO to drive four-market push - Dealroom",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONW9aanNWRDFKenAwbDYwLTFKMDhJak9lYms1RFZWVHJ2YVktSXBXX1FZa0FDVGpkc0hORVBUZmx5Z3ZhQS1aVzl4OUI2NVlQdE9MYXI3bm9wZkppWHJrUGMxaVVPYk1mWWdPaENMZTVfc2NqY0xIeEhaWkxoUUpUenRDemN5MUh3TkZOMnUzQU12N2FBV3ZiQzlJV09JMW9FUGNZ?oc=5",
+   "publisher": "Dealroom",
+   "published": "Fri, 27 Nov 2026 15:03:52 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "What Is the CERT-In Breach Reporting in India: Setup Guide - Global Advisory Experts",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQXVLRENhXzBQMi1wWERqU1RCU0FKeWRwRVYyUnFudXdLOTdOVE5hQkREWVljVlhJWkVPdlljcVl1MVdfX2d4OWNNRV9YUHZUVEVXb2FST2VSM3NOcGFKRVc4SGF2SS15TVZOWWhPTlF4Mm1Jcjh2Z0ZyWld4bEZWZS1rV1dqdV8tVUM1aEtqdFZYdV9UY2ZTeGY1NFFjYkFO?oc=5",
+   "publisher": "Global Advisory Experts",
+   "published": "Sat, 28 Nov 2026 02:39:09 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Chris Bishop - Chief Executive Officer, BillingPlatform - yespress.io",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1maG1Nei1zRmlyaVNDVkJiWERiUDNSN2M4RGQwNmJwRm1NWlVlUWJ1X1FlTjhaNXJpSGFoSkpCdUJHSWwyaFdF?oc=5",
+   "publisher": "yespress.io",
+   "published": "Sat, 28 Nov 2026 02:29:20 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Katherine Shuman - yespress.io",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBaWkM0STFCaDRxNkpab2xZMlRpcWFjMjJvOGZYZWtndlJHQ05zVHRzejZoVWdmdnhEaFl4eXhBMEJTdkRfa2hGZEpRenQ?oc=5",
+   "publisher": "yespress.io",
+   "published": "Sat, 28 Nov 2026 10:29:05 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Search Minerals Announces C$1.4 Million Secured Convertible Loan - TipRanks",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMENBS3JXd1lTLUZkQmlPWkt0am96WmZ1ZDFCSzBFN2hnZzVnYk4yZ1NhbmEyS3FwUTZKV0gwdzlkX2tJVGs3NmlCaWRZQmFWQTl3WDM2cGNoZUlrWDR1UE1NbS1DaFczTnB6V24zYkhUak40cjJGclI1SFNtOUlVWUR2WU1OZnZQbWZtbGd0ZTVCR3RwTktJZ2RHd05aWjhoNE9UdVNKbFpmTkt0ZHdUTnA2eDByQQ?oc=5",
+   "publisher": "TipRanks",
+   "published": "Fri, 27 Nov 2026 15:03:59 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Nasdaq stock: OMX Helsinki review reshapes index lineup - ad-hoc-news.de",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkJXMkYwdzBMNkhTcGJ4U3pRUkk1M29SSWZacktkODhYVVh2bHJEN3hNY3gyOU5NVGFCMHc0Y1BDZG1DWnRTdGRkVGhWa25tUjQ2bTRKSVJQc1FPdmtpcWVfY2JPal8wLWh6RWJ0XzM3c3d4SDB2S29PMnFkY1FsVkhpazR5dlhLTFI2MWU5UkhOYmhVM1VZVXJWMFE5a2VaaEVveU5IRUFRWlBEZXVrbkFWVGxOMnNC?oc=5",
+   "publisher": "ad-hoc-news.de",
+   "published": "Sat, 28 Nov 2026 10:18:53 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "Edgemont Updates Laiva Transaction and CSE Listing Review - TipRanks",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONEVSdUUwY19qRVNHbkxHMzZ2aXBYaXFmUWhpRkhuamxWSDFfekJDT3VNOWZKRU5wdC1VbjBpdW9KalBxeWZ5S2l4b1VueDBpWEltbkgxeVVLMmU4cGU3ZnF3a3RodF82dEYtNjREeFc4SFBHWWRob3Z0T2ZHTERyWVN1NjlHbDhGVFJmbTlHTEJJdWJTc1IzN2FKbm5scF83MU1jaG5sVVZCLWlBeWc?oc=5",
+   "publisher": "TipRanks",
+   "published": "Fri, 27 Nov 2026 15:33:51 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "revenue operations"
+   ],
+   "title": "8 Best RIA Marketing Agencies in 2026: Compared - Finance Monthly",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YLThORWw1Z0prUnB3M3E2NU43c21iY0FOQnVCUDJjQVMtRzhseXJnSEVGXzBlUzhCaDg5dGF6TjFnOHg5UE5UU1ZncVV5dm9mOHJUSWk4NU9ZMHFfUXc2NEk5V2Vqb28?oc=5",
+   "publisher": "Finance Monthly",
+   "published": "Fri, 27 Nov 2026 17:06:42 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence"
+   ],
+   "title": "Password Manager Breaches: Apple, Google or a Standalone App? - Hacked.com",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pRHk4eXJHeFAyZm9EQ3JzRjY1SGlMY1JUMzhfaUp5MlZ1MlYtcFFCYUVHZzdxNlBJUmdPUDV2c3c5c251Zl9FOG9wc2hEZmNSNlZWc3VQVnlLVmk5VHFjY3paUQ?oc=5",
+   "publisher": "Hacked.com",
+   "published": "Sat, 28 Nov 2026 07:25:38 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence"
+   ],
+   "title": "Compare SystemsPal vs. Thryv in 2026 - Slashdot",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10eXRzcFhSNUh6Qkxsb3ZGejBhTW4yUW03bzktXzQ4ZXpjUXhCR2F4anA5c3F2NS1VSV9LNGtWOURGbU1FVzNmcGxFV1hTcktuRVVjZFFzZHg0UEp1SEtrTmp1Ul9SbVBPaXpncVl3?oc=5",
+   "publisher": "Slashdot",
+   "published": "Sat, 28 Nov 2026 09:02:10 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence"
+   ],
+   "title": "GENXAI™ builds AIaaS model around five proprietary products - Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVGpKX1pLZDJ6MUtqNnhzU0xEQXBNU0E4T1JTbnZ4ai1PSEt3NTdBb3FwbHg5Vm9pNEd2UmlxQnhjSGNJVHJUN3NpR0lBRUJYUzQzNkhPV1BGdlZCamdXSUluazducnJwTlZNRjljRTBpNnQtNjB5TmVHbjR0VW00ZGlpX21mdjVPc0hDQjg2NmVsVVBpWWZ3cUxjS1FOOUl0OFlJ?oc=5",
+   "publisher": "Multibagg AI",
+   "published": "Fri, 27 Nov 2026 22:17:31 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence"
+   ],
+   "title": "7 Best EOR Comparison Platforms for Businesses Hiring Across Africa in 2027 - Techeconomy",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiZDJyaE1IcDlTdDJzdG0zSnp3S2ZGRDJqQlEwNC1qQ2VYMC1CZnhuMkQxbm5mMGxFaHlDbElZMzBDOW40WURDYnVXZVJsclJ4TkNCbjI1SC03RmFiV2hoamdma2NyWEhIbXdB?oc=5",
+   "publisher": "Techeconomy",
+   "published": "Fri, 27 Nov 2026 12:35:43 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "sales intelligence"
+   ],
+   "title": "Datassential Built a Crystal Ball From 7.5 Billion Menu Items - Here’s What Food Brands Can Copy - yespress.io",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE91TG9Tc3hMeE9EdkNOR1ZsZ2dPYUw2T0pwWmhkU3UwSnhFelhOUzR6NkZRUnFNRTdTc0dtRktlTHFGSmY0dWFj?oc=5",
+   "publisher": "yespress.io",
+   "published": "Sat, 28 Nov 2026 02:12:59 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "Always On: Scaling the Future of Data Centers - ABB",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UenpsZFZURzdpUEtPN2NDOXhad3VwbDFtVDVHYWpLTlc2TVJtWHREamZ3RVVXbXZRYV9jZUZzQXNpSEcyUnZTYWFIM19hUE4wTWNSM0locV9ncnllVmZuMTd5dE1oWUI2Nm5YSXlB?oc=5",
+   "publisher": "ABB",
+   "published": "Fri, 27 Nov 2026 17:08:34 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "intent data"
+   ],
+   "title": "How direct current technology will power the energy transition - ABB",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOa0xTVXo4amZoWWdTRl80blBqTXo1NVFxLVBCU0VaQ0ZJWkFiRzlETThTSUNVUFBKcmZHbWNnaFpUUFN2Y01JRGZId3E4bG1PaGR5UVpZbjhzVTNVM1hQSXdNUHNVRzVBRi1CcGZrOFc0OUxpc0NJM0xRY2hlRkZ3QmNjd1Z1V0d1NVdHOXljQ2NlbEF1RWdWYzg2V0l0eHdKY0E?oc=5",
+   "publisher": "ABB",
+   "published": "Fri, 27 Nov 2026 15:46:48 GMT",
+   "heat": 1
+  },
+  {
+   "source": "google_news",
+   "queries": [
+    "Apollo.io"
+   ],
+   "title": "SpotDraft expands leadership team, appoints Sajana Shankaran VP, Human Resources - https://hrtoday.in/",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcHlxWHpiZlFMUUdMZWJKR2xoa2JyZEZOWkJYNUxjUnBjUFNuRkJIZ1NkOGp5eHFDem1NQlYxUjZ3ajVKT3Q1UDhBd2cyWXFlOWtlZGhIUUc0M2V4UWxMSXVrQUNzN3RYazZoSUJvb205bUVmNEVXUUU0Ri1XQ3pMRlR3RWdXYkRodUtUMDNhWFhtNmxXTllpQ1BHYW9nZjA?oc=5",
+   "publisher": "https://hrtoday.in/",
+   "published": "Sat, 28 Nov 2026 10:29:29 GMT",
+   "heat": 1
+  }
+ ]
+}
